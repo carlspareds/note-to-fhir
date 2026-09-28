@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: note-to-fhir-api
+    ports:
+      - "8000:8000"
+    environment:
+      - EXTRACTOR_ENGINE=rules
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    volumes:
+      - .:/app
+    command: uvicorn note_to_fhir.api:app --host 0.0.0.0 --port 8000 --reload

@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "note-to-fhir"
+version = "0.1.0"
+description = "Deterministic and LLM-assisted conversion of unstructured clinical notes (English & Spanish) to HL7 FHIR R4 Bundles evaluated against Synthea ground truth."
+readme = "README.md"
+authors = [{ name = "Carlos Paredes", email = "carlspareds@users.noreply.github.com" }]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Healthcare Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0.0",
+    "fhir.resources>=7.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "click>=8.1.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+llm = [
+    "openai>=1.0.0",
+    "anthropic>=0.18.0",
+    "google-generativeai>=0.4.0",
+]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "httpx>=0.24.1",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+note-to-fhir = "note_to_fhir.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["note_to_fhir*", "evals*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
