@@ -28,6 +28,8 @@ env/
 
 # Synthea binaries and generated mass data
 *.jar
+*.tar.gz
+bin/
 data/synthea_output/
 data/generated/
 data/patients_50/
