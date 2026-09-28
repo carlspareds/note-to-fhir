@@ -1,0 +1,41 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Elena M Gomez
+Fecha de Nacimiento: 1960-07-19 | Género: Femenino
+Tipo de Consulta: Consulta Ambulatoria Programada
+
+SUBJETIVO:
+Motivo de consulta: Control evolutivo y seguimiento de patologías crónicas cardiovasculares.
+Enfermedad Actual:
+Paciente nacida el 1960-07-19, acude a consulta programada para control. Refiere encontrarse asintomática desde el punto de vista cardiológico, sin episodios de dolor precordial ni palpitaciones. Manifiesta buena adherencia a los tratamientos prescritos.
+
+Antecedentes Médicos Personales:
+- Hiperlipidemia mixta
+- Cardiopatía isquémica coronaria
+
+Medicación Actual:
+- Atorvastatina 20 mg vía oral
+- Aspirina 81 mg vía oral
+
+Alergias:
+- Alergia a la codeína
+
+OBJETIVO:
+Examen Físico:
+Paciente orientada en tiempo, espacio y persona. Buen estado general, hidratada, normocoloreada. Auscultación cardíaca: ruidos cardíacos rítmicos sin soplos ni extratonos. Auscultación pulmonar: normoventilación bilateral. Abdomen blando, depresible, no doloroso a la palpación.
+
+Signos Vitales:
+- Presión Arterial: 132.0/84.0 mmHg
+- Frecuencia Cardíaca: 68.0 lpm
+- Temperatura: 98.4 °F (36.9 °C)
+
+EVALUACIÓN Y PLAN:
+Diagnósticos / Impresión Clínica:
+- Hiperlipidemia mixta
+- Cardiopatía isquémica coronaria
+
+Plan Terapéutico:
+1. Continuar con el esquema farmacológico indicado.
+2. Mantener hábitos dietéticos cardiosaludables (dieta mediterránea) y actividad física moderada.
+3. Solicitud de perfil lipídico de control.
+4. Próxima revisión en consulta externa en 3 a 6 meses.

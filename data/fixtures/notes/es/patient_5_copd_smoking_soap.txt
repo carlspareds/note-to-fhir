@@ -1,0 +1,41 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: William H Miller
+Fecha de Nacimiento: 1955-03-30 | Género: Masculino
+Tipo de Consulta: Consulta Ambulatoria Programada
+
+SUBJETIVO:
+Motivo de consulta: Control evolutivo y seguimiento de patología respiratoria crónica y digestiva.
+Enfermedad Actual:
+Paciente nacido el 1955-03-30, acude a consulta programada para control. Refiere estabilidad respiratoria relativa con disnea de esfuerzo grado I mMRC y pirosis retroesternal ocasional. Manifiesta adecuada adherencia a sus medicamentos.
+
+Antecedentes Médicos Personales:
+- Enfermedad pulmonar obstructiva crónica (EPOC)
+- Enfermedad por reflujo gastroesofágico (ERGE)
+
+Medicación Actual:
+- Omeprazol 20 mg cápsulas
+- Amlodipino 5 mg comprimidos
+
+Alergias:
+- Alergia al látex
+
+OBJETIVO:
+Examen Físico:
+Paciente orientado en tiempo, espacio y persona. Buen estado nutricional. Auscultación pulmonar: sibilancias espiratorias aisladas bilaterales sin tiraje intercostal. Auscultación cardíaca: rítmica, sin soplos. Abdomen blando, no doloroso al epigastrio.
+
+Signos Vitales:
+- Presión Arterial: 142.0/90.0 mmHg
+- Frecuencia Cardíaca: 78.0 lpm
+- Saturación de Oxígeno (SpO2): 94.0% aire ambiente
+
+EVALUACIÓN Y PLAN:
+Diagnósticos / Impresión Clínica:
+- Enfermedad pulmonar obstructiva crónica (EPOC)
+- Enfermedad por reflujo gastroesofágico (ERGE)
+
+Plan Terapéutico:
+1. Continuar con el esquema farmacológico indicado.
+2. Mantener ejercicios de fisioterapia respiratoria y elevar el cabecero de la cama para el reflujo.
+3. Solicitud de espirometría de control y analítica general.
+4. Próxima revisión en consulta externa en 3 a 6 meses.

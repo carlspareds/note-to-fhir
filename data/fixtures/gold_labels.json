@@ -1,0 +1,217 @@
+{
+  "patient_1_hypertension_diabetes": {
+    "patient": {
+      "name": "John A Doe",
+      "gender": "male",
+      "birthDate": "1972-04-15"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Essential hypertension",
+          "snomed": "59621000",
+          "icd10": "I10"
+        },
+        {
+          "display": "Type 2 diabetes mellitus",
+          "snomed": "44054006",
+          "icd10": "E11.9"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Lisinopril 10 MG Oral Tablet",
+          "rxnorm": "314076"
+        },
+        {
+          "display": "Metformin hydrochloride 500 MG Oral Tablet",
+          "rxnorm": "860975"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Allergy to penicillin",
+          "snomed": "91936005",
+          "category": "medication"
+        }
+      ],
+      "vitals": {
+        "systolic_bp": { "value": 138.0, "unit": "mmHg", "loinc": "8480-6" },
+        "diastolic_bp": { "value": 86.0, "unit": "mmHg", "loinc": "8462-4" },
+        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
+        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
+        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" },
+        "bmi": { "value": 27.8, "unit": "kg/m2", "loinc": "39156-5" }
+      }
+    }
+  },
+  "patient_2_asthma_allergy": {
+    "patient": {
+      "name": "Maria E Garcia",
+      "gender": "female",
+      "birthDate": "1988-09-22"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Asthma",
+          "snomed": "195967001",
+          "icd10": "J45.909"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Albuterol 90 MCG/ACTUAT Inhaler",
+          "rxnorm": "745752"
+        },
+        {
+          "display": "Fluticasone propionate",
+          "rxnorm": "896209"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Allergy to peanut",
+          "snomed": "91935004",
+          "category": "food"
+        }
+      ],
+      "vitals": {
+        "systolic_bp": { "value": 118.0, "unit": "mmHg", "loinc": "8480-6" },
+        "diastolic_bp": { "value": 76.0, "unit": "mmHg", "loinc": "8462-4" },
+        "heart_rate": { "value": 82.0, "unit": "/min", "loinc": "8867-4" },
+        "respiratory_rate": { "value": 20.0, "unit": "/min", "loinc": "9279-1" },
+        "oxygen_saturation": { "value": 96.0, "unit": "%", "loinc": "59408-5" }
+      }
+    }
+  },
+  "patient_3_covid_respiratory": {
+    "patient": {
+      "name": "Robert J Smith",
+      "gender": "male",
+      "birthDate": "1965-11-04"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "COVID-19",
+          "snomed": "840539006",
+          "icd10": "U07.1"
+        },
+        {
+          "display": "Acute bronchitis",
+          "snomed": "10509002",
+          "icd10": "J20.9"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Azithromycin 250 MG Oral Tablet",
+          "rxnorm": "248656"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Allergy to sulfonamide",
+          "snomed": "91931000",
+          "category": "medication"
+        }
+      ],
+      "vitals": {
+        "systolic_bp": { "value": 124.0, "unit": "mmHg", "loinc": "8480-6" },
+        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
+        "heart_rate": { "value": 98.0, "unit": "/min", "loinc": "8867-4" },
+        "body_temperature": { "value": 101.4, "unit": "[degF]", "loinc": "8310-5" },
+        "oxygen_saturation": { "value": 93.0, "unit": "%", "loinc": "59408-5" }
+      }
+    }
+  },
+  "patient_4_cardiac_hyperlipidemia": {
+    "patient": {
+      "name": "Elena M Gomez",
+      "gender": "female",
+      "birthDate": "1960-07-19"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Hyperlipidemia",
+          "snomed": "55822004",
+          "icd10": "E78.00"
+        },
+        {
+          "display": "Coronary artery disease",
+          "snomed": "53741008",
+          "icd10": "I25.10"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Atorvastatin 20 MG Oral Tablet",
+          "rxnorm": "259255"
+        },
+        {
+          "display": "Aspirin 81 MG Oral Tablet",
+          "rxnorm": "243670"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Allergy to codeine",
+          "snomed": "294505008",
+          "category": "medication"
+        }
+      ],
+      "vitals": {
+        "systolic_bp": { "value": 132.0, "unit": "mmHg", "loinc": "8480-6" },
+        "diastolic_bp": { "value": 84.0, "unit": "mmHg", "loinc": "8462-4" },
+        "heart_rate": { "value": 68.0, "unit": "/min", "loinc": "8867-4" },
+        "body_temperature": { "value": 98.4, "unit": "[degF]", "loinc": "8310-5" }
+      }
+    }
+  },
+  "patient_5_copd_smoking": {
+    "patient": {
+      "name": "William H Miller",
+      "gender": "male",
+      "birthDate": "1955-03-30"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Chronic obstructive pulmonary disease",
+          "snomed": "13645005",
+          "icd10": "J44.9"
+        },
+        {
+          "display": "Gastroesophageal reflux disease",
+          "snomed": "235595009",
+          "icd10": "K21.9"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Omeprazole 20 MG Delayed Release Oral Capsule",
+          "rxnorm": "312134"
+        },
+        {
+          "display": "Amlodipine 5 MG Oral Tablet",
+          "rxnorm": "197361"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Latex allergy",
+          "snomed": "300916003",
+          "category": "environment"
+        }
+      ],
+      "vitals": {
+        "systolic_bp": { "value": 142.0, "unit": "mmHg", "loinc": "8480-6" },
+        "diastolic_bp": { "value": 90.0, "unit": "mmHg", "loinc": "8462-4" },
+        "heart_rate": { "value": 78.0, "unit": "/min", "loinc": "8867-4" },
+        "oxygen_saturation": { "value": 94.0, "unit": "%", "loinc": "59408-5" }
+      }
+    }
+  }
+}

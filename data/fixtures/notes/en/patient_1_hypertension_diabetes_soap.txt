@@ -1,0 +1,43 @@
+CLINICAL ENCOUNTER NOTE (SOAP)
+Date: 2024-03-15
+Patient Name: John A Doe
+DOB: 1972-04-15 | Gender: Male
+Encounter Type: Outpatient Ambulatory Visit
+
+SUBJECTIVE:
+Chief Complaint: Follow-up and routine chronic disease management.
+History of Present Illness (HPI):
+The patient is a 1972-04-15-born male presenting for a scheduled outpatient evaluation. Patient reports general stability over recent weeks. Adherence to prescribed pharmacotherapy is reported as regular without severe side effects.
+
+Past Medical History (PMH):
+- Essential hypertension
+- Type 2 diabetes mellitus
+
+Current Medications:
+- Lisinopril 10 MG Oral Tablet
+- Metformin hydrochloride 500 MG Oral Tablet
+
+Allergies:
+- Allergy to penicillin
+
+OBJECTIVE:
+Physical Examination:
+Well-developed, well-nourished, alert and oriented x4. No acute respiratory distress. Heart sounds regular rate and rhythm, normal S1/S2, no murmurs. Lungs clear to auscultation bilaterally. Abdomen soft, non-tender.
+
+Vital Signs:
+- Blood Pressure: 138.0/86.0 mmHg
+- Heart Rate: 74.0 bpm
+- Respiratory Rate: 16.0 breaths/min
+- Temperature: 98.6 F
+- BMI: 27.8 kg/m2
+
+ASSESSMENT & PLAN:
+Assessment:
+- Essential hypertension
+- Type 2 diabetes mellitus
+
+Plan:
+1. Continue current medication regimen as tolerated.
+2. Maintain lifestyle and dietary modifications.
+3. Routine laboratory tests ordered.
+4. Follow-up clinic appointment in 3 to 6 months or sooner if acute symptoms develop.
