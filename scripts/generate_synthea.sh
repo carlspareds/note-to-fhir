@@ -20,7 +20,7 @@ SYNTHEA_JAR="${PROJECT_ROOT}/bin/synthea-with-dependencies.jar"
 SYNTHEA_URL="https://github.com/synthetichealth/synthea/releases/download/${SYNTHEA_VERSION}/synthea-with-dependencies.jar"
 OUTPUT_DIR="${PROJECT_ROOT}/data/synthea_output"
 POPULATION_SIZE=50
-SEED=424242
+SEED=42
 
 echo "=== note-to-fhir: Synthea Generation Pipeline ==="
 
