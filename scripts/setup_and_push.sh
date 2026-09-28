@@ -35,6 +35,9 @@ if [ "${REPO_DIR}" != "${PROJECTS_DIR}" ]; then
 fi
 
 # 2. Test Verification & Incremental Commits
+echo "[+] Rendering authentic clinical notes from Synthea FHIR bundles..."
+python3 scripts/render_notes.py
+
 echo "[+] Running test suite..."
 pytest -v --tb=short || true
 
@@ -97,22 +100,23 @@ if ! git diff --cached --quiet; then
     git commit -m "docs: add README with clinical problem statement, evaluation tables, and DATA provenance"
 fi
 
-# Commit 10: Family history distractor filtering, negation enhancements & user-space JRE
-git add .gitignore scripts/generate_synthea.sh note_to_fhir/extractors/rules.py tests/test_extractor_rules.py
+
+# Commit 13: Programmatic note rendering and authentic Synthea bundles
+git add scripts/generate_synthea.sh scripts/render_notes.py data/fixtures/
 if ! git diff --cached --quiet; then
-    git commit -m "feat(rules): add family history distractor filtering and automated user-space JRE installation for Synthea"
+    git commit -m "feat(data): programmatically render notes and extract gold labels from real Synthea FHIR bundles"
 fi
 
-# Commit 11: Non-circular evaluation framework, dev/test split, and realistic note rendering
-git add scripts/render_notes.py data/fixtures/ evals/evaluator.py evals/results.json evals/results.md
+# Commit 14: Evals and tests against authentic Synthea held-out test cohort
+git add note_to_fhir/ evals/ tests/
 if ! git diff --cached --quiet; then
-    git commit -m "feat(evals): implement non-circular evaluation with 25/25 dev-test split, diverse clinical templates, and realistic clinical noise"
+    git commit -m "feat(evals): evaluate against authentic Synthea held-out test cohort"
 fi
 
-# Commit 12: Documentation updates with honest benchmarks, sample sizes, and error analysis
-git add README.md DATA.md scripts/setup_and_push.sh
+# Commit 15: Documentation and benchmark results update
+git add README.md DATA.md evals/results.md evals/results.json scripts/setup_and_push.sh
 if ! git diff --cached --quiet; then
-    git commit -m "docs: update README and DATA provenance with honest non-circular benchmark, sample sizes, and clinical error analysis"
+    git commit -m "docs: update benchmarks with true Synthea pipeline results"
 fi
 
 echo "[✓] Incremental git commits complete!"

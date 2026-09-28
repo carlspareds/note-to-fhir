@@ -9,17 +9,16 @@ Over 80% of critical healthcare data remains trapped in unstructured clinical do
 ### Input: Unstructured Clinical Note (SOAP)
 ```text
 CLINICAL ENCOUNTER NOTE (SOAP)
-Patient Name: John A Doe | DOB: 1972-04-15 | Gender: Male
+Patient Name: Dusty207 Stokes453 | DOB: 2005-03-20 | Gender: Male
 Past Medical History:
-- Essential hypertension
-- Type 2 diabetes mellitus
+- Viral sinusitis
 Current Medications:
-- Lisinopril 10 MG Oral Tablet
+- Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet
 Allergies:
-- Allergy to penicillin
+- No known drug allergies (NKDA)
 Vital Signs:
-- Blood Pressure: 138/86 mmHg
-- Heart Rate: 74 bpm
+- Blood Pressure: 120/80 mmHg
+- Heart Rate: 72 bpm
 - Temperature: 98.6 F
 ```
 
@@ -33,33 +32,33 @@ Vital Signs:
       "fullUrl": "urn:uuid:018e6e58-patient",
       "resource": {
         "resourceType": "Patient",
-        "name": [{ "use": "official", "family": "Doe", "given": ["John", "A"] }],
+        "name": [{ "use": "official", "family": "Stokes453", "given": ["Dusty207"] }],
         "gender": "male",
-        "birthDate": "1972-04-15"
+        "birthDate": "2005-03-20"
       }
     },
     {
-      "fullUrl": "urn:uuid:018e6e58-condition-htn",
+      "fullUrl": "urn:uuid:018e6e58-condition-sinusitis",
       "resource": {
         "resourceType": "Condition",
         "clinicalStatus": { "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/condition-clinical", "code": "active" }] },
         "verificationStatus": { "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status", "code": "confirmed" }] },
         "code": {
           "coding": [
-            { "system": "http://snomed.info/sct", "code": "59621000", "display": "Essential hypertension" },
-            { "system": "http://hl7.org/fhir/sid/icd-10-cm", "code": "I10", "display": "Essential hypertension" }
+            { "system": "http://snomed.info/sct", "code": "444814009", "display": "Viral sinusitis" },
+            { "system": "http://hl7.org/fhir/sid/icd-10-cm", "code": "J01.90", "display": "Viral sinusitis" }
           ]
         },
         "subject": { "reference": "urn:uuid:018e6e58-patient" }
       }
     },
     {
-      "fullUrl": "urn:uuid:018e6e58-med-lisinopril",
+      "fullUrl": "urn:uuid:018e6e58-med-amox",
       "resource": {
         "resourceType": "MedicationStatement",
         "status": "active",
         "medicationCodeableConcept": {
-          "coding": [{ "system": "http://www.nlm.nih.gov/research/umls/rxnorm", "code": "314076", "display": "Lisinopril 10 MG Oral Tablet" }]
+          "coding": [{ "system": "http://www.nlm.nih.gov/research/umls/rxnorm", "code": "562251", "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet" }]
         },
         "subject": { "reference": "urn:uuid:018e6e58-patient" }
       }
@@ -75,11 +74,11 @@ Vital Signs:
         "component": [
           {
             "code": { "coding": [{ "system": "http://loinc.org", "code": "8480-6", "display": "Systolic blood pressure" }] },
-            "valueQuantity": { "value": 138.0, "unit": "mmHg", "system": "http://unitsofmeasure.org", "code": "mm[Hg]" }
+            "valueQuantity": { "value": 120.0, "unit": "mmHg", "system": "http://unitsofmeasure.org", "code": "mm[Hg]" }
           },
           {
             "code": { "coding": [{ "system": "http://loinc.org", "code": "8462-4", "display": "Diastolic blood pressure" }] },
-            "valueQuantity": { "value": 86.0, "unit": "mmHg", "system": "http://unitsofmeasure.org", "code": "mm[Hg]" }
+            "valueQuantity": { "value": 80.0, "unit": "mmHg", "system": "http://unitsofmeasure.org", "code": "mm[Hg]" }
           }
         ]
       }
@@ -92,16 +91,16 @@ Vital Signs:
 
 ## Benchmark Results (Evaluated against Synthea Ground Truth)
 
-Non-circular benchmark evaluated on held-out test patients generated with Synthea (Seed `424242`), rendered across 5 varied clinical note templates (Outpatient SOAP, Emergency Department Acute Triage, Inpatient Discharge Summary, Medical Specialty Consultation, Daily Progress Note) with realistic noise (standard abbreviations like HTN/DM2/HLD/CAD/COPD/GERD/HTA/EPOC, narrative misspellings, explicit clinical negations, and family history distractors):
+Non-circular benchmark evaluated on held-out test patients generated with Synthea (Seed `42`, `-s 42 -p 50`), rendered across 5 varied clinical note templates (Outpatient SOAP, Emergency Department Acute Triage, Inpatient Discharge Summary, Medical Specialty Consultation, Daily Progress Note) with realistic noise (standard abbreviations like HTN/DM2/HLD/CAD/COPD/GERD/HTA/EPOC, narrative misspellings, explicit clinical negations, and family history distractors):
 
 | Resource Type | Standard Coding System | Precision (EN) | Recall (EN) | F1 (EN) | Precision (ES) | Recall (ES) | F1 (ES) | Ground Truth N |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Patient Demographics** | Name, DOB, Gender | 100.0% | 94.7% | **97.3%** | 100.0% | 100.0% | **100.0%** | 75 / lang |
-| **Condition** | SNOMED CT / ICD-10 | 100.0% | 93.9% | **96.8%** | 100.0% | 93.9% | **96.8%** | 49 / lang |
-| **MedicationStatement** | RxNorm | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 38 / lang |
-| **AllergyIntolerance** | SNOMED CT | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 14 / lang |
-| **Observation (Vitals)** | LOINC + UCUM | 98.4% | 100.0% | **99.2%** | 98.4% | 100.0% | **99.2%** | 125 / lang |
-| **Overall Micro-Average** | **All Standard Terminologies** | **99.3%** | **97.7%** | **98.5%** | **99.3%** | **99.0%** | **99.2%** | **301 / lang** |
+| **Patient Demographics** | Name, DOB, Gender | 100.0% | 93.3% | **96.5%** | 100.0% | 100.0% | **100.0%** | 75 / lang |
+| **Condition** | SNOMED CT / ICD-10 | 91.7% | 45.8% | **61.1%** | 91.7% | 45.8% | **61.1%** | 96 / lang |
+| **MedicationStatement** | RxNorm | 58.9% | 37.5% | **45.8%** | 58.9% | 37.5% | **45.8%** | 88 / lang |
+| **AllergyIntolerance** | SNOMED CT | 91.7% | 68.8% | **78.6%** | 91.7% | 68.8% | **78.6%** | 16 / lang |
+| **Observation (Vitals)** | LOINC + UCUM | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 175 / lang |
+| **Overall Micro-Average** | **All Standard Terminologies** | **92.2%** | **74.0%** | **82.1%** | **92.3%** | **75.1%** | **82.8%** | **450 / lang** |
 
 *Note on Non-Circular Evaluation & Clinical Error Analysis:*
 - **Dev / Test Split:** Evaluated on held-out test patients independent of the training/dev dictionary.
@@ -118,7 +117,7 @@ Convert a clinical note to a validated FHIR R4 Bundle instantly:
 
 ```bash
 # Convert an English note to FHIR R4 JSON
-python3 -m note_to_fhir.cli convert data/fixtures/notes/en/patient_1_hypertension_diabetes_soap.txt -o bundle.json
+python3 -m note_to_fhir.cli convert data/fixtures/notes/en/Alvina833_Franecki195_8a0c8ac4-8227-9277-d4c1-a8fa96f6b0d9_soap.txt -o bundle.json
 ```
 
 Or run the full evaluation suite in one command:

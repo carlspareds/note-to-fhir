@@ -21,12 +21,12 @@ Ground truth patient histories and FHIR R4 bundles are generated using **Synthea
 
 Running Synthea for longitudinal populations generates hundreds of megabytes of raw JSON across thousands of resource entries. In accordance with clinical software engineering best practices:
 
-1. **Deterministic Reproducibility**: The generation script [`scripts/generate_synthea.sh`](scripts/generate_synthea.sh) executes Synthea with an explicit random seed (`SEED=424242`) generating 50 synthetic patient bundles. Anyone can reproduce the exact synthetic population on demand:
+1. **Deterministic Reproducibility**: The generation script [`scripts/generate_synthea.sh`](scripts/generate_synthea.sh) executes Synthea with an explicit random seed (`SEED=42`, `-s 42 -p 50`) generating 50 synthetic patient bundles. Anyone can reproduce the exact synthetic population on demand:
    ```bash
    bash scripts/generate_synthea.sh
    ```
-2. **Automated User-Space JRE**: If Java is missing on the system, `scripts/generate_synthea.sh` automatically downloads a portable **Eclipse Temurin 17 JRE** (Linux x64) tarball into user space (`bin/jre`), sets `PATH`, and executes `synthea-with-dependencies.jar` without requiring root or system package manager privileges.
-3. **Git Hygiene & Repository Policy**: All bulk outputs under `data/synthea_output/`, `output/`, and `*.jar` are strictly gitignored via [`.gitignore`](.gitignore). Curated dev/test fixtures in `data/fixtures/` provide immediate, offline verifiable evaluation.
+2. **Automated User-Space JRE**: If Java is missing on the system, `scripts/generate_synthea.sh` automatically downloads a portable **Eclipse Temurin 17 JRE** (Linux x64 / aarch64) tarball into user space (`bin/jre`), sets `PATH`, and executes `synthea-with-dependencies.jar` without requiring root or system package manager privileges.
+3. **Git Hygiene & Sample Fixture Policy**: All bulk outputs under `data/synthea_output/`, `output/`, and `*.jar` are strictly gitignored via [`.gitignore`](.gitignore). A representative sample of 5 genuine Synthea bundles (`Benton624_Koss676_...`, `Gonzalo160_Bahringer146_...`, `Isiah14_Prohaska837_...`, `Karlyn611_Stracke611_...`, `Russel238_Doyle959_...`) is retained in `data/fixtures/synthea/`, with the remaining notes and gold labels dynamically derived from the full 50-patient cohort via [`scripts/render_notes.py`](scripts/render_notes.py).
 
 ---
 
