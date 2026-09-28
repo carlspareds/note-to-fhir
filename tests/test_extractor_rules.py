@@ -279,3 +279,48 @@ def test_vitals_without_colons():
     assert obs["body_temperature"].value == 98.6
     assert "oxygen_saturation" in obs
     assert obs["oxygen_saturation"].value == 99.0
+
+
+def test_family_history_distractor_filtering():
+    """Verify that family members' diagnoses are NOT extracted as patient conditions."""
+    extractor = RuleBasedExtractor()
+
+    note_en = ClinicalNote(
+        text="""
+        Patient Name: Robert Miller | DOB: 1968-04-12 | Gender: Male
+        Past Medical History:
+        - Essential hypertension
+        Family History:
+        - Mother diagnosed with asthma at 45.
+        - Father had coronary artery disease and heart failure.
+        - Brother has type 2 diabetes mellitus.
+        Current Medications:
+        - Lisinopril 10 MG
+        """
+    )
+    ent_en = extractor.extract(note_en)
+    cond_codes_en = {c.snomed_code for c in ent_en.conditions}
+    assert "59621000" in cond_codes_en   # Patient's hypertension
+    assert "195967001" not in cond_codes_en  # Mother's asthma must be ignored
+    assert "53741008" not in cond_codes_en   # Father's CAD must be ignored
+    assert "44054006" not in cond_codes_en   # Brother's T2DM must be ignored
+
+    note_es = ClinicalNote(
+        text="""
+        Nombre del Paciente: Carlos Ruiz | Fecha de Nacimiento: 1970-02-18 | Género: Masculino
+        Antecedentes Médicos Personales:
+        - Hipertensión arterial
+        Antecedentes Familiares:
+        - Madre con asma bronquial.
+        - Padre con antecedentes de cardiopatía isquémica.
+        Medicación Actual:
+        - Lisinopril 10 mg
+        """,
+        language="es",
+    )
+    ent_es = extractor.extract(note_es)
+    cond_codes_es = {c.snomed_code for c in ent_es.conditions}
+    assert "59621000" in cond_codes_es
+    assert "195967001" not in cond_codes_es
+    assert "53741008" not in cond_codes_es
+
