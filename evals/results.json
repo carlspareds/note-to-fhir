@@ -1,0 +1,129 @@
+{
+  "benchmark_metadata": {
+    "benchmark_name": "Synthea Clinical Note to FHIR R4 Evaluation",
+    "eval_engine": "RuleBasedExtractor (Deterministic offline)",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "fixture_count": 5
+  },
+  "english": {
+    "patient_count": 5,
+    "categories": {
+      "demographics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "code_accuracy": 1.0,
+        "tp": 15,
+        "fp": 0,
+        "fn": 0
+      },
+      "conditions": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "code_accuracy": 1.0,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      "medications": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "code_accuracy": 1.0,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      "allergies": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "code_accuracy": 1.0,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      "observations": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "code_accuracy": 1.0,
+        "tp": 24,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "overall": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "code_accuracy": 1.0,
+      "tp": 62,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "spanish": {
+    "patient_count": 5,
+    "categories": {
+      "demographics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "code_accuracy": 1.0,
+        "tp": 15,
+        "fp": 0,
+        "fn": 0
+      },
+      "conditions": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "code_accuracy": 1.0,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      "medications": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "code_accuracy": 1.0,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      "allergies": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "code_accuracy": 1.0,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      "observations": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "code_accuracy": 1.0,
+        "tp": 24,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "overall": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "code_accuracy": 1.0,
+      "tp": 62,
+      "fp": 0,
+      "fn": 0
+    }
+  }
+}
