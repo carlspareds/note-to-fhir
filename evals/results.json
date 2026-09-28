@@ -1,129 +1,852 @@
 {
   "benchmark_metadata": {
-    "benchmark_name": "Synthea Clinical Note to FHIR R4 Evaluation",
+    "benchmark_name": "Synthea Non-Circular Clinical Note to FHIR R4 Evaluation",
     "eval_engine": "RuleBasedExtractor (Deterministic offline)",
     "languages": [
       "English",
       "Spanish"
     ],
-    "fixture_count": 5
+    "total_patient_count": 50,
+    "dev_patient_count": 25,
+    "test_patient_count": 25,
+    "methodology": "25 Dev / 25 Test split, varied clinical templates, realistic noise (abbreviations, typos, negations, family history distractors, Spanish variants)"
   },
-  "english": {
-    "patient_count": 5,
-    "categories": {
-      "demographics": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "code_accuracy": 1.0,
-        "tp": 15,
-        "fp": 0,
-        "fn": 0
+  "test_cohort": {
+    "english": {
+      "patient_count": 25,
+      "categories": {
+        "demographics": {
+          "precision": 1.0,
+          "recall": 0.9467,
+          "f1": 0.9726,
+          "code_accuracy": 0.9467,
+          "tp": 71,
+          "fp": 0,
+          "fn": 4,
+          "n_items": 75
+        },
+        "conditions": {
+          "precision": 1.0,
+          "recall": 0.9388,
+          "f1": 0.9684,
+          "code_accuracy": 1.0,
+          "tp": 46,
+          "fp": 0,
+          "fn": 3,
+          "n_items": 49
+        },
+        "medications": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 38,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 38
+        },
+        "allergies": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 14,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 14
+        },
+        "observations": {
+          "precision": 0.9843,
+          "recall": 1.0,
+          "f1": 0.9921,
+          "code_accuracy": 0.9843,
+          "tp": 125,
+          "fp": 2,
+          "fn": 0,
+          "n_items": 125
+        }
       },
-      "conditions": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "code_accuracy": 1.0,
-        "tp": 9,
-        "fp": 0,
-        "fn": 0
-      },
-      "medications": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "code_accuracy": 1.0,
-        "tp": 9,
-        "fp": 0,
-        "fn": 0
-      },
-      "allergies": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "code_accuracy": 1.0,
-        "tp": 5,
-        "fp": 0,
-        "fn": 0
-      },
-      "observations": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "code_accuracy": 1.0,
-        "tp": 24,
-        "fp": 0,
-        "fn": 0
+      "errors": [
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Essential hypertension",
+          "code": "59621000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_26_htn_hld_outpatient",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Gloria T Hernandez",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_29_copd_discharge",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Isabel C Ramos",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_34_htn_t2dm_discharge",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Elena V Mendoza",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_40_t2dm_hld_discharge",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Essential hypertension",
+          "code": "59621000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_45_htn_bronchitis_soap",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Patricia K Molina",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_46_hld_copd_discharge",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Type 2 diabetes mellitus",
+          "code": "44054006",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_47_t2dm_hypothyroid_soap",
+          "language": "en"
+        }
+      ],
+      "overall": {
+        "precision": 0.9932,
+        "recall": 0.9767,
+        "f1": 0.9849,
+        "code_accuracy": 0.98,
+        "tp": 294,
+        "fp": 2,
+        "fn": 7,
+        "n_items": 301
       }
     },
-    "overall": {
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0,
-      "code_accuracy": 1.0,
-      "tp": 62,
-      "fp": 0,
-      "fn": 0
+    "spanish": {
+      "patient_count": 25,
+      "categories": {
+        "demographics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 75,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 75
+        },
+        "conditions": {
+          "precision": 1.0,
+          "recall": 0.9388,
+          "f1": 0.9684,
+          "code_accuracy": 1.0,
+          "tp": 46,
+          "fp": 0,
+          "fn": 3,
+          "n_items": 49
+        },
+        "medications": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 38,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 38
+        },
+        "allergies": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 14,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 14
+        },
+        "observations": {
+          "precision": 0.9843,
+          "recall": 1.0,
+          "f1": 0.9921,
+          "code_accuracy": 0.9843,
+          "tp": 125,
+          "fp": 2,
+          "fn": 0,
+          "n_items": 125
+        }
+      },
+      "errors": [
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Essential hypertension",
+          "code": "59621000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_26_htn_hld_outpatient",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Essential hypertension",
+          "code": "59621000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_45_htn_bronchitis_soap",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Type 2 diabetes mellitus",
+          "code": "44054006",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_47_t2dm_hypothyroid_soap",
+          "language": "es"
+        }
+      ],
+      "overall": {
+        "precision": 0.9933,
+        "recall": 0.99,
+        "f1": 0.9917,
+        "code_accuracy": 0.9933,
+        "tp": 298,
+        "fp": 2,
+        "fn": 3,
+        "n_items": 301
+      }
     }
   },
-  "spanish": {
-    "patient_count": 5,
-    "categories": {
-      "demographics": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "code_accuracy": 1.0,
-        "tp": 15,
-        "fp": 0,
-        "fn": 0
+  "dev_cohort": {
+    "english": {
+      "patient_count": 25,
+      "categories": {
+        "demographics": {
+          "precision": 1.0,
+          "recall": 0.8533,
+          "f1": 0.9209,
+          "code_accuracy": 0.8533,
+          "tp": 64,
+          "fp": 0,
+          "fn": 11,
+          "n_items": 75
+        },
+        "conditions": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 49,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 49
+        },
+        "medications": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 42,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 42
+        },
+        "allergies": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 18,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 18
+        },
+        "observations": {
+          "precision": 1.0,
+          "recall": 0.9542,
+          "f1": 0.9766,
+          "code_accuracy": 1.0,
+          "tp": 125,
+          "fp": 0,
+          "fn": 6,
+          "n_items": 131
+        }
       },
-      "conditions": {
+      "errors": [
+        {
+          "type": "FN_name",
+          "expected": "Ruth V Carter",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_17_ckd_htn",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Virginia M Evans",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_25_copd_cad",
+          "language": "en"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1965-11-03",
+          "predicted": "1965-11-04",
+          "patient_id": "patient_3_covid_respiratory",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Robert S Miller",
+          "predicted": "Robert J Smith",
+          "patient_id": "patient_3_covid_respiratory",
+          "language": "en"
+        },
+        {
+          "type": "FN_gender",
+          "expected": "male",
+          "predicted": "female",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "en"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1958-02-14",
+          "predicted": "1960-07-19",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "James K Wilson",
+          "predicted": "Elena M Gomez",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "en"
+        },
+        {
+          "type": "FN_gender",
+          "expected": "female",
+          "predicted": "male",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "en"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1960-07-30",
+          "predicted": "1955-03-30",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Elena R Morales",
+          "predicted": "William H Miller",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "William H Davis",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_9_ckd_diabetes",
+          "language": "en"
+        }
+      ],
+      "overall": {
         "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "code_accuracy": 1.0,
-        "tp": 9,
+        "recall": 0.946,
+        "f1": 0.9723,
+        "code_accuracy": 0.9644,
+        "tp": 298,
         "fp": 0,
-        "fn": 0
-      },
-      "medications": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "code_accuracy": 1.0,
-        "tp": 9,
-        "fp": 0,
-        "fn": 0
-      },
-      "allergies": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "code_accuracy": 1.0,
-        "tp": 5,
-        "fp": 0,
-        "fn": 0
-      },
-      "observations": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0,
-        "code_accuracy": 1.0,
-        "tp": 24,
-        "fp": 0,
-        "fn": 0
+        "fn": 17,
+        "n_items": 315
       }
     },
-    "overall": {
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0,
-      "code_accuracy": 1.0,
-      "tp": 62,
-      "fp": 0,
-      "fn": 0
+    "spanish": {
+      "patient_count": 25,
+      "categories": {
+        "demographics": {
+          "precision": 1.0,
+          "recall": 0.8933,
+          "f1": 0.9437,
+          "code_accuracy": 0.8933,
+          "tp": 67,
+          "fp": 0,
+          "fn": 8,
+          "n_items": 75
+        },
+        "conditions": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 49,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 49
+        },
+        "medications": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 42,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 42
+        },
+        "allergies": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 18,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 18
+        },
+        "observations": {
+          "precision": 1.0,
+          "recall": 0.9542,
+          "f1": 0.9766,
+          "code_accuracy": 1.0,
+          "tp": 125,
+          "fp": 0,
+          "fn": 6,
+          "n_items": 131
+        }
+      },
+      "errors": [
+        {
+          "type": "FN_birthDate",
+          "expected": "1965-11-03",
+          "predicted": "1965-11-04",
+          "patient_id": "patient_3_covid_respiratory",
+          "language": "es"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Robert S Miller",
+          "predicted": "Robert J Smith",
+          "patient_id": "patient_3_covid_respiratory",
+          "language": "es"
+        },
+        {
+          "type": "FN_gender",
+          "expected": "male",
+          "predicted": "female",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "es"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1958-02-14",
+          "predicted": "1960-07-19",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "es"
+        },
+        {
+          "type": "FN_name",
+          "expected": "James K Wilson",
+          "predicted": "Elena M Gomez",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "es"
+        },
+        {
+          "type": "FN_gender",
+          "expected": "female",
+          "predicted": "male",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "es"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1960-07-30",
+          "predicted": "1955-03-30",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "es"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Elena R Morales",
+          "predicted": "William H Miller",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "es"
+        }
+      ],
+      "overall": {
+        "precision": 1.0,
+        "recall": 0.9556,
+        "f1": 0.9773,
+        "code_accuracy": 0.9741,
+        "tp": 301,
+        "fp": 0,
+        "fn": 14,
+        "n_items": 315
+      }
+    }
+  },
+  "full_cohort": {
+    "english": {
+      "patient_count": 50,
+      "categories": {
+        "demographics": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9474,
+          "code_accuracy": 0.9,
+          "tp": 135,
+          "fp": 0,
+          "fn": 15,
+          "n_items": 150
+        },
+        "conditions": {
+          "precision": 1.0,
+          "recall": 0.9694,
+          "f1": 0.9845,
+          "code_accuracy": 1.0,
+          "tp": 95,
+          "fp": 0,
+          "fn": 3,
+          "n_items": 98
+        },
+        "medications": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 80,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 80
+        },
+        "allergies": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 32,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 32
+        },
+        "observations": {
+          "precision": 0.9921,
+          "recall": 0.9766,
+          "f1": 0.9843,
+          "code_accuracy": 0.9921,
+          "tp": 250,
+          "fp": 2,
+          "fn": 6,
+          "n_items": 256
+        }
+      },
+      "errors": [
+        {
+          "type": "FN_name",
+          "expected": "Ruth V Carter",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_17_ckd_htn",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Virginia M Evans",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_25_copd_cad",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Essential hypertension",
+          "code": "59621000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_26_htn_hld_outpatient",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Gloria T Hernandez",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_29_copd_discharge",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Isabel C Ramos",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_34_htn_t2dm_discharge",
+          "language": "en"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1965-11-03",
+          "predicted": "1965-11-04",
+          "patient_id": "patient_3_covid_respiratory",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Robert S Miller",
+          "predicted": "Robert J Smith",
+          "patient_id": "patient_3_covid_respiratory",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Elena V Mendoza",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_40_t2dm_hld_discharge",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Essential hypertension",
+          "code": "59621000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_45_htn_bronchitis_soap",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Patricia K Molina",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_46_hld_copd_discharge",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Type 2 diabetes mellitus",
+          "code": "44054006",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_47_t2dm_hypothyroid_soap",
+          "language": "en"
+        },
+        {
+          "type": "FN_gender",
+          "expected": "male",
+          "predicted": "female",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "en"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1958-02-14",
+          "predicted": "1960-07-19",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "James K Wilson",
+          "predicted": "Elena M Gomez",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "en"
+        },
+        {
+          "type": "FN_gender",
+          "expected": "female",
+          "predicted": "male",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "en"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1960-07-30",
+          "predicted": "1955-03-30",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Elena R Morales",
+          "predicted": "William H Miller",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "en"
+        },
+        {
+          "type": "FN_name",
+          "expected": "William H Davis",
+          "predicted": "HOSPITAL DISCHARGE SUMMARY",
+          "patient_id": "patient_9_ckd_diabetes",
+          "language": "en"
+        }
+      ],
+      "overall": {
+        "precision": 0.9966,
+        "recall": 0.961,
+        "f1": 0.9785,
+        "code_accuracy": 0.9721,
+        "tp": 592,
+        "fp": 2,
+        "fn": 24,
+        "n_items": 616
+      }
+    },
+    "spanish": {
+      "patient_count": 50,
+      "categories": {
+        "demographics": {
+          "precision": 1.0,
+          "recall": 0.9467,
+          "f1": 0.9726,
+          "code_accuracy": 0.9467,
+          "tp": 142,
+          "fp": 0,
+          "fn": 8,
+          "n_items": 150
+        },
+        "conditions": {
+          "precision": 1.0,
+          "recall": 0.9694,
+          "f1": 0.9845,
+          "code_accuracy": 1.0,
+          "tp": 95,
+          "fp": 0,
+          "fn": 3,
+          "n_items": 98
+        },
+        "medications": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 80,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 80
+        },
+        "allergies": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "code_accuracy": 1.0,
+          "tp": 32,
+          "fp": 0,
+          "fn": 0,
+          "n_items": 32
+        },
+        "observations": {
+          "precision": 0.9921,
+          "recall": 0.9766,
+          "f1": 0.9843,
+          "code_accuracy": 0.9921,
+          "tp": 250,
+          "fp": 2,
+          "fn": 6,
+          "n_items": 256
+        }
+      },
+      "errors": [
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Essential hypertension",
+          "code": "59621000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_26_htn_hld_outpatient",
+          "language": "es"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1965-11-03",
+          "predicted": "1965-11-04",
+          "patient_id": "patient_3_covid_respiratory",
+          "language": "es"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Robert S Miller",
+          "predicted": "Robert J Smith",
+          "patient_id": "patient_3_covid_respiratory",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Essential hypertension",
+          "code": "59621000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_45_htn_bronchitis_soap",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Type 2 diabetes mellitus",
+          "code": "44054006",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "patient_47_t2dm_hypothyroid_soap",
+          "language": "es"
+        },
+        {
+          "type": "FN_gender",
+          "expected": "male",
+          "predicted": "female",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "es"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1958-02-14",
+          "predicted": "1960-07-19",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "es"
+        },
+        {
+          "type": "FN_name",
+          "expected": "James K Wilson",
+          "predicted": "Elena M Gomez",
+          "patient_id": "patient_4_cardiac_hyperlipidemia",
+          "language": "es"
+        },
+        {
+          "type": "FN_gender",
+          "expected": "female",
+          "predicted": "male",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "es"
+        },
+        {
+          "type": "FN_birthDate",
+          "expected": "1960-07-30",
+          "predicted": "1955-03-30",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "es"
+        },
+        {
+          "type": "FN_name",
+          "expected": "Elena R Morales",
+          "predicted": "William H Miller",
+          "patient_id": "patient_5_copd_smoking",
+          "language": "es"
+        }
+      ],
+      "overall": {
+        "precision": 0.9967,
+        "recall": 0.9724,
+        "f1": 0.9844,
+        "code_accuracy": 0.9836,
+        "tp": 599,
+        "fp": 2,
+        "fn": 17,
+        "n_items": 616
+      }
     }
   }
 }
