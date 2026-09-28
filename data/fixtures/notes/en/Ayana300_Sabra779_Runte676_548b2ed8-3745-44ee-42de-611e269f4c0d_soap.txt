@@ -1,0 +1,37 @@
+HOSPITAL DISCHARGE SUMMARY
+Admission Date: 2024-03-10 | Discharge Date: 2024-03-15
+Patient Name: Ayana300 Sabra779 Runte676
+DOB: 1981-10-12
+Gender: Female
+
+HOSPITAL COURSE SUMMARY:
+Patient responded well to inpatient clinical management. Clinically stable at discharge.
+Patient denies orthopnea, denies chest discomfort.
+
+Discharge Vital Signs:
+- Blood Pressure: 123/73 mmHg
+- Heart Rate: 62 bpm
+- Respiratory Rate: 15 breaths/min
+- Temperature: 97.7 F
+- SpO2: 99%
+- BMI: 25.9 kg/m2
+
+Active Diagnoses at Discharge:
+- Pulmonic valve regurgitation
+- Chronic pain
+- Impacted molars
+- Dependent drug abuse
+
+Family History:
+- Sister with severe eczema; brother diagnosed with asthma in childhood.
+
+Discharge Medications:
+- cephalexin 500 MG Oral Tablet
+- {7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]
+- {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]
+- sodium fluoride 0.0272 MG/MG Oral Gel
+
+Allergies:
+- No known drug allergies (NKDA).
+
+Follow-up Plan: Outpatient clinic appointment in 2 weeks.

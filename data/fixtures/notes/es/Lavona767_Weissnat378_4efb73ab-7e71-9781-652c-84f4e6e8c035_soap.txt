@@ -1,0 +1,37 @@
+NOTA DE PROGRESO CLÍNICO DIARIO
+Fecha: 2024-03-15
+Nombre del Paciente: Lavona767 Dorcas534 Weissnat378 | Fecha de Nacimiento: 2022-05-20 | Género: Femenino
+
+Evolución diaria: Paciente estable durante las últimas 24 horas. Niega molestias agudas.
+Signos Vitales:
+- Presión Arterial: 103/81 mmHg
+- Frecuencia Cardíaca: 61 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 37.0 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 20.08 kg/m2
+
+Antecedentes Médicos Personales:
+- Otitis media
+- Infection of tooth
+- Primary dental caries
+- Alveolitis of jaw
+
+Antecedentes Familiares:
+- Madre con antecedentes de diabetes mellitus tipo 2; padre con cardiopatía isquémica.
+
+Medicación Actual:
+- Acetaminophen 325 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Acetaminophen 160 MG Chewable Tablet
+- Amoxicilina 500 mg comprimidos vía oral
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+Impresión Diagnóstica y Plan:
+- Otitis media
+- Infection of tooth
+- Primary dental caries
+- Alveolitis of jaw
+Plan: Mantener tratamiento actual y continuar monitorización clínica.

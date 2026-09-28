@@ -1,0 +1,37 @@
+HOSPITAL DISCHARGE SUMMARY
+Admission Date: 2024-03-10 | Discharge Date: 2024-03-15
+Patient Name: Kyle55 Jerde200
+DOB: 1977-01-27
+Gender: Male
+
+HOSPITAL COURSE SUMMARY:
+Patient responded well to inpatient clinical management. Clinically stable at discharge.
+Patient denies orthopnea, denies chest discomfort.
+
+Discharge Vital Signs:
+- Blood Pressure: 109/84 mmHg
+- Heart Rate: 70 bpm
+- Respiratory Rate: 13 breaths/min
+- Temperature: 98.6 F
+- SpO2: 96%
+- BMI: 30.39 kg/m2
+
+Active Diagnoses at Discharge:
+- Received higher education
+- Stress
+- Full-time employment
+- Prediabetes
+
+Family History:
+- Sister with severe eczema; brother diagnosed with asthma in childhood.
+
+Discharge Medications:
+- Ibuprofen 200 MG Oral Tablet
+- 150 ML vancomycin 5 MG/ML Injection
+- piperacillin 2000 MG / tazobactam 250 MG Injection
+- sodium fluoride 0.0272 MG/MG Oral Gel
+
+Allergies:
+- No known drug allergies (NKDA).
+
+Follow-up Plan: Outpatient clinic appointment in 2 weeks.

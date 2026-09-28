@@ -1,0 +1,42 @@
+INFORME DE ATENCIÓN EN URGENCIAS
+Fecha: 2024-03-20
+Nombre del Paciente: Otis335 Angelo118 Abbott774
+Fecha de Nacimiento: 1965-05-24 | Género: Masculino
+
+MOTIVO DE CONSULTA Y TRIAGE:
+Paciente acude al servicio de urgencias para valoración médica.
+Niega dolor torácico irradiado, sin disnea paroxística, niega síncope.
+
+Signos Vitales en Triaje:
+- Presión Arterial: 122/65 mmHg
+- Frecuencia Cardíaca: 78 lpm
+- Frecuencia Respiratoria: 14 respiraciones/minuto
+- Temperatura: 37.5 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 29.34 kg/m2
+
+Antecedentes Médicos Personales:
+- Risk activity involvement
+- Received higher education
+- Obesidad grado I
+- Osteoarthritis of knee
+
+Antecedentes Familiares:
+- Padre fallecido por infarto de miocardio a los 68 años. Madre con osteoporosis.
+
+Medicación Actual:
+- Hidroclorotiazida 25 mg comprimidos vía oral
+- Naproxen sodium 220 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray
+
+Alergias:
+- Allergic disposition (finding)
+- Wheat (substance)
+
+DIAGNÓSTICO PRINCIPAL Y PLAN DE ALTA:
+- Risk activity involvement
+- Received higher education
+- Obesidad grado I
+- Osteoarthritis of knee
+Plan: Estabilización lograda. Continuar controles con su médico de cabecera.

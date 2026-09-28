@@ -1,0 +1,42 @@
+EMERGENCY DEPARTMENT ENCOUNTER
+Encounter Date: 2024-03-20
+Patient Name: Dusty207 Stokes453
+DOB: 2005-03-20 | Gender: Male
+
+CHIEF COMPLAINT & TRIAGE:
+Patient presents to the Emergency Department for acute medical evaluation.
+Patient denies chest pain, denies shortness of breath, negative for syncopal episodes.
+
+Triage Vital Signs:
+- Blood Pressure: 106/89 mmHg
+- Heart Rate: 71 bpm
+- Respiratory Rate: 15 breaths/min
+- Temperature: 99.8 F
+- SpO2: 98%
+- BMI: 26.1 kg/m2
+
+Past Medical History:
+- Risk activity involvement
+- Gingivitis
+- Primary dental caries
+- Acute viral pharyngitis
+
+Family History:
+- Father died of myocardial infarction at age 68. Mother has osteoporosis.
+
+Current Medications:
+- Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet
+- Meperidine Hydrochloride 50 MG Oral Tablet
+- Naproxen sodium 220 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+
+Allergies:
+- No known drug allergies (NKDA).
+
+ASSESSMENT & DISPOSITION:
+Primary Clinical Impression:
+- Risk activity involvement
+- Gingivitis
+- Primary dental caries
+- Acute viral pharyngitis
+Disposition: Patient stabilized. Discharged to home with outpatient follow-up.

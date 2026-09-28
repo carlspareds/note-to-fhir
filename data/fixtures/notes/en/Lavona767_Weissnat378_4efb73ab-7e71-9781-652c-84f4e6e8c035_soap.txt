@@ -1,0 +1,37 @@
+DAILY CLINICAL PROGRESS NOTE
+Date: 2024-03-15
+Patient Name: Lavona767 Dorcas534 Weissnat378 | DOB: 2022-05-20 | Gender: Female
+
+Daily Progress: Patient remains clinically stable over the last 24 hours. Denies acute complaints.
+Vital Signs:
+- Blood Pressure: 103/81 mmHg
+- Heart Rate: 61 bpm
+- Respiratory Rate: 15 breaths/min
+- Temperature: 98.6 F
+- SpO2: 98%
+- BMI: 20.08 kg/m2
+
+Past Medical History:
+- Otitis media
+- Infection of tooth
+- Primary dental caries
+- Alveolitis of jaw
+
+Family History:
+- Mother had type 2 diabetes mellitus; father had coronary artery disease.
+
+Current Medications:
+- Acetaminophen 325 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Acetaminophen 160 MG Chewable Tablet
+- Amoxicillin 500 MG Oral Tablet
+
+Allergies:
+- No known drug allergies (NKDA).
+
+Assessment & Plan:
+- Otitis media
+- Infection of tooth
+- Primary dental caries
+- Alveolitis of jaw
+Plan: Continue current clinical management and monitoring.

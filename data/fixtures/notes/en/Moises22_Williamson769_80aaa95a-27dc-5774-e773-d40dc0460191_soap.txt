@@ -1,0 +1,34 @@
+HOSPITAL DISCHARGE SUMMARY
+Admission Date: 2024-03-10 | Discharge Date: 2024-03-15
+Patient Name: Moises22 Kerry175 Williamson769
+DOB: 2001-05-15
+Gender: Male
+
+HOSPITAL COURSE SUMMARY:
+Patient responded well to inpatient clinical management. Clinically stable at discharge.
+Patient denies orthopnea, denies chest discomfort.
+
+Discharge Vital Signs:
+- Blood Pressure: 110/85 mmHg
+- Heart Rate: 85 bpm
+- Respiratory Rate: 13 breaths/min
+- Temperature: 98.6 F
+- SpO2: 98%
+- BMI: 23.77 kg/m2
+
+Active Diagnoses at Discharge:
+- Gingivitis
+- Concussion injury of brain
+- Concussion with no loss of consciousness
+- Only received primary school education
+
+Family History:
+- Sister with severe eczema; brother diagnosed with asthma in childhood.
+
+Discharge Medications:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+
+Allergies:
+- No known drug allergies (NKDA).
+
+Follow-up Plan: Outpatient clinic appointment in 2 weeks.

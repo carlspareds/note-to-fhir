@@ -1,0 +1,41 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Bryon392 Alden634 Gleason633
+Fecha de Nacimiento: 2010-10-22
+Género: Masculino
+
+SUBJETIVO:
+Paciente acude a control clínico programado. Refiere estabilidad general.
+Niega disnea, niega cefalea intensa, niega precordialgia.
+
+OBJETIVO:
+Signos Vitales:
+- Presión Arterial: 142/82 mmHg
+- Frecuencia Cardíaca: 64 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 37.0 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 18.72 kg/m2
+
+Antecedentes Médicos Personales:
+- Faringitis viral aguda
+- Gingival disease
+- Primary dental caries
+- Risk activity involvement
+
+Antecedentes Familiares:
+- Madre diagnosticada de cáncer de mama a los 62 años; padre con antecedente de ACV.
+
+Medicación Actual:
+- Amoxicilina 250 mg / Ácido Clavulánico 125 mg vía oral
+- sodium fluoride 0.0272 MG/MG Oral Gel
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+EVALUACIÓN Y PLAN:
+- Faringitis viral aguda
+- Gingival disease
+- Primary dental caries
+- Risk activity involvement
+Plan: Continuar régimen farmacológico actual. Solicitar analítica de control.

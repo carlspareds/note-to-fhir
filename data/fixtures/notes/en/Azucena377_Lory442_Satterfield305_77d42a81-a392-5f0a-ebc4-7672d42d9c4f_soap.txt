@@ -1,0 +1,43 @@
+SPECIALTY CONSULTATION NOTE
+Date: 2024-03-15
+Patient Name: Azucena377 Lory442 Satterfield305
+DOB: 1978-01-10 | Gender: Female
+Specialty: Medical Subspecialty Consultation
+
+REASON FOR CONSULTATION:
+Specialized appraisal of chronic disease trajectory and therapeutic optimization.
+Patient denies acute symptoms, denies orthopnea, denies lower extremity edema.
+
+Vital Signs:
+- Blood Pressure: 112/93 mmHg
+- Heart Rate: 61 bpm
+- Respiratory Rate: 15 breaths/min
+- Temperature: 100.1 F
+- SpO2: 98%
+- BMI: 27.9 kg/m2
+
+Past Medical History:
+- Housing unsatisfactory
+- Educated to high school level
+- Prediabetes
+- Anemia
+
+Family History:
+- Paternal grandfather had colon cancer; maternal grandmother had hypertension.
+
+Current Medications:
+- levonorgestrel 0.000813 MG/HR Intrauterine System [Liletta]
+- levonorgestrel 0.000833 MG/HR Intrauterine System [Mirena]
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- {28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]
+
+Allergies:
+- No known drug allergies (NKDA).
+
+IMPRESSION & RECOMMENDATIONS:
+Assessment:
+- Housing unsatisfactory
+- Educated to high school level
+- Prediabetes
+- Anemia
+Recommendations: Continue optimized pharmacotherapy as outlined above.

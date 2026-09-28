@@ -1,0 +1,40 @@
+EMERGENCY DEPARTMENT ENCOUNTER
+Encounter Date: 2024-03-20
+Patient Name: Chet188 Vito638 Feeney44
+DOB: 2010-12-22 | Gender: Male
+
+CHIEF COMPLAINT & TRIAGE:
+Patient presents to the Emergency Department for acute medical evaluation.
+Patient denies chest pain, denies shortness of breath, negative for syncopal episodes.
+
+Triage Vital Signs:
+- Blood Pressure: 127/85 mmHg
+- Heart Rate: 74 bpm
+- Respiratory Rate: 13 breaths/min
+- Temperature: 99.3 F
+- SpO2: 98%
+- BMI: 24.96 kg/m2
+
+Past Medical History:
+- Gingivitis
+- Streptococcal sore throat
+- Acute viral pharyngitis
+- Risk activity involvement
+
+Family History:
+- Father died of myocardial infarction at age 68. Mother has osteoporosis.
+
+Current Medications:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Penicillin V Potassium 250 MG Oral Tablet
+
+Allergies:
+- No known drug allergies (NKDA).
+
+ASSESSMENT & DISPOSITION:
+Primary Clinical Impression:
+- Gingivitis
+- Streptococcal sore throat
+- Acute viral pharyngitis
+- Risk activity involvement
+Disposition: Patient stabilized. Discharged to home with outpatient follow-up.

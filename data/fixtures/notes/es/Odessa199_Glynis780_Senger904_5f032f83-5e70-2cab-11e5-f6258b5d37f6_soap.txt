@@ -1,0 +1,45 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Odessa199 Glynis780 Senger904
+Fecha de Nacimiento: 1977-07-08
+Género: Femenino
+
+SUBJETIVO:
+Paciente acude a control clínico programado. Refiere estabilidad general.
+Niega disnea, niega cefalea intensa, niega precordialgia.
+
+OBJETIVO:
+Signos Vitales:
+- Presión Arterial: 146/82 mmHg
+- Frecuencia Cardíaca: 63 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 37.0 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 30.34 kg/m2
+
+Antecedentes Médicos Personales:
+- Risk activity involvement
+- Housing unsatisfactory
+- Educated to high school level
+- Asma bronquial
+
+Antecedentes Familiares:
+- Madre diagnosticada de cáncer de mama a los 62 años; padre con antecedente de ACV.
+
+Medicación Actual:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- albuterol 0.83 MG/ML Inhalation Solution
+- 120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]
+- 1 ML medroxyprogesterone acetate 150 MG/ML Injection
+
+Alergias:
+- Allergic disposition (finding)
+- Bee venom (substance)
+- Mold (organism)
+
+EVALUACIÓN Y PLAN:
+- Risk activity involvement
+- Housing unsatisfactory
+- Educated to high school level
+- Asma bronquial
+Plan: Continuar régimen farmacológico actual. Solicitar analítica de control.

@@ -1,0 +1,41 @@
+INFORME DE ATENCIÓN EN URGENCIAS
+Fecha: 2024-03-20
+Nombre del Paciente: Dusty207 Stokes453
+Fecha de Nacimiento: 2005-03-20 | Género: Masculino
+
+MOTIVO DE CONSULTA Y TRIAGE:
+Paciente acude al servicio de urgencias para valoración médica.
+Niega dolor torácico irradiado, sin disnea paroxística, niega síncope.
+
+Signos Vitales en Triaje:
+- Presión Arterial: 106/89 mmHg
+- Frecuencia Cardíaca: 71 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 37.7 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 26.1 kg/m2
+
+Antecedentes Médicos Personales:
+- Risk activity involvement
+- Gingivitis
+- Primary dental caries
+- Faringitis viral aguda
+
+Antecedentes Familiares:
+- Padre fallecido por infarto de miocardio a los 68 años. Madre con osteoporosis.
+
+Medicación Actual:
+- Amoxicilina 250 mg / Ácido Clavulánico 125 mg vía oral
+- Meperidine Hydrochloride 50 MG Oral Tablet
+- Naproxen sodium 220 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+DIAGNÓSTICO PRINCIPAL Y PLAN DE ALTA:
+- Risk activity involvement
+- Gingivitis
+- Primary dental caries
+- Faringitis viral aguda
+Plan: Estabilización lograda. Continuar controles con su médico de cabecera.

@@ -1,0 +1,35 @@
+HOSPITAL DISCHARGE SUMMARY
+Admission Date: 2024-03-10 | Discharge Date: 2024-03-15
+Patient Name: Johnna810 Shay725 Hilll811
+DOB: 1988-10-04
+Gender: Female
+
+HOSPITAL COURSE SUMMARY:
+Patient responded well to inpatient clinical management. Clinically stable at discharge.
+Patient denies orthopnea, denies chest discomfort.
+
+Discharge Vital Signs:
+- Blood Pressure: 124/92 mmHg
+- Heart Rate: 71 bpm
+- Respiratory Rate: 15 breaths/min
+- Temperature: 100.1 F
+- SpO2: 98%
+- BMI: 30.34 kg/m2
+
+Active Diagnoses at Discharge:
+- Educated to high school level
+- Part-time employment
+- Past pregnancy history of miscarriage
+- Full-time employment
+
+Family History:
+- Sister with severe eczema; brother diagnosed with asthma in childhood.
+
+Discharge Medications:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- {28 (norethindrone 0.35 MG Oral Tablet) } Pack [Errin 28 Day]
+
+Allergies:
+- No known drug allergies (NKDA).
+
+Follow-up Plan: Outpatient clinic appointment in 2 weeks.

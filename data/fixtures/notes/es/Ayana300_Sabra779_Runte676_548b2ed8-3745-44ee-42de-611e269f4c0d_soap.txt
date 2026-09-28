@@ -1,0 +1,36 @@
+INFORME DE ALTA HOSPITALARIA
+Fecha de Ingreso: 2024-03-10 | Fecha de Alta: 2024-03-15
+Nombre del Paciente: Ayana300 Sabra779 Runte676
+Fecha de Nacimiento: 1981-10-12 | Género: Femenino
+
+RESUMEN DE HOSPITALIZACIÓN:
+Evolución clínica favorable tras manejo hospitalario. Paciente hemodinámicamente estable.
+Niega dolor torácico, niega disnea en reposo.
+
+Signos Vitales al Alta:
+- Presión Arterial: 123/73 mmHg
+- Frecuencia Cardíaca: 62 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 36.5 °C
+- Saturación de Oxígeno (SpO2): 99%
+- Índice de Masa Corporal (IMC): 25.9 kg/m2
+
+Diagnósticos Activos al Alta:
+- Pulmonic valve regurgitation
+- Chronic pain
+- Impacted molars
+- Dependent drug abuse
+
+Antecedentes Familiares:
+- Hermana con dermatitis atópica grave; hermano con asma desde la infancia.
+
+Plan Farmacológico al Alta:
+- cephalexin 500 MG Oral Tablet
+- {7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]
+- {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]
+- sodium fluoride 0.0272 MG/MG Oral Gel
+
+Alergias Conocidas:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+Instrucciones: Control en consulta externa en 2 semanas.

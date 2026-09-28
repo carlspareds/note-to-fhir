@@ -1,0 +1,37 @@
+NOTA DE PROGRESO CLÍNICO DIARIO
+Fecha: 2024-03-15
+Nombre del Paciente: Isiah14 Prohaska837 | Fecha de Nacimiento: 1996-12-12 | Género: Masculino
+
+Evolución diaria: Paciente estable durante las últimas 24 horas. Niega molestias agudas.
+Signos Vitales:
+- Presión Arterial: 121/78 mmHg
+- Frecuencia Cardíaca: 61 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 37.2 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 30.03 kg/m2
+
+Antecedentes Médicos Personales:
+- Received higher education
+- Stress
+- Full-time employment
+- Unemployed
+
+Antecedentes Familiares:
+- Madre con antecedentes de diabetes mellitus tipo 2; padre con cardiopatía isquémica.
+
+Medicación Actual:
+- amLODIPine 2.5 MG Oral Tablet
+- lisinopril 10 MG Oral Tablet
+- Hidroclorotiazida 25 mg comprimidos vía oral
+- Amoxicilina 250 mg / Ácido Clavulánico 125 mg vía oral
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+Impresión Diagnóstica y Plan:
+- Received higher education
+- Stress
+- Full-time employment
+- Unemployed
+Plan: Mantener tratamiento actual y continuar monitorización clínica.

@@ -1,0 +1,43 @@
+SPECIALTY CONSULTATION NOTE
+Date: 2024-03-15
+Patient Name: Lai148 Hettinger594
+DOB: 1985-10-25 | Gender: Female
+Specialty: Medical Subspecialty Consultation
+
+REASON FOR CONSULTATION:
+Specialized appraisal of chronic disease trajectory and therapeutic optimization.
+Patient denies acute symptoms, denies orthopnea, denies lower extremity edema.
+
+Vital Signs:
+- Blood Pressure: 107/94 mmHg
+- Heart Rate: 87 bpm
+- Respiratory Rate: 14 breaths/min
+- Temperature: 98.7 F
+- SpO2: 99%
+- BMI: 29.45 kg/m2
+
+Past Medical History:
+- Seizue disorder
+- History of seizure
+- Epilepsy
+- Received higher education
+
+Family History:
+- Paternal grandfather had colon cancer; maternal grandmother had hypertension.
+
+Current Medications:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Diazepam 5 MG Oral Tablet
+- {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]
+- clonazePAM 0.25 MG Oral Tablet
+
+Allergies:
+- No known drug allergies (NKDA).
+
+IMPRESSION & RECOMMENDATIONS:
+Assessment:
+- Seizue disorder
+- History of seizure
+- Epilepsy
+- Received higher education
+Recommendations: Continue optimized pharmacotherapy as outlined above.

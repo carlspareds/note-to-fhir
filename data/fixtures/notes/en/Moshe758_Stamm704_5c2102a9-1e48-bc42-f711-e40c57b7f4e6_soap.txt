@@ -1,0 +1,43 @@
+SPECIALTY CONSULTATION NOTE
+Date: 2024-03-15
+Patient Name: Moshe758 Herman763 Stamm704
+DOB: 1956-02-02 | Gender: Male
+Specialty: Medical Subspecialty Consultation
+
+REASON FOR CONSULTATION:
+Specialized appraisal of chronic disease trajectory and therapeutic optimization.
+Patient denies acute symptoms, denies orthopnea, denies lower extremity edema.
+
+Vital Signs:
+- Blood Pressure: 105/72 mmHg
+- Heart Rate: 70 bpm
+- Respiratory Rate: 14 breaths/min
+- Temperature: 100.0 F
+- SpO2: 97%
+- BMI: 30.26 kg/m2
+
+Past Medical History:
+- Only received primary school education
+- Prediabetes
+- Body mass index 30+ - obesity
+- Anemia
+
+Family History:
+- Paternal grandfather had colon cancer; maternal grandmother had hypertension.
+
+Current Medications:
+- tropicamide 5 MG/ML Ophthalmic Solution
+- 10 ML Fentanyl 0.05 MG/ML Injection
+- desflurane 1000 MG/ML Inhalation Solution
+- Rocuronium bromide 10 MG/ML Injectable Solution
+
+Allergies:
+- No known drug allergies (NKDA).
+
+IMPRESSION & RECOMMENDATIONS:
+Assessment:
+- Only received primary school education
+- Prediabetes
+- Body mass index 30+ - obesity
+- Anemia
+Recommendations: Continue optimized pharmacotherapy as outlined above.

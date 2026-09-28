@@ -1,0 +1,43 @@
+SPECIALTY CONSULTATION NOTE
+Date: 2024-03-15
+Patient Name: Clair921 Crystle668 Prohaska837
+DOB: 1979-08-05 | Gender: Female
+Specialty: Medical Subspecialty Consultation
+
+REASON FOR CONSULTATION:
+Specialized appraisal of chronic disease trajectory and therapeutic optimization.
+Patient denies acute symptoms, denies orthopnea, denies lower extremity edema.
+
+Vital Signs:
+- Blood Pressure: 110/82 mmHg
+- Heart Rate: 94 bpm
+- Respiratory Rate: 13 breaths/min
+- Temperature: 98.6 F
+- SpO2: 98%
+- BMI: 17.96 kg/m2
+
+Past Medical History:
+- Otitis media
+- Primary dental caries
+- Viral sinusitis
+- Sprain (morphologic abnormality)
+
+Family History:
+- Paternal grandfather had colon cancer; maternal grandmother had hypertension.
+
+Current Medications:
+- {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- {7 (inert ingredients 1 MG Oral Tablet) / 21 (mestranol 0.05 MG / norethindrone 1 MG Oral Tablet) } Pack [Norinyl 1+50 28 Day]
+- Aspirin 81 MG Oral Tablet
+
+Allergies:
+- No known drug allergies (NKDA).
+
+IMPRESSION & RECOMMENDATIONS:
+Assessment:
+- Otitis media
+- Primary dental caries
+- Viral sinusitis
+- Sprain (morphologic abnormality)
+Recommendations: Continue optimized pharmacotherapy as outlined above.

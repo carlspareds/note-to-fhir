@@ -1,0 +1,33 @@
+EMERGENCY DEPARTMENT ENCOUNTER
+Encounter Date: 2024-03-20
+Patient Name: Karlyn611 Janeth814 Stracke611
+DOB: 2025-04-20 | Gender: Female
+
+CHIEF COMPLAINT & TRIAGE:
+Patient presents to the Emergency Department for acute medical evaluation.
+Patient denies chest pain, denies shortness of breath, negative for syncopal episodes.
+
+Triage Vital Signs:
+- Blood Pressure: 125/84 mmHg
+- Heart Rate: 96 bpm
+- Respiratory Rate: 12 breaths/min
+- Temperature: 98.6 F
+- SpO2: 98%
+- BMI: 24.5 kg/m2
+
+Past Medical History:
+- None reported.
+
+Family History:
+- Father died of myocardial infarction at age 68. Mother has osteoporosis.
+
+Current Medications:
+- No active prescription medications.
+
+Allergies:
+- No known drug allergies (NKDA).
+
+ASSESSMENT & DISPOSITION:
+Primary Clinical Impression:
+- None reported.
+Disposition: Patient stabilized. Discharged to home with outpatient follow-up.

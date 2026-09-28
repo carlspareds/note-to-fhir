@@ -1,0 +1,42 @@
+EMERGENCY DEPARTMENT ENCOUNTER
+Encounter Date: 2024-03-20
+Patient Name: Giovanni385 Eddy900 Bergnaum523
+DOB: 1923-09-11 | Gender: Male
+
+CHIEF COMPLAINT & TRIAGE:
+Patient presents to the Emergency Department for acute medical evaluation.
+Patient denies chest pain, denies shortness of breath, negative for syncopal episodes.
+
+Triage Vital Signs:
+- Blood Pressure: 134/101 mmHg
+- Heart Rate: 88 bpm
+- Respiratory Rate: 13 breaths/min
+- Temperature: 100.3 F
+- SpO2: 98%
+- BMI: 27.93 kg/m2
+
+Past Medical History:
+- Risk activity involvement
+- Serving in military service
+- Received higher education
+- Prediabetes
+
+Family History:
+- Father died of myocardial infarction at age 68. Mother has osteoporosis.
+
+Current Medications:
+- etoposide 100 MG Injection [Etopophos]
+- Cisplatin 50 MG Injection
+- lisinopril 10 MG Oral Tablet
+- Hydrochlorothiazide 25 MG Oral Tablet
+
+Allergies:
+- No known drug allergies (NKDA).
+
+ASSESSMENT & DISPOSITION:
+Primary Clinical Impression:
+- Risk activity involvement
+- Serving in military service
+- Received higher education
+- Prediabetes
+Disposition: Patient stabilized. Discharged to home with outpatient follow-up.

@@ -1,0 +1,42 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Desmond566 Anton902 Hettinger594
+Fecha de Nacimiento: 2002-11-11
+Género: Masculino
+
+SUBJETIVO:
+Paciente acude a control clínico programado. Refiere estabilidad general.
+Niega disnea, niega cefalea intensa, niega precordialgia.
+
+OBJETIVO:
+Signos Vitales:
+- Presión Arterial: 119/90 mmHg
+- Frecuencia Cardíaca: 99 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 37.8 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 28.48 kg/m2
+
+Antecedentes Médicos Personales:
+- Faringitis viral aguda
+- Gingivitis
+- Laceration - injury
+- Laceration of forearm
+
+Antecedentes Familiares:
+- Madre diagnosticada de cáncer de mama a los 62 años; padre con antecedente de ACV.
+
+Medicación Actual:
+- Acetaminophen 325 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Naproxen sodium 220 MG Oral Tablet
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+EVALUACIÓN Y PLAN:
+- Faringitis viral aguda
+- Gingivitis
+- Laceration - injury
+- Laceration of forearm
+Plan: Continuar régimen farmacológico actual. Solicitar analítica de control.

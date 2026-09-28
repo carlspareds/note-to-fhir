@@ -1,0 +1,35 @@
+NOTA DE PROGRESO CLÍNICO DIARIO
+Fecha: 2024-03-15
+Nombre del Paciente: José Luis472 Marcos263 Amador986 | Fecha de Nacimiento: 1965-09-15 | Género: Masculino
+
+Evolución diaria: Paciente estable durante las últimas 24 horas. Niega molestias agudas.
+Signos Vitales:
+- Presión Arterial: 130/83 mmHg
+- Frecuencia Cardíaca: 83 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 37.0 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 27.47 kg/m2
+
+Antecedentes Médicos Personales:
+- Received higher education
+- Refugee (person)
+- Prediabetes
+- Anemia normocítica
+
+Antecedentes Familiares:
+- Madre con antecedentes de diabetes mellitus tipo 2; padre con cardiopatía isquémica.
+
+Medicación Actual:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- ferrous sulfate 325 MG Oral Tablet
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+Impresión Diagnóstica y Plan:
+- Received higher education
+- Refugee (person)
+- Prediabetes
+- Anemia normocítica
+Plan: Mantener tratamiento actual y continuar monitorización clínica.

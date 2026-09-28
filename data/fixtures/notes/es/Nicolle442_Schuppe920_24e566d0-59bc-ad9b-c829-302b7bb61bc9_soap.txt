@@ -1,0 +1,39 @@
+NOTA DE PROGRESO CLÍNICO DIARIO
+Fecha: 2024-03-15
+Nombre del Paciente: Nicolle442 Lynnette27 Schuppe920 | Fecha de Nacimiento: 1966-04-08 | Género: Femenino
+
+Evolución diaria: Paciente estable durante las últimas 24 horas. Niega molestias agudas.
+Signos Vitales:
+- Presión Arterial: 131/78 mmHg
+- Frecuencia Cardíaca: 81 lpm
+- Frecuencia Respiratoria: 14 respiraciones/minuto
+- Temperatura: 37.0 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 30.68 kg/m2
+
+Antecedentes Médicos Personales:
+- Chronic sinusitis
+- Risk activity involvement
+- Received higher education
+- Obesidad grado I
+
+Antecedentes Familiares:
+- Madre con antecedentes de diabetes mellitus tipo 2; padre con cardiopatía isquémica.
+
+Medicación Actual:
+- Simvastatin 10 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Ibuprofen 200 MG Oral Tablet
+- Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution
+
+Alergias:
+- Allergic disposition (finding)
+- Tree pollen (substance)
+- Penicillin V
+
+Impresión Diagnóstica y Plan:
+- Chronic sinusitis
+- Risk activity involvement
+- Received higher education
+- Obesidad grado I
+Plan: Mantener tratamiento actual y continuar monitorización clínica.

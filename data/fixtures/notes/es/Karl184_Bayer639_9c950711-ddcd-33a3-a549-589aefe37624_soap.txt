@@ -1,0 +1,43 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Karl184 Bayer639
+Fecha de Nacimiento: 1923-09-11
+Género: Masculino
+
+SUBJETIVO:
+Paciente acude a control clínico programado. Refiere estabilidad general.
+Niega disnea, niega cefalea intensa, niega precordialgia.
+
+OBJETIVO:
+Signos Vitales:
+- Presión Arterial: 129/93 mmHg
+- Frecuencia Cardíaca: 87 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 38.0 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 27.42 kg/m2
+
+Antecedentes Médicos Personales:
+- Serving in military service
+- Received higher education
+- Lack of access to transportation
+- Transport problem
+
+Antecedentes Familiares:
+- Madre diagnosticada de cáncer de mama a los 62 años; padre con antecedente de ACV.
+
+Medicación Actual:
+- 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler
+- amLODIPine 2.5 MG Oral Tablet
+- Hidroclorotiazida 25 mg comprimidos vía oral
+- albuterol 5 MG/ML Inhalation Solution
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+EVALUACIÓN Y PLAN:
+- Serving in military service
+- Received higher education
+- Lack of access to transportation
+- Transport problem
+Plan: Continuar régimen farmacológico actual. Solicitar analítica de control.

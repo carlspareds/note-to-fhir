@@ -1,1149 +1,4630 @@
 {
-  "patient_1_hypertension_diabetes": {
+  "Alvina833_Franecki195_8a0c8ac4-8227-9277-d4c1-a8fa96f6b0d9": {
     "split": "dev",
-    "patient": { "name": "John A Doe", "gender": "male", "birthDate": "1972-04-15" },
+    "template": "outpatient_soap",
+    "patient": {
+      "name": "Alvina833 Glady857 Franecki195",
+      "gender": "female",
+      "birthDate": "2013-02-08"
+    },
     "gold": {
       "conditions": [
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" },
-        { "display": "Type 2 diabetes mellitus", "snomed": "44054006", "icd10": "E11.9" }
+        {
+          "display": "Laceration - injury",
+          "snomed": "312608009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Laceration of thigh",
+          "snomed": "283385000",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Otitis media",
+          "snomed": "65363002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Acute viral pharyngitis",
+          "snomed": "195662009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Lisinopril 10 MG Oral Tablet", "rxnorm": "314076" },
-        { "display": "Metformin hydrochloride 500 MG Oral Tablet", "rxnorm": "860975" }
-      ],
-      "allergies": [
-        { "display": "Allergy to penicillin", "snomed": "91936005", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 138.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 86.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" },
-        "bmi": { "value": 27.8, "unit": "kg/m2", "loinc": "39156-5" }
-      }
-    }
-  },
-  "patient_2_asthma_allergy": {
-    "split": "dev",
-    "patient": { "name": "Maria E Garcia", "gender": "female", "birthDate": "1988-09-22" },
-    "gold": {
-      "conditions": [
-        { "display": "Asthma", "snomed": "195967001", "icd10": "J45.909" }
-      ],
-      "medications": [
-        { "display": "Albuterol 90 MCG/ACTUAT Inhaler", "rxnorm": "745752" },
-        { "display": "Fluticasone propionate", "rxnorm": "896209" }
-      ],
-      "allergies": [
-        { "display": "Allergy to peanut", "snomed": "91935004", "category": "food" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 118.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 76.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 82.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 18.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.2, "unit": "[degF]", "loinc": "8310-5" },
-        "oxygen_saturation": { "value": 97.0, "unit": "%", "loinc": "59408-5" }
-      }
-    }
-  },
-  "patient_3_covid_respiratory": {
-    "split": "dev",
-    "patient": { "name": "Robert S Miller", "gender": "male", "birthDate": "1965-11-03" },
-    "gold": {
-      "conditions": [
-        { "display": "COVID-19", "snomed": "840539006", "icd10": "U07.1" },
-        { "display": "Acute bronchitis", "snomed": "10509002", "icd10": "J20.9" }
-      ],
-      "medications": [
-        { "display": "Azithromycin 250 MG Oral Tablet", "rxnorm": "248656" }
-      ],
-      "allergies": [
-        { "display": "Allergy to sulfonamide", "snomed": "91931000", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 132.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 84.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 96.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 22.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 101.4, "unit": "[degF]", "loinc": "8310-5" },
-        "oxygen_saturation": { "value": 94.0, "unit": "%", "loinc": "59408-5" }
-      }
-    }
-  },
-  "patient_4_cardiac_hyperlipidemia": {
-    "split": "dev",
-    "patient": { "name": "James K Wilson", "gender": "male", "birthDate": "1958-02-14" },
-    "gold": {
-      "conditions": [
-        { "display": "Coronary artery disease", "snomed": "53741008", "icd10": "I25.10" },
-        { "display": "Hyperlipidemia", "snomed": "55822004", "icd10": "E78.00" }
-      ],
-      "medications": [
-        { "display": "Atorvastatin 20 MG Oral Tablet", "rxnorm": "259255" },
-        { "display": "Aspirin 81 MG Oral Tablet", "rxnorm": "243670" }
-      ],
-      "allergies": [
-        { "display": "Allergy to codeine", "snomed": "294505008", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 78.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 68.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 14.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.4, "unit": "[degF]", "loinc": "8310-5" },
-        "bmi": { "value": 26.5, "unit": "kg/m2", "loinc": "39156-5" }
-      }
-    }
-  },
-  "patient_5_copd_smoking": {
-    "split": "dev",
-    "patient": { "name": "Elena R Morales", "gender": "female", "birthDate": "1960-07-30" },
-    "gold": {
-      "conditions": [
-        { "display": "Chronic obstructive pulmonary disease", "snomed": "13645005", "icd10": "J44.9" },
-        { "display": "Gastroesophageal reflux disease", "snomed": "235595009", "icd10": "K21.9" }
-      ],
-      "medications": [
-        { "display": "Omeprazole 20 MG Delayed Release Oral Capsule", "rxnorm": "312134" },
-        { "display": "Amlodipine 5 MG Oral Tablet", "rxnorm": "197361" }
-      ],
-      "allergies": [
-        { "display": "Latex allergy", "snomed": "300916003", "category": "environment" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 134.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 78.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 20.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.8, "unit": "[degF]", "loinc": "8310-5" },
-        "oxygen_saturation": { "value": 93.0, "unit": "%", "loinc": "59408-5" }
-      }
-    }
-  },
-  "patient_6_depression_hypertension": {
-    "split": "dev",
-    "patient": { "name": "Thomas E Brown", "gender": "male", "birthDate": "1980-03-12" },
-    "gold": {
-      "conditions": [
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" },
-        { "display": "Major depressive disorder", "snomed": "370143000", "icd10": "F32.9" }
-      ],
-      "medications": [
-        { "display": "Lisinopril 10 MG Oral Tablet", "rxnorm": "314076" }
-      ],
-      "allergies": [
-        { "display": "Allergy to penicillin", "snomed": "91936005", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 130.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 84.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 70.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 15.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_7_osteoarthritis_gerd": {
-    "split": "dev",
-    "patient": { "name": "Patricia M Clark", "gender": "female", "birthDate": "1954-10-18" },
-    "gold": {
-      "conditions": [
-        { "display": "Osteoarthritis", "snomed": "396275006", "icd10": "M19.90" },
-        { "display": "Gastroesophageal reflux disease", "snomed": "235595009", "icd10": "K21.9" }
-      ],
-      "medications": [
-        { "display": "Omeprazole 20 MG Delayed Release Oral Capsule", "rxnorm": "312134" },
-        { "display": "Aspirin 81 MG Oral Tablet", "rxnorm": "243670" }
-      ],
-      "allergies": [
-        { "display": "Allergy to codeine", "snomed": "294505008", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.2, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_8_hypothyroidism_htn": {
-    "split": "dev",
-    "patient": { "name": "Susan L White", "gender": "female", "birthDate": "1968-05-25" },
-    "gold": {
-      "conditions": [
-        { "display": "Hypothyroidism", "snomed": "40930008", "icd10": "E03.9" },
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" }
-      ],
-      "medications": [
-        { "display": "Levothyroxine sodium 50 MCG Oral Tablet", "rxnorm": "966222" },
-        { "display": "Hydrochlorothiazide 25 MG Oral Tablet", "rxnorm": "310798" }
-      ],
-      "allergies": [
-        { "display": "Allergy to aspirin", "snomed": "293584003", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 124.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 78.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 66.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 14.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 97.9, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_9_ckd_diabetes": {
-    "split": "dev",
-    "patient": { "name": "William H Davis", "gender": "male", "birthDate": "1952-12-04" },
-    "gold": {
-      "conditions": [
-        { "display": "Chronic kidney disease", "snomed": "709044004", "icd10": "N18.9" },
-        { "display": "Type 2 diabetes mellitus", "snomed": "44054006", "icd10": "E11.9" }
-      ],
-      "medications": [
-        { "display": "Amlodipine 5 MG Oral Tablet", "rxnorm": "197361" },
-        { "display": "Atorvastatin 20 MG Oral Tablet", "rxnorm": "259255" }
-      ],
-      "allergies": [
-        { "display": "Shellfish allergy", "snomed": "300913000", "category": "food" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 142.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 88.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 76.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.4, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_10_pneumonia_bronchitis": {
-    "split": "dev",
-    "patient": { "name": "George F Martin", "gender": "male", "birthDate": "1977-08-19" },
-    "gold": {
-      "conditions": [
-        { "display": "Pneumonia", "snomed": "233604007", "icd10": "J18.9" },
-        { "display": "Acute bronchitis", "snomed": "10509002", "icd10": "J20.9" }
-      ],
-      "medications": [
-        { "display": "Azithromycin 250 MG Oral Tablet", "rxnorm": "248656" },
-        { "display": "Amoxicillin 500 MG Oral Tablet", "rxnorm": "308189" }
+        {
+          "display": "Ibuprofen 100 MG Oral Tablet",
+          "rxnorm": "198405"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Acetaminophen 160 MG Chewable Tablet",
+          "rxnorm": "313820"
+        },
+        {
+          "display": "Amoxicillin 500 MG Oral Tablet",
+          "rxnorm": "308192"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 122.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 94.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 24.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 102.1, "unit": "[degF]", "loinc": "8310-5" },
-        "oxygen_saturation": { "value": 92.0, "unit": "%", "loinc": "59408-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 88.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 70.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 119.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 17.84,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 100.4,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_11_gerd_asthma": {
+  "Anika194_Tanisha724_Hoeger474_176089ed-597a-3e09-c5e3-094571c14373": {
     "split": "dev",
-    "patient": { "name": "Barbara J King", "gender": "female", "birthDate": "1983-04-11" },
+    "template": "ed_encounter",
+    "patient": {
+      "name": "Anika194 Tanisha724 Hoeger474",
+      "gender": "female",
+      "birthDate": "1942-01-21"
+    },
     "gold": {
       "conditions": [
-        { "display": "Asthma", "snomed": "195967001", "icd10": "J45.909" },
-        { "display": "Gastroesophageal reflux disease", "snomed": "235595009", "icd10": "K21.9" }
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Body mass index 30+ - obesity",
+          "snomed": "162864005",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Prediabetes",
+          "snomed": "714628002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Past pregnancy history of miscarriage",
+          "snomed": "161744009",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Albuterol 90 MCG/ACTUAT Inhaler", "rxnorm": "745752" },
-        { "display": "Omeprazole 20 MG Delayed Release Oral Capsule", "rxnorm": "312134" }
+        {
+          "display": "Alendronic acid 10 MG Oral Tablet",
+          "rxnorm": "904419"
+        },
+        {
+          "display": "Warfarin Sodium 5 MG Oral Tablet",
+          "rxnorm": "855332"
+        },
+        {
+          "display": "24 HR tacrolimus 1 MG Extended Release Oral Tablet [Envarsus]",
+          "rxnorm": "1664463"
+        },
+        {
+          "display": "Hydrochlorothiazide 25 MG Oral Tablet",
+          "rxnorm": "310798"
+        }
       ],
-      "allergies": [
-        { "display": "Allergy to penicillin", "snomed": "91936005", "category": "medication" }
-      ],
+      "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 65.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 84.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 119.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 28.14,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 99.0,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_12_htn_cad": {
+  "Ayana300_Sabra779_Runte676_548b2ed8-3745-44ee-42de-611e269f4c0d": {
     "split": "dev",
-    "patient": { "name": "Charles R Scott", "gender": "male", "birthDate": "1963-09-05" },
+    "template": "discharge_summary",
+    "patient": {
+      "name": "Ayana300 Sabra779 Runte676",
+      "gender": "female",
+      "birthDate": "1981-10-12"
+    },
     "gold": {
       "conditions": [
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" },
-        { "display": "Coronary artery disease", "snomed": "53741008", "icd10": "I25.10" }
+        {
+          "display": "Pulmonic valve regurgitation",
+          "snomed": "91434003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Chronic pain",
+          "snomed": "82423001",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Impacted molars",
+          "snomed": "196416002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Dependent drug abuse",
+          "snomed": "6525002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Amlodipine 5 MG Oral Tablet", "rxnorm": "197361" },
-        { "display": "Aspirin 81 MG Oral Tablet", "rxnorm": "243670" }
+        {
+          "display": "cephalexin 500 MG Oral Tablet",
+          "rxnorm": "197454"
+        },
+        {
+          "display": "{7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]",
+          "rxnorm": "749762"
+        },
+        {
+          "display": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
+          "rxnorm": "749785"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 62.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 73.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 123.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 25.9,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 97.7,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 99.886,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_13_hyperlipidemia_oa": {
+  "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f": {
     "split": "dev",
-    "patient": { "name": "Dorothy E Green", "gender": "female", "birthDate": "1959-11-28" },
+    "template": "consultation_note",
+    "patient": {
+      "name": "Azucena377 Lory442 Satterfield305",
+      "gender": "female",
+      "birthDate": "1978-01-10"
+    },
     "gold": {
       "conditions": [
-        { "display": "Hyperlipidemia", "snomed": "55822004", "icd10": "E78.00" },
-        { "display": "Osteoarthritis", "snomed": "396275006", "icd10": "M19.90" }
+        {
+          "display": "Housing unsatisfactory",
+          "snomed": "105531004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Educated to high school level",
+          "snomed": "473461003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Prediabetes",
+          "snomed": "714628002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Anemia",
+          "snomed": "271737000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Atorvastatin 20 MG Oral Tablet", "rxnorm": "259255" }
+        {
+          "display": "levonorgestrel 0.000813 MG/HR Intrauterine System [Liletta]",
+          "rxnorm": "1605257"
+        },
+        {
+          "display": "levonorgestrel 0.000833 MG/HR Intrauterine System [Mirena]",
+          "rxnorm": "807283"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]",
+          "rxnorm": "757594"
+        }
       ],
-      "allergies": [
-        { "display": "Allergy to codeine", "snomed": "294505008", "category": "medication" }
-      ],
+      "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 61.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 93.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 112.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.9,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 100.1,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_14_copd_htn": {
+  "Benton624_Koss676_38f693e7-3c32-ccfc-9f12-2cd9ced680b6": {
     "split": "dev",
-    "patient": { "name": "Edward P Adams", "gender": "male", "birthDate": "1956-06-15" },
+    "template": "progress_note",
+    "patient": {
+      "name": "Benton624 Dante562 Koss676",
+      "gender": "male",
+      "birthDate": "2022-10-13"
+    },
     "gold": {
       "conditions": [
-        { "display": "Chronic obstructive pulmonary disease", "snomed": "13645005", "icd10": "J44.9" },
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" }
+        {
+          "display": "Fracture of bone",
+          "snomed": "125605004",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Fracture of ankle",
+          "snomed": "16114001",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Albuterol 90 MCG/ACTUAT Inhaler", "rxnorm": "745752" },
-        { "display": "Lisinopril 10 MG Oral Tablet", "rxnorm": "314076" }
+        {
+          "display": "Acetaminophen 160 MG Chewable Tablet",
+          "rxnorm": "313820"
+        }
       ],
-      "allergies": [
-        { "display": "Latex allergy", "snomed": "300916003", "category": "environment" }
-      ],
+      "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 88.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 72.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 118.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 16.64,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_15_t2dm_hypothyroid": {
+  "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527": {
     "split": "dev",
-    "patient": { "name": "Helen K Baker", "gender": "female", "birthDate": "1974-01-20" },
+    "template": "outpatient_soap",
+    "patient": {
+      "name": "Bryon392 Alden634 Gleason633",
+      "gender": "male",
+      "birthDate": "2010-10-22"
+    },
     "gold": {
       "conditions": [
-        { "display": "Type 2 diabetes mellitus", "snomed": "44054006", "icd10": "E11.9" },
-        { "display": "Hypothyroidism", "snomed": "40930008", "icd10": "E03.9" }
+        {
+          "display": "Acute viral pharyngitis",
+          "snomed": "195662009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingival disease",
+          "snomed": "18718003",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Primary dental caries",
+          "snomed": "109570002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Risk activity involvement",
+          "snomed": "160968000",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Metformin hydrochloride 500 MG Oral Tablet", "rxnorm": "860975" },
-        { "display": "Levothyroxine sodium 50 MCG Oral Tablet", "rxnorm": "966222" }
+        {
+          "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+          "rxnorm": "562251"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 64.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 82.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 142.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 18.72,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_16_depression_asthma": {
+  "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8": {
     "split": "dev",
-    "patient": { "name": "Frank T Nelson", "gender": "male", "birthDate": "1986-12-09" },
+    "template": "ed_encounter",
+    "patient": {
+      "name": "Chet188 Vito638 Feeney44",
+      "gender": "male",
+      "birthDate": "2010-12-22"
+    },
     "gold": {
       "conditions": [
-        { "display": "Major depressive disorder", "snomed": "370143000", "icd10": "F32.9" },
-        { "display": "Asthma", "snomed": "195967001", "icd10": "J45.909" }
+        {
+          "display": "Gingivitis",
+          "snomed": "66383009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Streptococcal sore throat",
+          "snomed": "43878008",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Acute viral pharyngitis",
+          "snomed": "195662009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Risk activity involvement",
+          "snomed": "160968000",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Fluticasone propionate", "rxnorm": "896209" }
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Penicillin V Potassium 250 MG Oral Tablet",
+          "rxnorm": "834061"
+        }
       ],
-      "allergies": [
-        { "display": "Allergy to peanut", "snomed": "91935004", "category": "food" }
-      ],
+      "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 74.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 85.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 127.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 24.96,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 99.3,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_17_ckd_htn": {
+  "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664": {
     "split": "dev",
-    "patient": { "name": "Ruth V Carter", "gender": "female", "birthDate": "1951-03-08" },
+    "template": "discharge_summary",
+    "patient": {
+      "name": "Christoper325 Jerrold404 Jerde200",
+      "gender": "male",
+      "birthDate": "1970-02-26"
+    },
     "gold": {
       "conditions": [
-        { "display": "Chronic kidney disease", "snomed": "709044004", "icd10": "N18.9" },
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" }
+        {
+          "display": "Risk activity involvement",
+          "snomed": "160968000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Educated to high school level",
+          "snomed": "473461003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Social isolation",
+          "snomed": "422650009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Hyperlipidemia",
+          "snomed": "55822004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Amlodipine 5 MG Oral Tablet", "rxnorm": "197361" }
+        {
+          "display": "Simvastatin 10 MG Oral Tablet",
+          "rxnorm": "314231"
+        },
+        {
+          "display": "Naproxen sodium 220 MG Oral Tablet",
+          "rxnorm": "849574"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Acetaminophen 325 MG Oral Tablet",
+          "rxnorm": "313782"
+        }
       ],
-      "allergies": [
-        { "display": "Allergy to sulfonamide", "snomed": "91931000", "category": "medication" }
-      ],
+      "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 85.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 88.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 103.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.18,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_18_pneumonia_gerd": {
+  "Clair921_Prohaska837_ea0d6390-aa61-f034-3d64-c60afe19d684": {
     "split": "dev",
-    "patient": { "name": "Henry D Mitchell", "gender": "male", "birthDate": "1971-07-22" },
+    "template": "consultation_note",
+    "patient": {
+      "name": "Clair921 Crystle668 Prohaska837",
+      "gender": "female",
+      "birthDate": "1979-08-05"
+    },
     "gold": {
       "conditions": [
-        { "display": "Pneumonia", "snomed": "233604007", "icd10": "J18.9" },
-        { "display": "Gastroesophageal reflux disease", "snomed": "235595009", "icd10": "K21.9" }
+        {
+          "display": "Otitis media",
+          "snomed": "65363002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Primary dental caries",
+          "snomed": "109570002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Viral sinusitis",
+          "snomed": "444814009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Sprain (morphologic abnormality)",
+          "snomed": "384709000",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Amoxicillin 500 MG Oral Tablet", "rxnorm": "308189" },
-        { "display": "Omeprazole 20 MG Delayed Release Oral Capsule", "rxnorm": "312134" }
+        {
+          "display": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
+          "rxnorm": "749785"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "{7 (inert ingredients 1 MG Oral Tablet) / 21 (mestranol 0.05 MG / norethindrone 1 MG Oral Tablet) } Pack [Norinyl 1+50 28 Day]",
+          "rxnorm": "749882"
+        },
+        {
+          "display": "Aspirin 81 MG Oral Tablet",
+          "rxnorm": "243670"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 94.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 82.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 110.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 17.96,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_19_covid_htn": {
+  "Darron84_Murazik203_0d79352d-ed4a-d6e9-7c27-3f85c6dff0fd": {
     "split": "dev",
-    "patient": { "name": "Margaret B Perez", "gender": "female", "birthDate": "1967-10-14" },
+    "template": "progress_note",
+    "patient": {
+      "name": "Darron84 Cyril535 Murazik203",
+      "gender": "male",
+      "birthDate": "1923-09-11"
+    },
     "gold": {
       "conditions": [
-        { "display": "COVID-19", "snomed": "840539006", "icd10": "U07.1" },
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" }
+        {
+          "display": "Acute viral pharyngitis",
+          "snomed": "195662009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Concussion injury of brain",
+          "snomed": "110030002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Concussion with loss of consciousness",
+          "snomed": "62564004",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingivitis",
+          "snomed": "66383009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Azithromycin 250 MG Oral Tablet", "rxnorm": "248656" },
-        { "display": "Lisinopril 10 MG Oral Tablet", "rxnorm": "314076" }
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Acetaminophen 325 MG Oral Tablet",
+          "rxnorm": "313782"
+        },
+        {
+          "display": "carbamazepine 20 MG/ML Oral Suspension [Tegretol]",
+          "rxnorm": "308971"
+        },
+        {
+          "display": "clonazePAM 0.25 MG Oral Tablet",
+          "rxnorm": "204892"
+        }
       ],
-      "allergies": [
-        { "display": "Allergy to penicillin", "snomed": "91936005", "category": "medication" }
-      ],
+      "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 74.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 72.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 99.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 17.35,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 102.2,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_20_cad_t2dm": {
+  "Desmond566_Hettinger594_3bc9bcd0-518c-c390-d7ad-2617beb1c17f": {
     "split": "dev",
-    "patient": { "name": "Walter C Roberts", "gender": "male", "birthDate": "1955-08-03" },
+    "template": "outpatient_soap",
+    "patient": {
+      "name": "Desmond566 Anton902 Hettinger594",
+      "gender": "male",
+      "birthDate": "2002-11-11"
+    },
     "gold": {
       "conditions": [
-        { "display": "Coronary artery disease", "snomed": "53741008", "icd10": "I25.10" },
-        { "display": "Type 2 diabetes mellitus", "snomed": "44054006", "icd10": "E11.9" }
+        {
+          "display": "Acute viral pharyngitis",
+          "snomed": "195662009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingivitis",
+          "snomed": "66383009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Laceration - injury",
+          "snomed": "312608009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Laceration of forearm",
+          "snomed": "283371005",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Aspirin 81 MG Oral Tablet", "rxnorm": "243670" },
-        { "display": "Metformin hydrochloride 500 MG Oral Tablet", "rxnorm": "860975" }
+        {
+          "display": "Acetaminophen 325 MG Oral Tablet",
+          "rxnorm": "313782"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Naproxen sodium 220 MG Oral Tablet",
+          "rxnorm": "849574"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 99.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 90.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 119.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 28.48,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 100.0,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_21_bronchitis_asthma": {
+  "Dusty207_Stokes453_c6b5eeea-95f2-dfd1-4321-09c193733ab4": {
     "split": "dev",
-    "patient": { "name": "Carolyn S Turner", "gender": "female", "birthDate": "1992-02-17" },
+    "template": "ed_encounter",
+    "patient": {
+      "name": "Dusty207 Stokes453",
+      "gender": "male",
+      "birthDate": "2005-03-20"
+    },
     "gold": {
       "conditions": [
-        { "display": "Acute bronchitis", "snomed": "10509002", "icd10": "J20.9" },
-        { "display": "Asthma", "snomed": "195967001", "icd10": "J45.909" }
+        {
+          "display": "Risk activity involvement",
+          "snomed": "160968000",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingivitis",
+          "snomed": "66383009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Primary dental caries",
+          "snomed": "109570002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Acute viral pharyngitis",
+          "snomed": "195662009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Albuterol 90 MCG/ACTUAT Inhaler", "rxnorm": "745752" }
+        {
+          "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+          "rxnorm": "562251"
+        },
+        {
+          "display": "Meperidine Hydrochloride 50 MG Oral Tablet",
+          "rxnorm": "861467"
+        },
+        {
+          "display": "Naproxen sodium 220 MG Oral Tablet",
+          "rxnorm": "849574"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        }
       ],
-      "allergies": [
-        { "display": "Allergy to aspirin", "snomed": "293584003", "category": "medication" }
-      ],
+      "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 71.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 89.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 106.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 26.1,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 99.8,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_22_oa_hypertension": {
+  "Edmundo94_Green467_eb916696-e8fc-9fbf-6c5f-53933f22dbf4": {
     "split": "dev",
-    "patient": { "name": "Arthur G Phillips", "gender": "male", "birthDate": "1957-11-29" },
+    "template": "discharge_summary",
+    "patient": {
+      "name": "Edmundo94 Alton320 Green467",
+      "gender": "male",
+      "birthDate": "2007-12-08"
+    },
     "gold": {
       "conditions": [
-        { "display": "Osteoarthritis", "snomed": "396275006", "icd10": "M19.90" },
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" }
+        {
+          "display": "Viral sinusitis",
+          "snomed": "444814009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingivitis",
+          "snomed": "66383009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingival disease",
+          "snomed": "18718003",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Primary dental caries",
+          "snomed": "109570002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Hydrochlorothiazide 25 MG Oral Tablet", "rxnorm": "310798" }
+        {
+          "display": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+          "rxnorm": "209387"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Naproxen sodium 220 MG Oral Tablet",
+          "rxnorm": "849574"
+        },
+        {
+          "display": "Acetaminophen 325 MG / HYDROcodone Bitartrate 7.5 MG Oral Tablet",
+          "rxnorm": "857005"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 12.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 90.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 73.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 91.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 29.29,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_23_hld_depression": {
+  "Eunice461_Angelic427_Kshlerin58_0c33684a-a6c3-eda7-50d4-9ededba288a8": {
     "split": "dev",
-    "patient": { "name": "Frances W Campbell", "gender": "female", "birthDate": "1979-05-04" },
+    "template": "consultation_note",
+    "patient": {
+      "name": "Eunice461 Angelic427 Kshlerin58",
+      "gender": "female",
+      "birthDate": "1978-03-19"
+    },
     "gold": {
       "conditions": [
-        { "display": "Hyperlipidemia", "snomed": "55822004", "icd10": "E78.00" },
-        { "display": "Major depressive disorder", "snomed": "370143000", "icd10": "F32.9" }
+        {
+          "display": "Loss of teeth",
+          "snomed": "37320007",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Chronic intractable migraine without aura",
+          "snomed": "124171000119105",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Chronic pain",
+          "snomed": "82423001",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Impacted molars",
+          "snomed": "196416002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Atorvastatin 20 MG Oral Tablet", "rxnorm": "259255" }
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet",
+          "rxnorm": "1049221"
+        },
+        {
+          "display": "Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet",
+          "rxnorm": "1860154"
+        },
+        {
+          "display": "Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet",
+          "rxnorm": "856987"
+        }
       ],
       "allergies": [
-        { "display": "Shellfish allergy", "snomed": "300913000", "category": "food" }
+        {
+          "display": "Allergic disposition (finding)",
+          "snomed": "609328004",
+          "category": "environment"
+        },
+        {
+          "display": "Lisinopril",
+          "snomed": "29046",
+          "category": "medication"
+        },
+        {
+          "display": "Shellfish (substance)",
+          "snomed": "735029006",
+          "category": "food"
+        }
       ],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 96.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 77.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 93.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 28.51,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 99.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_24_hypothyroid_gerd": {
+  "Frank378_Reinger292_e1b14f23-ba5d-1c1c-bc36-a3f4c88cec27": {
     "split": "dev",
-    "patient": { "name": "Lawrence J Parker", "gender": "male", "birthDate": "1973-09-12" },
+    "template": "progress_note",
+    "patient": {
+      "name": "Frank378 Jeanmarie510 Reinger292",
+      "gender": "female",
+      "birthDate": "1999-09-05"
+    },
     "gold": {
       "conditions": [
-        { "display": "Hypothyroidism", "snomed": "40930008", "icd10": "E03.9" },
-        { "display": "Gastroesophageal reflux disease", "snomed": "235595009", "icd10": "K21.9" }
+        {
+          "display": "Childhood asthma",
+          "snomed": "233678006",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Full-time employment",
+          "snomed": "160903007",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Transport problem",
+          "snomed": "266934004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Levothyroxine sodium 50 MCG Oral Tablet", "rxnorm": "966222" },
-        { "display": "Omeprazole 20 MG Delayed Release Oral Capsule", "rxnorm": "312134" }
+        {
+          "display": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+          "rxnorm": "1000126"
+        },
+        {
+          "display": "albuterol 0.83 MG/ML Inhalation Solution",
+          "rxnorm": "630208"
+        },
+        {
+          "display": "budesonide 0.25 MG/ML Inhalation Suspension",
+          "rxnorm": "351109"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 76.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 80.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 112.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 21.75,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_25_copd_cad": {
+  "Frederick289_Bergstrom287_a18a7549-55f5-dfbd-03bd-8488f664ce2f": {
     "split": "dev",
-    "patient": { "name": "Virginia M Evans", "gender": "female", "birthDate": "1953-04-26" },
+    "template": "outpatient_soap",
+    "patient": {
+      "name": "Frederick289 Hyman89 Bergstrom287",
+      "gender": "male",
+      "birthDate": "2020-09-05"
+    },
     "gold": {
       "conditions": [
-        { "display": "Chronic obstructive pulmonary disease", "snomed": "13645005", "icd10": "J44.9" },
-        { "display": "Coronary artery disease", "snomed": "53741008", "icd10": "I25.10" }
+        {
+          "display": "Viral sinusitis",
+          "snomed": "444814009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Fracture of bone",
+          "snomed": "125605004",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Fracture subluxation of wrist",
+          "snomed": "263102004",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingival disease",
+          "snomed": "18718003",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Aspirin 81 MG Oral Tablet", "rxnorm": "243670" },
-        { "display": "Amlodipine 5 MG Oral Tablet", "rxnorm": "197361" }
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "clindamycin 300 MG Oral Capsule",
+          "rxnorm": "284215"
+        },
+        {
+          "display": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+          "rxnorm": "1870230"
+        },
+        {
+          "display": "Loratadine 5 MG Chewable Tablet",
+          "rxnorm": "665078"
+        }
       ],
       "allergies": [
-        { "display": "Latex allergy", "snomed": "300916003", "category": "environment" }
+        {
+          "display": "Allergic disposition (finding)",
+          "snomed": "609328004",
+          "category": "environment"
+        },
+        {
+          "display": "Mold (organism)",
+          "snomed": "84489001",
+          "category": "environment"
+        },
+        {
+          "display": "House dust mite (organism)",
+          "snomed": "260147004",
+          "category": "environment"
+        }
       ],
       "vitals": {
-        "systolic_bp": { "value": 126.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 16.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 97.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 83.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 113.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 18.85,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 99.5,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_26_htn_hld_outpatient": {
-    "split": "test",
-    "patient": { "name": "Carlos A Rodriguez", "gender": "male", "birthDate": "1975-03-14" },
+  "Giovanni385_Bergnaum523_7d72abaf-e900-2d28-65c0-a860a1243275": {
+    "split": "dev",
+    "template": "ed_encounter",
+    "patient": {
+      "name": "Giovanni385 Eddy900 Bergnaum523",
+      "gender": "male",
+      "birthDate": "1923-09-11"
+    },
     "gold": {
       "conditions": [
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" },
-        { "display": "Hyperlipidemia", "snomed": "55822004", "icd10": "E78.00" }
+        {
+          "display": "Risk activity involvement",
+          "snomed": "160968000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Serving in military service",
+          "snomed": "1187604002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Prediabetes",
+          "snomed": "714628002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Lisinopril 10 MG Oral Tablet", "rxnorm": "314076" },
-        { "display": "Atorvastatin 20 MG Oral Tablet", "rxnorm": "259255" }
-      ],
-      "allergies": [
-        { "display": "Allergy to penicillin", "snomed": "91936005", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_27_t2dm_ckd_consult": {
-    "split": "test",
-    "patient": { "name": "Beatriz M Sanchez", "gender": "female", "birthDate": "1966-07-21" },
-    "gold": {
-      "conditions": [
-        { "display": "Type 2 diabetes mellitus", "snomed": "44054006", "icd10": "E11.9" },
-        { "display": "Chronic kidney disease", "snomed": "709044004", "icd10": "N18.9" }
-      ],
-      "medications": [
-        { "display": "Metformin hydrochloride 500 MG Oral Tablet", "rxnorm": "860975" }
+        {
+          "display": "etoposide 100 MG Injection [Etopophos]",
+          "rxnorm": "226719"
+        },
+        {
+          "display": "Cisplatin 50 MG Injection",
+          "rxnorm": "1736854"
+        },
+        {
+          "display": "lisinopril 10 MG Oral Tablet",
+          "rxnorm": "314076"
+        },
+        {
+          "display": "Hydrochlorothiazide 25 MG Oral Tablet",
+          "rxnorm": "310798"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 136.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 84.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 78.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.4, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 88.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 101.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 134.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.93,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 100.3,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_28_asthma_acute_ed": {
-    "split": "test",
-    "patient": { "name": "David K Ortiz", "gender": "male", "birthDate": "1994-11-09" },
+  "Gonzalo160_Bahringer146_57301634-5bc1-e271-56c3-d631884da0f7": {
+    "split": "dev",
+    "template": "discharge_summary",
+    "patient": {
+      "name": "Gonzalo160 Bahringer146",
+      "gender": "male",
+      "birthDate": "2023-08-09"
+    },
     "gold": {
       "conditions": [
-        { "display": "Asthma", "snomed": "195967001", "icd10": "J45.909" }
+        {
+          "display": "Otitis media",
+          "snomed": "65363002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Laceration - injury",
+          "snomed": "312608009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Laceration of forearm",
+          "snomed": "283371005",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Albuterol 90 MCG/ACTUAT Inhaler", "rxnorm": "745752" }
-      ],
-      "allergies": [
-        { "display": "Allergy to peanut", "snomed": "91935004", "category": "food" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 120.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 78.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 88.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 20.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.2, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_29_copd_discharge": {
-    "split": "test",
-    "patient": { "name": "Gloria T Hernandez", "gender": "female", "birthDate": "1958-09-02" },
-    "gold": {
-      "conditions": [
-        { "display": "Chronic obstructive pulmonary disease", "snomed": "13645005", "icd10": "J44.9" },
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" }
-      ],
-      "medications": [
-        { "display": "Amlodipine 5 MG Oral Tablet", "rxnorm": "197361" }
-      ],
-      "allergies": [
-        { "display": "Latex allergy", "snomed": "300916003", "category": "environment" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 132.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 76.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 18.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.4, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_30_cad_postpci_progress": {
-    "split": "test",
-    "patient": { "name": "Javier E Morales", "gender": "male", "birthDate": "1961-04-18" },
-    "gold": {
-      "conditions": [
-        { "display": "Coronary artery disease", "snomed": "53741008", "icd10": "I25.10" },
-        { "display": "Hyperlipidemia", "snomed": "55822004", "icd10": "E78.00" }
-      ],
-      "medications": [
-        { "display": "Aspirin 81 MG Oral Tablet", "rxnorm": "243670" },
-        { "display": "Atorvastatin 20 MG Oral Tablet", "rxnorm": "259255" }
+        {
+          "display": "Acetaminophen 160 MG Chewable Tablet",
+          "rxnorm": "313820"
+        },
+        {
+          "display": "Amoxicillin 500 MG Oral Tablet",
+          "rxnorm": "308192"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Ibuprofen 100 MG Oral Tablet",
+          "rxnorm": "198405"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 124.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 76.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 68.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 14.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.0, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 89.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 74.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 115.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 16.23,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_31_covid_pneumonia_ed": {
-    "split": "test",
-    "patient": { "name": "Rosa L Martinez", "gender": "female", "birthDate": "1970-12-11" },
+  "Gordon377_Mayert710_61881389-a751-276d-d508-7c3975573c04": {
+    "split": "dev",
+    "template": "consultation_note",
+    "patient": {
+      "name": "Gordon377 Nick779 Mayert710",
+      "gender": "male",
+      "birthDate": "2021-07-24"
+    },
     "gold": {
       "conditions": [
-        { "display": "COVID-19", "snomed": "840539006", "icd10": "U07.1" },
-        { "display": "Pneumonia", "snomed": "233604007", "icd10": "J18.9" }
+        {
+          "display": "Viral sinusitis",
+          "snomed": "444814009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Otitis media",
+          "snomed": "65363002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Acute bronchitis",
+          "snomed": "10509002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Azithromycin 250 MG Oral Tablet", "rxnorm": "248656" }
-      ],
-      "allergies": [
-        { "display": "Allergy to sulfonamide", "snomed": "91931000", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 130.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 92.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 22.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 101.2, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_32_mdd_hypothyroid_soap": {
-    "split": "test",
-    "patient": { "name": "Carmen N Lopez", "gender": "female", "birthDate": "1981-08-25" },
-    "gold": {
-      "conditions": [
-        { "display": "Major depressive disorder", "snomed": "370143000", "icd10": "F32.9" },
-        { "display": "Hypothyroidism", "snomed": "40930008", "icd10": "E03.9" }
-      ],
-      "medications": [
-        { "display": "Levothyroxine sodium 50 MCG Oral Tablet", "rxnorm": "966222" }
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Acetaminophen 160 MG Chewable Tablet",
+          "rxnorm": "313820"
+        },
+        {
+          "display": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "rxnorm": "1043400"
+        },
+        {
+          "display": "Amoxicillin 500 MG Oral Tablet",
+          "rxnorm": "308192"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 122.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 78.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 66.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 14.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.1, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 12.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 83.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 84.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 104.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 15.01,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_33_oa_gerd_consult": {
-    "split": "test",
-    "patient": { "name": "Miguel A Flores", "gender": "male", "birthDate": "1953-01-30" },
+  "Isiah14_Prohaska837_218304eb-ca57-2cfc-2306-25306dfa1e22": {
+    "split": "dev",
+    "template": "progress_note",
+    "patient": {
+      "name": "Isiah14 Prohaska837",
+      "gender": "male",
+      "birthDate": "1996-12-12"
+    },
     "gold": {
       "conditions": [
-        { "display": "Osteoarthritis", "snomed": "396275006", "icd10": "M19.90" },
-        { "display": "Gastroesophageal reflux disease", "snomed": "235595009", "icd10": "K21.9" }
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Stress",
+          "snomed": "73595000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Full-time employment",
+          "snomed": "160903007",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Unemployed",
+          "snomed": "73438004",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Omeprazole 20 MG Delayed Release Oral Capsule", "rxnorm": "312134" }
-      ],
-      "allergies": [
-        { "display": "Allergy to codeine", "snomed": "294505008", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 80.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 72.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.3, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_34_htn_t2dm_discharge": {
-    "split": "test",
-    "patient": { "name": "Isabel C Ramos", "gender": "female", "birthDate": "1969-06-14" },
-    "gold": {
-      "conditions": [
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" },
-        { "display": "Type 2 diabetes mellitus", "snomed": "44054006", "icd10": "E11.9" }
-      ],
-      "medications": [
-        { "display": "Lisinopril 10 MG Oral Tablet", "rxnorm": "314076" },
-        { "display": "Metformin hydrochloride 500 MG Oral Tablet", "rxnorm": "860975" }
-      ],
-      "allergies": [
-        { "display": "Allergy to penicillin", "snomed": "91936005", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 134.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 84.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.5, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_35_bronchitis_asthma_soap": {
-    "split": "test",
-    "patient": { "name": "Raul F Torres", "gender": "male", "birthDate": "1989-05-19" },
-    "gold": {
-      "conditions": [
-        { "display": "Acute bronchitis", "snomed": "10509002", "icd10": "J20.9" },
-        { "display": "Asthma", "snomed": "195967001", "icd10": "J45.909" }
-      ],
-      "medications": [
-        { "display": "Albuterol 90 MCG/ACTUAT Inhaler", "rxnorm": "745752" },
-        { "display": "Fluticasone propionate", "rxnorm": "896209" }
+        {
+          "display": "amLODIPine 2.5 MG Oral Tablet",
+          "rxnorm": "308136"
+        },
+        {
+          "display": "lisinopril 10 MG Oral Tablet",
+          "rxnorm": "314076"
+        },
+        {
+          "display": "Hydrochlorothiazide 25 MG Oral Tablet",
+          "rxnorm": "310798"
+        },
+        {
+          "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+          "rxnorm": "562251"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 120.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 76.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 80.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 18.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.4, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 61.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 78.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 121.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 30.03,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 99.0,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_36_ckd_htn_soap": {
-    "split": "test",
-    "patient": { "name": "Lucia P Diaz", "gender": "female", "birthDate": "1964-10-08" },
+  "Jeanie708_Jaskolski867_30e1a97d-893d-4789-abc3-f8a30867f66c": {
+    "split": "dev",
+    "template": "outpatient_soap",
+    "patient": {
+      "name": "Jeanie708 Janene3 Jaskolski867",
+      "gender": "female",
+      "birthDate": "2012-03-29"
+    },
     "gold": {
       "conditions": [
-        { "display": "Chronic kidney disease", "snomed": "709044004", "icd10": "N18.9" },
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" }
+        {
+          "display": "Primary dental caries",
+          "snomed": "109570002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingivitis",
+          "snomed": "66383009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingival disease",
+          "snomed": "18718003",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Laceration - injury",
+          "snomed": "312608009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Amlodipine 5 MG Oral Tablet", "rxnorm": "197361" },
-        { "display": "Hydrochlorothiazide 25 MG Oral Tablet", "rxnorm": "310798" }
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Ibuprofen 100 MG Oral Tablet",
+          "rxnorm": "198405"
+        },
+        {
+          "display": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+          "rxnorm": "1870230"
+        },
+        {
+          "display": "Loratadine 5 MG Chewable Tablet",
+          "rxnorm": "665078"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Allergic disposition (finding)",
+          "snomed": "609328004",
+          "category": "environment"
+        },
+        {
+          "display": "Cow's milk (substance)",
+          "snomed": "3718001",
+          "category": "food"
+        }
+      ],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 16.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 83.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 78.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 104.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 19.14,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Jessia669_Rodriguez71_9dcfc757-a5eb-e12a-56fe-29efd0f3ebac": {
+    "split": "dev",
+    "template": "ed_encounter",
+    "patient": {
+      "name": "Jessia669 Rodriguez71",
+      "gender": "female",
+      "birthDate": "1950-04-13"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Educated to high school level",
+          "snomed": "473461003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Prediabetes",
+          "snomed": "714628002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Anemia",
+          "snomed": "271737000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Past pregnancy history of miscarriage",
+          "snomed": "161744009",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "etoposide 100 MG Injection [Etopophos]",
+          "rxnorm": "226719"
+        },
+        {
+          "display": "Cisplatin 50 MG Injection",
+          "rxnorm": "1736854"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 84.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 92.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 113.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 30.37,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_37_cad_gerd_progress": {
-    "split": "test",
-    "patient": { "name": "Andres G Silva", "gender": "male", "birthDate": "1957-02-23" },
+  "Johnna810_Hilll811_016ec39f-515c-170a-56cb-9870276c256c": {
+    "split": "dev",
+    "template": "discharge_summary",
+    "patient": {
+      "name": "Johnna810 Shay725 Hilll811",
+      "gender": "female",
+      "birthDate": "1988-10-04"
+    },
     "gold": {
       "conditions": [
-        { "display": "Coronary artery disease", "snomed": "53741008", "icd10": "I25.10" },
-        { "display": "Gastroesophageal reflux disease", "snomed": "235595009", "icd10": "K21.9" }
+        {
+          "display": "Educated to high school level",
+          "snomed": "473461003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Part-time employment",
+          "snomed": "160904001",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Past pregnancy history of miscarriage",
+          "snomed": "161744009",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Full-time employment",
+          "snomed": "160903007",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Aspirin 81 MG Oral Tablet", "rxnorm": "243670" },
-        { "display": "Omeprazole 20 MG Delayed Release Oral Capsule", "rxnorm": "312134" }
-      ],
-      "allergies": [
-        { "display": "Allergy to aspirin", "snomed": "293584003", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_38_copd_pneumonia_ed": {
-    "split": "test",
-    "patient": { "name": "Teresa B Castillo", "gender": "female", "birthDate": "1962-11-15" },
-    "gold": {
-      "conditions": [
-        { "display": "Chronic obstructive pulmonary disease", "snomed": "13645005", "icd10": "J44.9" },
-        { "display": "Pneumonia", "snomed": "233604007", "icd10": "J18.9" }
-      ],
-      "medications": [
-        { "display": "Amoxicillin 500 MG Oral Tablet", "rxnorm": "308189" },
-        { "display": "Azithromycin 250 MG Oral Tablet", "rxnorm": "248656" }
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Errin 28 Day]",
+          "rxnorm": "831533"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "body_temperature": {
+          "value": 100.1,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 71.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 92.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 124.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 30.34,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_39_hypothyroid_mdd_consult": {
-    "split": "test",
-    "patient": { "name": "Francisco J Vargas", "gender": "male", "birthDate": "1978-07-07" },
+  "Jorge203_Magaña874_f9c0b1d9-c732-4d86-7c89-02c0c97a6c98": {
+    "split": "dev",
+    "template": "consultation_note",
+    "patient": {
+      "name": "Jorge203 César846 Magaña874",
+      "gender": "male",
+      "birthDate": "1966-02-17"
+    },
     "gold": {
       "conditions": [
-        { "display": "Hypothyroidism", "snomed": "40930008", "icd10": "E03.9" },
-        { "display": "Major depressive disorder", "snomed": "370143000", "icd10": "F32.9" }
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Has a criminal record",
+          "snomed": "266948004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Prediabetes",
+          "snomed": "714628002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Anemia",
+          "snomed": "271737000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Levothyroxine sodium 50 MCG Oral Tablet", "rxnorm": "966222" }
-      ],
-      "allergies": [
-        { "display": "Shellfish allergy", "snomed": "300913000", "category": "food" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_40_t2dm_hld_discharge": {
-    "split": "test",
-    "patient": { "name": "Elena V Mendoza", "gender": "female", "birthDate": "1972-03-29" },
-    "gold": {
-      "conditions": [
-        { "display": "Type 2 diabetes mellitus", "snomed": "44054006", "icd10": "E11.9" },
-        { "display": "Hyperlipidemia", "snomed": "55822004", "icd10": "E78.00" }
-      ],
-      "medications": [
-        { "display": "Metformin hydrochloride 500 MG Oral Tablet", "rxnorm": "860975" },
-        { "display": "Atorvastatin 20 MG Oral Tablet", "rxnorm": "259255" }
+        {
+          "display": "amLODIPine 2.5 MG Oral Tablet",
+          "rxnorm": "308136"
+        },
+        {
+          "display": "lisinopril 10 MG Oral Tablet",
+          "rxnorm": "314076"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "ciprofloxacin 500 MG Oral Tablet",
+          "rxnorm": "309309"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 12.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 61.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 84.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 114.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 30.37,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_41_oa_htn_soap": {
-    "split": "test",
-    "patient": { "name": "Oscar H Castro", "gender": "male", "birthDate": "1950-12-18" },
+  "José_Luis472_Amador986_d47be549-1913-82d3-89df-5f38aab0ed2f": {
+    "split": "dev",
+    "template": "progress_note",
+    "patient": {
+      "name": "José Luis472 Marcos263 Amador986",
+      "gender": "male",
+      "birthDate": "1965-09-15"
+    },
     "gold": {
       "conditions": [
-        { "display": "Osteoarthritis", "snomed": "396275006", "icd10": "M19.90" },
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" }
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Refugee (person)",
+          "snomed": "446654005",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Prediabetes",
+          "snomed": "714628002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Anemia",
+          "snomed": "271737000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Lisinopril 10 MG Oral Tablet", "rxnorm": "314076" }
-      ],
-      "allergies": [
-        { "display": "Allergy to codeine", "snomed": "294505008", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_42_asthma_covid_ed": {
-    "split": "test",
-    "patient": { "name": "Adriana S Rios", "gender": "female", "birthDate": "1991-09-03" },
-    "gold": {
-      "conditions": [
-        { "display": "Asthma", "snomed": "195967001", "icd10": "J45.909" },
-        { "display": "COVID-19", "snomed": "840539006", "icd10": "U07.1" }
-      ],
-      "medications": [
-        { "display": "Albuterol 90 MCG/ACTUAT Inhaler", "rxnorm": "745752" }
-      ],
-      "allergies": [
-        { "display": "Allergy to penicillin", "snomed": "91936005", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_43_gerd_depression_soap": {
-    "split": "test",
-    "patient": { "name": "Guillermo R Medina", "gender": "male", "birthDate": "1984-04-12" },
-    "gold": {
-      "conditions": [
-        { "display": "Gastroesophageal reflux disease", "snomed": "235595009", "icd10": "K21.9" },
-        { "display": "Major depressive disorder", "snomed": "370143000", "icd10": "F32.9" }
-      ],
-      "medications": [
-        { "display": "Omeprazole 20 MG Delayed Release Oral Capsule", "rxnorm": "312134" }
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "ferrous sulfate 325 MG Oral Tablet",
+          "rxnorm": "310325"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 83.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 83.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 130.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.47,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_44_cad_ckd_consult": {
+  "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624": {
     "split": "test",
-    "patient": { "name": "Silvia E Guerrero", "gender": "female", "birthDate": "1959-08-27" },
+    "template": "outpatient_soap",
+    "patient": {
+      "name": "Karl184 Bayer639",
+      "gender": "male",
+      "birthDate": "1923-09-11"
+    },
     "gold": {
       "conditions": [
-        { "display": "Coronary artery disease", "snomed": "53741008", "icd10": "I25.10" },
-        { "display": "Chronic kidney disease", "snomed": "709044004", "icd10": "N18.9" }
+        {
+          "display": "Serving in military service",
+          "snomed": "1187604002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Lack of access to transportation",
+          "snomed": "713458007",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Transport problem",
+          "snomed": "266934004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Aspirin 81 MG Oral Tablet", "rxnorm": "243670" },
-        { "display": "Amlodipine 5 MG Oral Tablet", "rxnorm": "197361" }
-      ],
-      "allergies": [
-        { "display": "Latex allergy", "snomed": "300916003", "category": "environment" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_45_htn_bronchitis_soap": {
-    "split": "test",
-    "patient": { "name": "Manuel D Delgado", "gender": "male", "birthDate": "1967-01-16" },
-    "gold": {
-      "conditions": [
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" },
-        { "display": "Acute bronchitis", "snomed": "10509002", "icd10": "J20.9" }
-      ],
-      "medications": [
-        { "display": "Lisinopril 10 MG Oral Tablet", "rxnorm": "314076" },
-        { "display": "Azithromycin 250 MG Oral Tablet", "rxnorm": "248656" }
+        {
+          "display": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+          "rxnorm": "896209"
+        },
+        {
+          "display": "amLODIPine 2.5 MG Oral Tablet",
+          "rxnorm": "308136"
+        },
+        {
+          "display": "Hydrochlorothiazide 25 MG Oral Tablet",
+          "rxnorm": "310798"
+        },
+        {
+          "display": "albuterol 5 MG/ML Inhalation Solution",
+          "rxnorm": "245314"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 87.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 93.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 129.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.42,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 100.4,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.705,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_46_hld_copd_discharge": {
+  "Karlyn611_Stracke611_fb151346-7cdb-6ad5-a7a4-9479d39dc11a": {
     "split": "test",
-    "patient": { "name": "Patricia K Molina", "gender": "female", "birthDate": "1956-05-24" },
+    "template": "ed_encounter",
+    "patient": {
+      "name": "Karlyn611 Janeth814 Stracke611",
+      "gender": "female",
+      "birthDate": "2025-04-20"
+    },
     "gold": {
-      "conditions": [
-        { "display": "Hyperlipidemia", "snomed": "55822004", "icd10": "E78.00" },
-        { "display": "Chronic obstructive pulmonary disease", "snomed": "13645005", "icd10": "J44.9" }
-      ],
-      "medications": [
-        { "display": "Atorvastatin 20 MG Oral Tablet", "rxnorm": "259255" }
-      ],
-      "allergies": [
-        { "display": "Allergy to sulfonamide", "snomed": "91931000", "category": "medication" }
-      ],
+      "conditions": [],
+      "medications": [],
+      "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 12.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 96.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 84.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 125.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        },
+        "bmi": {
+          "value": 24.5,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        }
       }
     }
   },
-  "patient_47_t2dm_hypothyroid_soap": {
+  "Kyle55_Jerde200_3647f1af-7f88-43f0-ca40-b74c4c84c70e": {
     "split": "test",
-    "patient": { "name": "Emilio F Herrera", "gender": "male", "birthDate": "1976-11-05" },
+    "template": "discharge_summary",
+    "patient": {
+      "name": "Kyle55 Jerde200",
+      "gender": "male",
+      "birthDate": "1977-01-27"
+    },
     "gold": {
       "conditions": [
-        { "display": "Type 2 diabetes mellitus", "snomed": "44054006", "icd10": "E11.9" },
-        { "display": "Hypothyroidism", "snomed": "40930008", "icd10": "E03.9" }
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Stress",
+          "snomed": "73595000",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Full-time employment",
+          "snomed": "160903007",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Prediabetes",
+          "snomed": "714628002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Metformin hydrochloride 500 MG Oral Tablet", "rxnorm": "860975" },
-        { "display": "Levothyroxine sodium 50 MCG Oral Tablet", "rxnorm": "966222" }
+        {
+          "display": "Ibuprofen 200 MG Oral Tablet",
+          "rxnorm": "310965"
+        },
+        {
+          "display": "150 ML vancomycin 5 MG/ML Injection",
+          "rxnorm": "1807510"
+        },
+        {
+          "display": "piperacillin 2000 MG / tazobactam 250 MG Injection",
+          "rxnorm": "1659131"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 70.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 84.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 109.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 30.39,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "oxygen_saturation": {
+          "value": 96.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        }
       }
     }
   },
-  "patient_48_pneumonia_htn_ed": {
+  "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360": {
     "split": "test",
-    "patient": { "name": "Alicia T Navarro", "gender": "female", "birthDate": "1965-03-31" },
+    "template": "consultation_note",
+    "patient": {
+      "name": "Lai148 Hettinger594",
+      "gender": "female",
+      "birthDate": "1985-10-25"
+    },
     "gold": {
       "conditions": [
-        { "display": "Pneumonia", "snomed": "233604007", "icd10": "J18.9" },
-        { "display": "Essential hypertension", "snomed": "59621000", "icd10": "I10" }
+        {
+          "display": "Seizure disorder",
+          "snomed": "128613002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "History of seizure",
+          "snomed": "1290882004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Epilepsy",
+          "snomed": "84757009",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
       ],
       "medications": [
-        { "display": "Amoxicillin 500 MG Oral Tablet", "rxnorm": "308189" },
-        { "display": "Lisinopril 10 MG Oral Tablet", "rxnorm": "314076" }
-      ],
-      "allergies": [
-        { "display": "Allergy to penicillin", "snomed": "91936005", "category": "medication" }
-      ],
-      "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
-      }
-    }
-  },
-  "patient_49_oa_cad_progress": {
-    "split": "test",
-    "patient": { "name": "Sergio R Fuentes", "gender": "male", "birthDate": "1954-07-19" },
-    "gold": {
-      "conditions": [
-        { "display": "Osteoarthritis", "snomed": "396275006", "icd10": "M19.90" },
-        { "display": "Coronary artery disease", "snomed": "53741008", "icd10": "I25.10" }
-      ],
-      "medications": [
-        { "display": "Aspirin 81 MG Oral Tablet", "rxnorm": "243670" }
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Diazepam 5 MG Oral Tablet",
+          "rxnorm": "197591"
+        },
+        {
+          "display": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+          "rxnorm": "751905"
+        },
+        {
+          "display": "clonazePAM 0.25 MG Oral Tablet",
+          "rxnorm": "204892"
+        }
       ],
       "allergies": [],
       "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 87.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 94.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 107.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 29.45,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.7,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 99.422,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   },
-  "patient_50_gerd_ckd_consult": {
+  "Lavona767_Weissnat378_4efb73ab-7e71-9781-652c-84f4e6e8c035": {
     "split": "test",
-    "patient": { "name": "Marta N Vega", "gender": "female", "birthDate": "1960-10-10" },
+    "template": "progress_note",
+    "patient": {
+      "name": "Lavona767 Dorcas534 Weissnat378",
+      "gender": "female",
+      "birthDate": "2022-05-20"
+    },
     "gold": {
       "conditions": [
-        { "display": "Gastroesophageal reflux disease", "snomed": "235595009", "icd10": "K21.9" },
-        { "display": "Chronic kidney disease", "snomed": "709044004", "icd10": "N18.9" }
+        {
+          "display": "Otitis media",
+          "snomed": "65363002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Infection of tooth",
+          "snomed": "427898007",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Primary dental caries",
+          "snomed": "109570002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Alveolitis of jaw",
+          "snomed": "61804006",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
       ],
       "medications": [
-        { "display": "Omeprazole 20 MG Delayed Release Oral Capsule", "rxnorm": "312134" },
-        { "display": "Amlodipine 5 MG Oral Tablet", "rxnorm": "197361" }
+        {
+          "display": "Acetaminophen 325 MG Oral Tablet",
+          "rxnorm": "313782"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Acetaminophen 160 MG Chewable Tablet",
+          "rxnorm": "313820"
+        },
+        {
+          "display": "Amoxicillin 500 MG Oral Tablet",
+          "rxnorm": "308192"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 61.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 81.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 103.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 20.08,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Lowell343_Gottlieb798_8bb0c005-115c-3583-3fb5-63a1bdc962fc": {
+    "split": "test",
+    "template": "outpatient_soap",
+    "patient": {
+      "name": "Lowell343 Wes853 Gottlieb798",
+      "gender": "male",
+      "birthDate": "2012-05-30"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Otitis media",
+          "snomed": "65363002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Viral sinusitis",
+          "snomed": "444814009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingivitis",
+          "snomed": "66383009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Gingival disease",
+          "snomed": "18718003",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
+      ],
+      "medications": [
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Ibuprofen 100 MG Oral Tablet",
+          "rxnorm": "198405"
+        },
+        {
+          "display": "Amoxicillin 500 MG Oral Tablet",
+          "rxnorm": "308192"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 94.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 76.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 129.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 18.43,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Lucas404_Fritsch593_bb4efdf8-f83e-153c-906f-9a64f38a4fad": {
+    "split": "test",
+    "template": "ed_encounter",
+    "patient": {
+      "name": "Lucas404 Rhett759 Fritsch593",
+      "gender": "male",
+      "birthDate": "1923-09-11"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Housing unsatisfactory",
+          "snomed": "105531004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Prediabetes",
+          "snomed": "714628002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Anemia",
+          "snomed": "271737000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Alteplase 100 MG Injection",
+          "rxnorm": "1804799"
+        },
+        {
+          "display": "Clopidogrel 75 MG Oral Tablet",
+          "rxnorm": "309362"
+        },
+        {
+          "display": "Naproxen sodium 220 MG Oral Tablet",
+          "rxnorm": "849574"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 94.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 78.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 136.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 30.34,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 100.2,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6": {
+    "split": "test",
+    "template": "discharge_summary",
+    "patient": {
+      "name": "Luke971 Boehm581",
+      "gender": "male",
+      "birthDate": "1923-09-11"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Serving in military service",
+          "snomed": "1187604002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Body mass index 30+ - obesity",
+          "snomed": "162864005",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Recurrent urinary tract infection",
+          "snomed": "197927001",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Ibuprofen 200 MG Oral Tablet",
+          "rxnorm": "310965"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "prasugrel 10 MG Oral Tablet",
+          "rxnorm": "855812"
+        },
+        {
+          "display": "valsartan 160 MG Oral Tablet",
+          "rxnorm": "349201"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 78.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 79.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 128.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.61,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 100.0,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd": {
+    "split": "test",
+    "template": "consultation_note",
+    "patient": {
+      "name": "Marhta321 Reiko946 Dooley940",
+      "gender": "female",
+      "birthDate": "1976-09-13"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Housing unsatisfactory",
+          "snomed": "105531004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Lack of access to transportation",
+          "snomed": "713458007",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Transport problem",
+          "snomed": "266934004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Acetaminophen 325 MG Oral Tablet",
+          "rxnorm": "313782"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Etonogestrel 68 MG Drug Implant",
+          "rxnorm": "389221"
+        },
+        {
+          "display": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "rxnorm": "1043400"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 86.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 80.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 102.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.45,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Maria750_Swift555_34220d44-6b74-1b7e-0a3d-3f2305571df2": {
+    "split": "test",
+    "template": "progress_note",
+    "patient": {
+      "name": "Maria750 Alton320 Swift555",
+      "gender": "male",
+      "birthDate": "2000-03-19"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Laceration - injury",
+          "snomed": "312608009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Laceration of thigh",
+          "snomed": "283385000",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Full-time employment",
+          "snomed": "160903007",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Penicillin V Potassium 500 MG Oral Tablet",
+          "rxnorm": "834102"
+        },
+        {
+          "display": "Ibuprofen 200 MG Oral Tablet",
+          "rxnorm": "310965"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+          "rxnorm": "1870230"
+        }
       ],
       "allergies": [
-        { "display": "Allergy to codeine", "snomed": "294505008", "category": "medication" }
+        {
+          "display": "Allergic disposition (finding)",
+          "snomed": "609328004",
+          "category": "environment"
+        },
+        {
+          "display": "Mold (organism)",
+          "snomed": "84489001",
+          "category": "environment"
+        },
+        {
+          "display": "House dust mite (organism)",
+          "snomed": "260147004",
+          "category": "environment"
+        }
       ],
       "vitals": {
-        "systolic_bp": { "value": 128.0, "unit": "mmHg", "loinc": "8480-6" },
-        "diastolic_bp": { "value": 82.0, "unit": "mmHg", "loinc": "8462-4" },
-        "heart_rate": { "value": 74.0, "unit": "/min", "loinc": "8867-4" },
-        "respiratory_rate": { "value": 16.0, "unit": "/min", "loinc": "9279-1" },
-        "body_temperature": { "value": 98.6, "unit": "[degF]", "loinc": "8310-5" }
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 60.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 67.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 124.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.51,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 99.5,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Maybelle917_Chelsea317_West559_f6cb0cb7-f827-f238-db94-d8309c1901de": {
+    "split": "test",
+    "template": "outpatient_soap",
+    "patient": {
+      "name": "Maybelle917 Chelsea317 West559",
+      "gender": "female",
+      "birthDate": "1979-08-05"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Adolescent idiopathic scoliosis",
+          "snomed": "203646004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Educated to high school level",
+          "snomed": "473461003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Lack of access to transportation",
+          "snomed": "713458007",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Transport problem",
+          "snomed": "266934004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "tramadol hydrochloride 50 MG Oral Tablet",
+          "rxnorm": "835603"
+        },
+        {
+          "display": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+          "rxnorm": "856987"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 61.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 88.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 131.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.99,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "oxygen_saturation": {
+          "value": 75.35,
+          "unit": "%",
+          "loinc": "59408-5"
+        },
+        "body_temperature": {
+          "value": 107.1,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        }
+      }
+    }
+  },
+  "Mitsuko474_Hyatt152_4f76f10e-e7bc-799a-736e-d2f7dcac0a52": {
+    "split": "test",
+    "template": "ed_encounter",
+    "patient": {
+      "name": "Mitsuko474 Chandra831 Hyatt152",
+      "gender": "female",
+      "birthDate": "1976-02-07"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Prediabetes",
+          "snomed": "714628002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Educated to high school level",
+          "snomed": "473461003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Anemia",
+          "snomed": "271737000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Stress",
+          "snomed": "73595000",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Acetaminophen 325 MG Oral Tablet",
+          "rxnorm": "313782"
+        },
+        {
+          "display": "Simvastatin 10 MG Oral Tablet",
+          "rxnorm": "314231"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "{5 (dienogest 2 MG / estradiol valerate 2 MG Oral Tablet) / 17 (dienogest 3 MG / estradiol valerate 2 MG Oral Tablet) / 2 (estradiol valerate 1 MG Oral Tablet) / 2 (estradiol valerate 3 MG Oral Tablet) / 2 (inert ingredients 1 MG Oral Tablet) } Pack [Natazia 28 Day]",
+          "rxnorm": "978950"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 72.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 82.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 116.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.78,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Moises22_Williamson769_80aaa95a-27dc-5774-e773-d40dc0460191": {
+    "split": "test",
+    "template": "discharge_summary",
+    "patient": {
+      "name": "Moises22 Kerry175 Williamson769",
+      "gender": "male",
+      "birthDate": "2001-05-15"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Gingivitis",
+          "snomed": "66383009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Concussion injury of brain",
+          "snomed": "110030002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Concussion with no loss of consciousness",
+          "snomed": "62106007",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Only received primary school education",
+          "snomed": "224295006",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 85.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 85.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 110.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 23.77,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Moshe758_Stamm704_5c2102a9-1e48-bc42-f711-e40c57b7f4e6": {
+    "split": "test",
+    "template": "consultation_note",
+    "patient": {
+      "name": "Moshe758 Herman763 Stamm704",
+      "gender": "male",
+      "birthDate": "1956-02-02"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Only received primary school education",
+          "snomed": "224295006",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Prediabetes",
+          "snomed": "714628002",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Body mass index 30+ - obesity",
+          "snomed": "162864005",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Anemia",
+          "snomed": "271737000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "tropicamide 5 MG/ML Ophthalmic Solution",
+          "rxnorm": "313521"
+        },
+        {
+          "display": "10 ML Fentanyl 0.05 MG/ML Injection",
+          "rxnorm": "1735006"
+        },
+        {
+          "display": "desflurane 1000 MG/ML Inhalation Solution",
+          "rxnorm": "562366"
+        },
+        {
+          "display": "Rocuronium bromide 10 MG/ML Injectable Solution",
+          "rxnorm": "1234995"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "oxygen_saturation": {
+          "value": 97.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        },
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 70.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 72.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 105.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 30.26,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 100.0,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        }
+      }
+    }
+  },
+  "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9": {
+    "split": "test",
+    "template": "progress_note",
+    "patient": {
+      "name": "Nicolle442 Lynnette27 Schuppe920",
+      "gender": "female",
+      "birthDate": "1966-04-08"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Chronic sinusitis",
+          "snomed": "40055000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Risk activity involvement",
+          "snomed": "160968000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Body mass index 30+ - obesity",
+          "snomed": "162864005",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Simvastatin 10 MG Oral Tablet",
+          "rxnorm": "314231"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Ibuprofen 200 MG Oral Tablet",
+          "rxnorm": "310965"
+        },
+        {
+          "display": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "rxnorm": "1043400"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Allergic disposition (finding)",
+          "snomed": "609328004",
+          "category": "environment"
+        },
+        {
+          "display": "Tree pollen (substance)",
+          "snomed": "782576004",
+          "category": "environment"
+        },
+        {
+          "display": "Penicillin V",
+          "snomed": "7984",
+          "category": "medication"
+        }
+      ],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 81.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 78.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 131.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 30.68,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Odessa199_Glynis780_Senger904_5f032f83-5e70-2cab-11e5-f6258b5d37f6": {
+    "split": "test",
+    "template": "outpatient_soap",
+    "patient": {
+      "name": "Odessa199 Glynis780 Senger904",
+      "gender": "female",
+      "birthDate": "1977-07-08"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Risk activity involvement",
+          "snomed": "160968000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Housing unsatisfactory",
+          "snomed": "105531004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Educated to high school level",
+          "snomed": "473461003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Asthma",
+          "snomed": "195967001",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "albuterol 0.83 MG/ML Inhalation Solution",
+          "rxnorm": "630208"
+        },
+        {
+          "display": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
+          "rxnorm": "895996"
+        },
+        {
+          "display": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+          "rxnorm": "1000126"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Allergic disposition (finding)",
+          "snomed": "609328004",
+          "category": "environment"
+        },
+        {
+          "display": "Bee venom (substance)",
+          "snomed": "288328004",
+          "category": "environment"
+        },
+        {
+          "display": "Mold (organism)",
+          "snomed": "84489001",
+          "category": "environment"
+        }
+      ],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 63.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 82.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 146.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 30.34,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1": {
+    "split": "test",
+    "template": "ed_encounter",
+    "patient": {
+      "name": "Otis335 Angelo118 Abbott774",
+      "gender": "male",
+      "birthDate": "1965-05-24"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Risk activity involvement",
+          "snomed": "160968000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Body mass index 30+ - obesity",
+          "snomed": "162864005",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Osteoarthritis of knee",
+          "snomed": "239873007",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Hydrochlorothiazide 25 MG Oral Tablet",
+          "rxnorm": "310798"
+        },
+        {
+          "display": "Naproxen sodium 220 MG Oral Tablet",
+          "rxnorm": "849574"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+          "rxnorm": "705129"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Allergic disposition (finding)",
+          "snomed": "609328004",
+          "category": "environment"
+        },
+        {
+          "display": "Wheat (substance)",
+          "snomed": "412071004",
+          "category": "food"
+        }
+      ],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 78.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 65.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 122.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 29.34,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 99.5,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e": {
+    "split": "test",
+    "template": "discharge_summary",
+    "patient": {
+      "name": "Pat3 Shanae34 O'Kon634",
+      "gender": "female",
+      "birthDate": "2013-05-21"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Perennial allergic rhinitis with seasonal variation",
+          "snomed": "232353008",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Childhood asthma",
+          "snomed": "233678006",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Concussion injury of brain",
+          "snomed": "110030002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Concussion with no loss of consciousness",
+          "snomed": "62106007",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
+      ],
+      "medications": [
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "albuterol 0.21 MG/ML Inhalation Solution",
+          "rxnorm": "351137"
+        },
+        {
+          "display": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
+          "rxnorm": "895996"
+        },
+        {
+          "display": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+          "rxnorm": "1870230"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Allergic disposition (finding)",
+          "snomed": "609328004",
+          "category": "environment"
+        },
+        {
+          "display": "Bee venom (substance)",
+          "snomed": "288328004",
+          "category": "environment"
+        },
+        {
+          "display": "Mold (organism)",
+          "snomed": "84489001",
+          "category": "environment"
+        }
+      ],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 73.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 59.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 94.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 16.7,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Polly738_Homenick806_8d435564-1621-7b10-4229-45ddb447d48b": {
+    "split": "test",
+    "template": "consultation_note",
+    "patient": {
+      "name": "Polly738 Homenick806",
+      "gender": "female",
+      "birthDate": "2012-07-04"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Acute bronchitis",
+          "snomed": "10509002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Acute viral pharyngitis",
+          "snomed": "195662009",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Otitis media",
+          "snomed": "65363002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Streptococcal sore throat",
+          "snomed": "43878008",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
+      ],
+      "medications": [
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+          "rxnorm": "1000126"
+        },
+        {
+          "display": "Penicillin V Potassium 250 MG Oral Tablet",
+          "rxnorm": "834061"
+        },
+        {
+          "display": "Ibuprofen 100 MG Oral Tablet",
+          "rxnorm": "198405"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 84.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 70.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 119.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 16.24,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 102.2,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832": {
+    "split": "test",
+    "template": "progress_note",
+    "patient": {
+      "name": "Randall756 Dan465 Mitchell808",
+      "gender": "male",
+      "birthDate": "1978-09-10"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Housing unsatisfactory",
+          "snomed": "105531004",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Chronic pain",
+          "snomed": "82423001",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Chronic neck pain",
+          "snomed": "1121000119107",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Ibuprofen 400 MG Oral Tablet [Ibu]",
+          "rxnorm": "206905"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "rxnorm": "1043400"
+        },
+        {
+          "display": "Naproxen sodium 220 MG Oral Tablet",
+          "rxnorm": "849574"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "body_temperature": {
+          "value": 99.8,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 62.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 84.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 111.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 28.0,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Robbin22_Victorina579_Brekke496_745a9f74-211c-75d1-d4c8-7535f9167017": {
+    "split": "test",
+    "template": "outpatient_soap",
+    "patient": {
+      "name": "Robbin22 Victorina579 Brekke496",
+      "gender": "female",
+      "birthDate": "1975-09-20"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Risk activity involvement",
+          "snomed": "160968000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Lack of access to transportation",
+          "snomed": "713458007",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Victim of intimate partner abuse",
+          "snomed": "706893006",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+          "rxnorm": "562251"
+        },
+        {
+          "display": "Naproxen sodium 220 MG Oral Tablet",
+          "rxnorm": "849574"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Acetaminophen 325 MG Oral Tablet",
+          "rxnorm": "313782"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 15.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 85.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 77.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 122.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.99,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 100.1,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981": {
+    "split": "test",
+    "template": "ed_encounter",
+    "patient": {
+      "name": "Robyn562 Parker433",
+      "gender": "female",
+      "birthDate": "1978-01-10"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Educated to high school level",
+          "snomed": "473461003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Pulmonary emphysema",
+          "snomed": "87433001",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "History of tubal ligation",
+          "snomed": "267020005",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Full-time employment",
+          "snomed": "160903007",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
+      ],
+      "medications": [
+        {
+          "display": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+          "rxnorm": "896209"
+        },
+        {
+          "display": "albuterol 5 MG/ML Inhalation Solution",
+          "rxnorm": "245314"
+        },
+        {
+          "display": "exemestane 25 MG Oral Tablet",
+          "rxnorm": "310261"
+        },
+        {
+          "display": "Cyclophosphamide 1000 MG Injection",
+          "rxnorm": "1734919"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 84.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 74.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 131.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 28.11,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Rory188_Greenfelder433_6e074740-b2fd-3aa8-620c-b83832271fc6": {
+    "split": "test",
+    "template": "discharge_summary",
+    "patient": {
+      "name": "Rory188 Mike230 Greenfelder433",
+      "gender": "male",
+      "birthDate": "2001-12-13"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Primary dental caries",
+          "snomed": "109570002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Risk activity involvement",
+          "snomed": "160968000",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Educated to high school level",
+          "snomed": "473461003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Part-time employment",
+          "snomed": "160904001",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
+      ],
+      "medications": [
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Acetaminophen 325 MG Oral Tablet",
+          "rxnorm": "313782"
+        },
+        {
+          "display": "Penicillin V Potassium 250 MG Oral Tablet",
+          "rxnorm": "834061"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 13.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 73.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 73.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 138.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 26.19,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "body_temperature": {
+          "value": 101.5,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "oxygen_saturation": {
+          "value": 98.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
+      }
+    }
+  },
+  "Rossie247_Allison818_Zemlak964_391155bc-d9aa-6225-26ad-956b3b5fe99c": {
+    "split": "test",
+    "template": "consultation_note",
+    "patient": {
+      "name": "Rossie247 Allison818 Zemlak964",
+      "gender": "female",
+      "birthDate": "1950-04-13"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Educated to high school level",
+          "snomed": "473461003",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Essential hypertension",
+          "snomed": "59621000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Past pregnancy history of miscarriage",
+          "snomed": "161744009",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Malignant neoplasm of breast",
+          "snomed": "254837009",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        }
+      ],
+      "medications": [
+        {
+          "display": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",
+          "rxnorm": "205923"
+        },
+        {
+          "display": "lisinopril 10 MG Oral Tablet",
+          "rxnorm": "314076"
+        },
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "remifentanil 2 MG Injection",
+          "rxnorm": "1729584"
+        }
+      ],
+      "allergies": [
+        {
+          "display": "Allergic disposition (finding)",
+          "snomed": "609328004",
+          "category": "environment"
+        },
+        {
+          "display": "Mold (organism)",
+          "snomed": "84489001",
+          "category": "environment"
+        }
+      ],
+      "vitals": {
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 69.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 78.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 115.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 21.05,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "oxygen_saturation": {
+          "value": 96.0,
+          "unit": "%",
+          "loinc": "59408-5"
+        },
+        "body_temperature": {
+          "value": 98.6,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        }
+      }
+    }
+  },
+  "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143": {
+    "split": "test",
+    "template": "progress_note",
+    "patient": {
+      "name": "Russel238 Fredric73 Doyle959",
+      "gender": "male",
+      "birthDate": "1994-04-07"
+    },
+    "gold": {
+      "conditions": [
+        {
+          "display": "Received higher education",
+          "snomed": "224299000",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Full-time employment",
+          "snomed": "160903007",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        },
+        {
+          "display": "Social isolation",
+          "snomed": "422650009",
+          "icd10": "R69",
+          "clinicalStatus": "active"
+        },
+        {
+          "display": "Limited social contact",
+          "snomed": "423315002",
+          "icd10": "R69",
+          "clinicalStatus": "resolved"
+        }
+      ],
+      "medications": [
+        {
+          "display": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "rxnorm": "1535362"
+        },
+        {
+          "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+          "rxnorm": "562251"
+        }
+      ],
+      "allergies": [],
+      "vitals": {
+        "body_temperature": {
+          "value": 99.8,
+          "unit": "[degF]",
+          "loinc": "8310-5"
+        },
+        "respiratory_rate": {
+          "value": 14.0,
+          "unit": "/min",
+          "loinc": "9279-1"
+        },
+        "heart_rate": {
+          "value": 70.0,
+          "unit": "/min",
+          "loinc": "8867-4"
+        },
+        "diastolic_bp": {
+          "value": 92.0,
+          "unit": "mmHg",
+          "loinc": "8462-4"
+        },
+        "systolic_bp": {
+          "value": 149.0,
+          "unit": "mmHg",
+          "loinc": "8480-6"
+        },
+        "bmi": {
+          "value": 27.36,
+          "unit": "kg/m2",
+          "loinc": "39156-5"
+        },
+        "oxygen_saturation": {
+          "value": 84.14,
+          "unit": "%",
+          "loinc": "59408-5"
+        }
       }
     }
   }

@@ -1,0 +1,40 @@
+OUTPATIENT CLINICAL SOAP NOTE
+Date: 2024-03-15
+Patient Name: Bryon392 Alden634 Gleason633
+DOB: 2010-10-22 | Gender: Male
+
+SUBJECTIVE:
+Patient presents for routine follow-up evaluation. Reports overall stability.
+Patient denies shortness of breath, denies chest pain, denies palpitations.
+
+OBJECTIVE:
+Vital Signs:
+- Blood Pressure: 142/82 mmHg
+- Heart Rate: 64 bpm
+- Respiratory Rate: 15 breaths/min
+- Temperature: 98.6 F
+- SpO2: 98%
+- BMI: 18.72 kg/m2
+
+Past Medical History:
+- Acute viral pharyngitis
+- Gingival disease
+- Primary dental caries
+- Risk activity involvement
+
+Family History:
+- Mother diagnosed with breast cancer at age 62; father with history of stroke.
+
+Current Medications:
+- Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+
+Allergies:
+- No known drug allergies (NKDA).
+
+ASSESSMENT & PLAN:
+- Acute viral pharyngitis
+- Gingival disease
+- Primary dental caries
+- Risk activity involvement
+Plan: Maintain current therapeutic regimen. Routine lab follow-up scheduled.

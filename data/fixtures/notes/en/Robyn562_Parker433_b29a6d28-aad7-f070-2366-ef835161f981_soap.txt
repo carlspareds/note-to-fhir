@@ -1,0 +1,42 @@
+EMERGENCY DEPARTMENT ENCOUNTER
+Encounter Date: 2024-03-20
+Patient Name: Robyn562 Parker433
+DOB: 1978-01-10 | Gender: Female
+
+CHIEF COMPLAINT & TRIAGE:
+Patient presents to the Emergency Department for acute medical evaluation.
+Patient denies chest pain, denies shortness of breath, negative for syncopal episodes.
+
+Triage Vital Signs:
+- Blood Pressure: 131/74 mmHg
+- Heart Rate: 84 bpm
+- Respiratory Rate: 13 breaths/min
+- Temperature: 98.6 F
+- SpO2: 98%
+- BMI: 28.11 kg/m2
+
+Past Medical History:
+- Educated to high school level
+- Pulmonary emphysema
+- History of tubal ligation
+- Full-time employment
+
+Family History:
+- Father died of myocardial infarction at age 68. Mother has osteoporosis.
+
+Current Medications:
+- 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler
+- albuterol 5 MG/ML Inhalation Solution
+- exemestane 25 MG Oral Tablet
+- Cyclophosphamide 1000 MG Injection
+
+Allergies:
+- No known drug allergies (NKDA).
+
+ASSESSMENT & DISPOSITION:
+Primary Clinical Impression:
+- Educated to high school level
+- Pulmonary emphysema
+- History of tubal ligation
+- Full-time employment
+Disposition: Patient stabilized. Discharged to home with outpatient follow-up.

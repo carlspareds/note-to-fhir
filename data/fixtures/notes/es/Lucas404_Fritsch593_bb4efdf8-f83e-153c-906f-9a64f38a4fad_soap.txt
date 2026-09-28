@@ -1,0 +1,41 @@
+INFORME DE ATENCIÓN EN URGENCIAS
+Fecha: 2024-03-20
+Nombre del Paciente: Lucas404 Rhett759 Fritsch593
+Fecha de Nacimiento: 1923-09-11 | Género: Masculino
+
+MOTIVO DE CONSULTA Y TRIAGE:
+Paciente acude al servicio de urgencias para valoración médica.
+Niega dolor torácico irradiado, sin disnea paroxística, niega síncope.
+
+Signos Vitales en Triaje:
+- Presión Arterial: 136/78 mmHg
+- Frecuencia Cardíaca: 94 lpm
+- Frecuencia Respiratoria: 13 respiraciones/minuto
+- Temperatura: 37.9 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 30.34 kg/m2
+
+Antecedentes Médicos Personales:
+- Housing unsatisfactory
+- Received higher education
+- Prediabetes
+- Anemia normocítica
+
+Antecedentes Familiares:
+- Padre fallecido por infarto de miocardio a los 68 años. Madre con osteoporosis.
+
+Medicación Actual:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Alteplase 100 MG Injection
+- Clopidogrel 75 MG Oral Tablet
+- Naproxen sodium 220 MG Oral Tablet
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+DIAGNÓSTICO PRINCIPAL Y PLAN DE ALTA:
+- Housing unsatisfactory
+- Received higher education
+- Prediabetes
+- Anemia normocítica
+Plan: Estabilización lograda. Continuar controles con su médico de cabecera.

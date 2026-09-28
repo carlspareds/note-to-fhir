@@ -1,0 +1,41 @@
+EMERGENCY DEPARTMENT ENCOUNTER
+Encounter Date: 2024-03-20
+Patient Name: Jessia669 Rodriguez71
+DOB: 1950-04-13 | Gender: Female
+
+CHIEF COMPLAINT & TRIAGE:
+Patient presents to the Emergency Department for acute medical evaluation.
+Patient denies chest pain, denies shortness of breath, negative for syncopal episodes.
+
+Triage Vital Signs:
+- Blood Pressure: 113/92 mmHg
+- Heart Rate: 84 bpm
+- Respiratory Rate: 14 breaths/min
+- Temperature: 98.6 F
+- SpO2: 98%
+- BMI: 30.37 kg/m2
+
+Past Medical History:
+- Educatd to high school level
+- Prediabetes
+- Anemia
+- Past pregnancy history of miscarriage
+
+Family History:
+- Father died of myocardial infarction at age 68. Mother has osteoporosis.
+
+Current Medications:
+- etoposide 100 MG Injection [Etopophos]
+- Cisplatin 50 MG Injection
+- sodium fluoride 0.0272 MG/MG Oral Gel
+
+Allergies:
+- No known drug allergies (NKDA).
+
+ASSESSMENT & DISPOSITION:
+Primary Clinical Impression:
+- Educatd to high school level
+- Prediabetes
+- Anemia
+- Past pregnancy history of miscarriage
+Disposition: Patient stabilized. Discharged to home with outpatient follow-up.

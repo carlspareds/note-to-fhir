@@ -1,0 +1,40 @@
+NOTA DE CONSULTA MÉDICA ESPECIALIZADA
+Fecha: 2024-03-15
+Nombre del Paciente: Lai148 Hettinger594 | Fecha de Nacimiento: 1985-10-25 | Género: Femenino
+
+MOTIVO DE INTERCONSULTA:
+Evaluación especializada de patología de base y ajuste terapéutico.
+Paciente niega sintomatología aguda sobreañadida.
+
+Signos Vitales:
+- Presión Arterial: 107/94 mmHg
+- Frecuencia Cardíaca: 87 lpm
+- Frecuencia Respiratoria: 14 respiraciones/minuto
+- Temperatura: 37.1 °C
+- Saturación de Oxígeno (SpO2): 99%
+- Índice de Masa Corporal (IMC): 29.45 kg/m2
+
+Antecedentes Médicos Personales:
+- Seizue disorder
+- History of seizure
+- Epilepsy
+- Received higher education
+
+Antecedentes Familiares:
+- Abuelo paterno con cáncer de colon; abuela materna con hipertensión arterial.
+
+Medicación Actual:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Diazepam 5 MG Oral Tablet
+- {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]
+- clonazePAM 0.25 MG Oral Tablet
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+IMPRESIÓN CLÍNICA Y RECOMENDACIONES:
+- Seizue disorder
+- History of seizure
+- Epilepsy
+- Received higher education
+Recomendaciones: Mantener pauta farmacológica sin modificaciones y control evolutivo.

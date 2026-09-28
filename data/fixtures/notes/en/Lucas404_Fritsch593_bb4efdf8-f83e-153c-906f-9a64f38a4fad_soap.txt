@@ -1,0 +1,42 @@
+EMERGENCY DEPARTMENT ENCOUNTER
+Encounter Date: 2024-03-20
+Patient Name: Lucas404 Rhett759 Fritsch593
+DOB: 1923-09-11 | Gender: Male
+
+CHIEF COMPLAINT & TRIAGE:
+Patient presents to the Emergency Department for acute medical evaluation.
+Patient denies chest pain, denies shortness of breath, negative for syncopal episodes.
+
+Triage Vital Signs:
+- Blood Pressure: 136/78 mmHg
+- Heart Rate: 94 bpm
+- Respiratory Rate: 13 breaths/min
+- Temperature: 100.2 F
+- SpO2: 98%
+- BMI: 30.34 kg/m2
+
+Past Medical History:
+- Housing unsatisfactory
+- Received higher education
+- Prediabetes
+- Anemia
+
+Family History:
+- Father died of myocardial infarction at age 68. Mother has osteoporosis.
+
+Current Medications:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Alteplase 100 MG Injection
+- Clopidogrel 75 MG Oral Tablet
+- Naproxen sodium 220 MG Oral Tablet
+
+Allergies:
+- No known drug allergies (NKDA).
+
+ASSESSMENT & DISPOSITION:
+Primary Clinical Impression:
+- Housing unsatisfactory
+- Received higher education
+- Prediabetes
+- Anemia
+Disposition: Patient stabilized. Discharged to home with outpatient follow-up.

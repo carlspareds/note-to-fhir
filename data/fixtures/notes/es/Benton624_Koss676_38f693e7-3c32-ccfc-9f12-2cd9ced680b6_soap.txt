@@ -1,0 +1,30 @@
+NOTA DE PROGRESO CLÍNICO DIARIO
+Fecha: 2024-03-15
+Nombre del Paciente: Benton624 Dante562 Koss676 | Fecha de Nacimiento: 2022-10-13 | Género: Masculino
+
+Evolución diaria: Paciente estable durante las últimas 24 horas. Niega molestias agudas.
+Signos Vitales:
+- Presión Arterial: 118/72 mmHg
+- Frecuencia Cardíaca: 88 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 37.0 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 16.64 kg/m2
+
+Antecedentes Médicos Personales:
+- Fracture of bone
+- Fracture of ankle
+
+Antecedentes Familiares:
+- Madre con antecedentes de diabetes mellitus tipo 2; padre con cardiopatía isquémica.
+
+Medicación Actual:
+- Acetaminophen 160 MG Chewable Tablet
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+Impresión Diagnóstica y Plan:
+- Fracture of bone
+- Fracture of ankle
+Plan: Mantener tratamiento actual y continuar monitorización clínica.

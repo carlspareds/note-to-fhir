@@ -1,0 +1,42 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Lowell343 Wes853 Gottlieb798
+Fecha de Nacimiento: 2012-05-30
+Género: Masculino
+
+SUBJETIVO:
+Paciente acude a control clínico programado. Refiere estabilidad general.
+Niega disnea, niega cefalea intensa, niega precordialgia.
+
+OBJETIVO:
+Signos Vitales:
+- Presión Arterial: 129/76 mmHg
+- Frecuencia Cardíaca: 94 lpm
+- Frecuencia Respiratoria: 14 respiraciones/minuto
+- Temperatura: 37.0 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 18.43 kg/m2
+
+Antecedentes Médicos Personales:
+- Otitis media
+- Sinusitis viral aguda
+- Gingivitis
+- Gingival disease
+
+Antecedentes Familiares:
+- Madre diagnosticada de cáncer de mama a los 62 años; padre con antecedente de ACV.
+
+Medicación Actual:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Ibuprofen 100 MG Oral Tablet
+- Amoxicilina 500 mg comprimidos vía oral
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+EVALUACIÓN Y PLAN:
+- Otitis media
+- Sinusitis viral aguda
+- Gingivitis
+- Gingival disease
+Plan: Continuar régimen farmacológico actual. Solicitar analítica de control.

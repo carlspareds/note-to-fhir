@@ -1,0 +1,33 @@
+INFORME DE ALTA HOSPITALARIA
+Fecha de Ingreso: 2024-03-10 | Fecha de Alta: 2024-03-15
+Nombre del Paciente: Moises22 Kerry175 Williamson769
+Fecha de Nacimiento: 2001-05-15 | Género: Masculino
+
+RESUMEN DE HOSPITALIZACIÓN:
+Evolución clínica favorable tras manejo hospitalario. Paciente hemodinámicamente estable.
+Niega dolor torácico, niega disnea en reposo.
+
+Signos Vitales al Alta:
+- Presión Arterial: 110/85 mmHg
+- Frecuencia Cardíaca: 85 lpm
+- Frecuencia Respiratoria: 13 respiraciones/minuto
+- Temperatura: 37.0 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 23.77 kg/m2
+
+Diagnósticos Activos al Alta:
+- Gingivitis
+- Concussion injury of brain
+- Concussion with no loss of consciousness
+- Only received primary school education
+
+Antecedentes Familiares:
+- Hermana con dermatitis atópica grave; hermano con asma desde la infancia.
+
+Plan Farmacológico al Alta:
+- sodium fluoride 0.0272 MG/MG Oral Gel
+
+Alergias Conocidas:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+Instrucciones: Control en consulta externa en 2 semanas.

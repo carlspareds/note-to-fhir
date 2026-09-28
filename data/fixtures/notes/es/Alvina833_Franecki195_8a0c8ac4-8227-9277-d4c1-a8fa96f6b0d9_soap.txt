@@ -1,0 +1,43 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Alvina833 Glady857 Franecki195
+Fecha de Nacimiento: 2013-02-08
+Género: Femenino
+
+SUBJETIVO:
+Paciente acude a control clínico programado. Refiere estabilidad general.
+Niega disnea, niega cefalea intensa, niega precordialgia.
+
+OBJETIVO:
+Signos Vitales:
+- Presión Arterial: 119/70 mmHg
+- Frecuencia Cardíaca: 88 lpm
+- Frecuencia Respiratoria: 15 respiraciones/minuto
+- Temperatura: 38.0 °C
+- Saturación de Oxígeno (SpO2): 98%
+- Índice de Masa Corporal (IMC): 17.84 kg/m2
+
+Antecedentes Médicos Personales:
+- Laceratin - injury
+- Laceration of thigh
+- Otitis media
+- Faringitis viral aguda
+
+Antecedentes Familiares:
+- Madre diagnosticada de cáncer de mama a los 62 años; padre con antecedente de ACV.
+
+Medicación Actual:
+- Ibuprofen 100 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Acetaminophen 160 MG Chewable Tablet
+- Amoxicilina 500 mg comprimidos vía oral
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+EVALUACIÓN Y PLAN:
+- Laceratin - injury
+- Laceration of thigh
+- Otitis media
+- Faringitis viral aguda
+Plan: Continuar régimen farmacológico actual. Solicitar analítica de control.

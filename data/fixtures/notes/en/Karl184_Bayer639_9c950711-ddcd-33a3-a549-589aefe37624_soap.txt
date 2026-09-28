@@ -1,0 +1,42 @@
+OUTPATIENT CLINICAL SOAP NOTE
+Date: 2024-03-15
+Patient Name: Karl184 Bayer639
+DOB: 1923-09-11 | Gender: Male
+
+SUBJECTIVE:
+Patient presents for routine follow-up evaluation. Reports overall stability.
+Patient denies shortness of breath, denies chest pain, denies palpitations.
+
+OBJECTIVE:
+Vital Signs:
+- Blood Pressure: 129/93 mmHg
+- Heart Rate: 87 bpm
+- Respiratory Rate: 15 breaths/min
+- Temperature: 100.4 F
+- SpO2: 98%
+- BMI: 27.42 kg/m2
+
+Past Medical History:
+- Serving in military service
+- Received higher education
+- Lack of access to transportation
+- Transport problem
+
+Family History:
+- Mother diagnosed with breast cancer at age 62; father with history of stroke.
+
+Current Medications:
+- 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler
+- amLODIPine 2.5 MG Oral Tablet
+- Hydrochlorothiazide 25 MG Oral Tablet
+- albuterol 5 MG/ML Inhalation Solution
+
+Allergies:
+- No known drug allergies (NKDA).
+
+ASSESSMENT & PLAN:
+- Serving in military service
+- Received higher education
+- Lack of access to transportation
+- Transport problem
+Plan: Maintain current therapeutic regimen. Routine lab follow-up scheduled.

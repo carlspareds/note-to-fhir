@@ -1,0 +1,43 @@
+EMERGENCY DEPARTMENT ENCOUNTER
+Encounter Date: 2024-03-20
+Patient Name: Otis335 Angelo118 Abbott774
+DOB: 1965-05-24 | Gender: Male
+
+CHIEF COMPLAINT & TRIAGE:
+Patient presents to the Emergency Department for acute medical evaluation.
+Patient denies chest pain, denies shortness of breath, negative for syncopal episodes.
+
+Triage Vital Signs:
+- Blood Pressure: 122/65 mmHg
+- Heart Rate: 78 bpm
+- Respiratory Rate: 14 breaths/min
+- Temperature: 99.5 F
+- SpO2: 98%
+- BMI: 29.34 kg/m2
+
+Past Medical History:
+- Risk activity involvement
+- Received higher education
+- Body mass index 30+ - obesity
+- Osteoarthritis of knee
+
+Family History:
+- Father died of myocardial infarction at age 68. Mother has osteoporosis.
+
+Current Medications:
+- Hydrochlorothiazide 25 MG Oral Tablet
+- Naproxen sodium 220 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray
+
+Allergies:
+- Allergic disposition (finding)
+- Wheat (substance)
+
+ASSESSMENT & DISPOSITION:
+Primary Clinical Impression:
+- Risk activity involvement
+- Received higher education
+- Body mass index 30+ - obesity
+- Osteoarthritis of knee
+Disposition: Patient stabilized. Discharged to home with outpatient follow-up.

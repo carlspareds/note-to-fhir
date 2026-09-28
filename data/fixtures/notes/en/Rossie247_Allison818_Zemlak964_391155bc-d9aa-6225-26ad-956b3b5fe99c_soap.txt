@@ -1,0 +1,44 @@
+SPECIALTY CONSULTATION NOTE
+Date: 2024-03-15
+Patient Name: Rossie247 Allison818 Zemlak964
+DOB: 1950-04-13 | Gender: Female
+Specialty: Medical Subspecialty Consultation
+
+REASON FOR CONSULTATION:
+Specialized appraisal of chronic disease trajectory and therapeutic optimization.
+Patient denies acute symptoms, denies orthopnea, denies lower extremity edema.
+
+Vital Signs:
+- Blood Pressure: 115/78 mmHg
+- Heart Rate: 69 bpm
+- Respiratory Rate: 14 breaths/min
+- Temperature: 98.6 F
+- SpO2: 96%
+- BMI: 21.05 kg/m2
+
+Past Medical History:
+- Educated to high school level
+- Essential hypertension
+- Past pregnancy history of miscarriage
+- Malignant neoplasm of breast
+
+Family History:
+- Paternal grandfather had colon cancer; maternal grandmother had hypertension.
+
+Current Medications:
+- 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]
+- lisinopril 10 MG Oral Tablet
+- sodium fluoride 0.0272 MG/MG Oral Gel
+- remifentanil 2 MG Injection
+
+Allergies:
+- Allergic disposition (finding)
+- Mold (organism)
+
+IMPRESSION & RECOMMENDATIONS:
+Assessment:
+- Educated to high school level
+- Essential hypertension
+- Past pregnancy history of miscarriage
+- Malignant neoplasm of breast
+Recommendations: Continue optimized pharmacotherapy as outlined above.
