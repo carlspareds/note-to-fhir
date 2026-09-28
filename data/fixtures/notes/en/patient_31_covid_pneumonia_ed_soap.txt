@@ -1,0 +1,35 @@
+EMERGENCY DEPARTMENT ENCOUNTER NOTE
+Date: 2024-03-15
+Patient Name: Rosa L Martinez | DOB: 1970-12-11 | Gender: Female
+Triage Acuity: ESI Level 3
+
+CHIEF COMPLAINT:
+Fever and progressive cough for 4 days following positive home antigen test. Patient denies hemoptysis, denies chest pain, denies syncopal episodes.
+
+Triage Vital Signs:
+- Blood Pressure: 130.0/82.0 mmHg
+- Heart Rate: 92.0 bpm
+- Respiratory Rate: 22.0 breaths/min
+- Temperature: 101.2 F
+- SpO2: 94.0% on ambient air
+
+Past Medical History:
+- COVID-19
+- Pneumonia
+
+Family History:
+- Mother had diabetes mellitus type 2.
+- Father had stroke.
+
+Current Medications:
+- Azithromycin 250 MG Oral Tablet
+
+Allergies:
+- Allergy to sulfonamide
+
+EMERGENCY CLINICAL IMPRESSION:
+- COVID-19
+- Pneumonia
+
+Disposition & Plan:
+Supportive therapy initiated with supplemental oxygen and oral antimicrobial coverage. Discharged with pulse oximeter monitoring and primary care follow-up.

@@ -1,0 +1,35 @@
+EMERGENCY DEPARTMENT ENCOUNTER NOTE
+Date: 2024-03-15
+Patient Name: George F Martin | DOB: 1977-08-19 | Gender: Male
+Triage Acuity: ESI Level 3
+
+CHIEF COMPLAINT:
+Fever, productive cough, and chest congestion for 3 days. Patient denies hemoptysis, denies chest pain, denies loss of consciousness.
+
+Triage Vital Signs:
+- Blood Pressure: 122.0/80.0 mmHg
+- Heart Rate: 94.0 bpm
+- Respiratory Rate: 24.0 breaths/min
+- Temperature: 102.1 F
+- SpO2: 92.0% on room air
+
+Past Medical History:
+- Pneumonia
+- Acute bronchitis
+
+Family History:
+- Father had chronic asthma.
+
+Current Medications:
+- Azithromycin 250 MG Oral Tablet
+- Amoxicillin 500 MG Oral Tablet
+
+Allergies:
+- No known drug allergies (NKDA).
+
+EMERGENCY CLINICAL IMPRESSION:
+- Pneumonia
+- Acute bronchitis
+
+Disposition & Plan:
+Initiated oral dual antimicrobial therapy. Oxygen saturation stabilized at 95% on 2L nasal cannula. Discharged with strict precautions and follow-up in 48 hours.

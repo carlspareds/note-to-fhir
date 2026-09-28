@@ -1,0 +1,45 @@
+CLINICAL ENCOUNTER NOTE (SOAP)
+Date: 2024-03-15
+Patient Name: Lawrence J Parker
+DOB: 1973-09-12 | Gender: Male
+Encounter Type: Outpatient Ambulatory Visit
+
+SUBJECTIVE:
+Chief Complaint: Follow-up and routine chronic disease management.
+History of Present Illness (HPI):
+The patient is a 1973-09-12-born male presenting for a scheduled outpatient evaluation. Patient reports general stability over recent weeks. Adherence to prescribed pharmacotherapy is reported as regular without severe side effects. Patient denies chest pain, shortness of breath, or fever.
+
+Past Medical History (PMH):
+- Hypothyroidism
+- Gastroesophageal reflux disease
+
+Family History:
+- Mother had diabetes.
+- Father had hypertension.
+
+Current Medications:
+- Levothyroxine sodium 50 MCG Oral Tablet
+- Omeprazole 20 MG Delayed Release Oral Capsule
+
+Allergies:
+- No known drug allergies (NKDA).
+
+OBJECTIVE:
+Physical Examination:
+Well-developed, alert and oriented x4. No acute respiratory distress. Heart sounds regular rate and rhythm, normal S1/S2, no murmurs. Lungs clear to auscultation bilaterally.
+
+Vital Signs:
+- Blood Pressure: 126.0/80.0 mmHg
+- Heart Rate: 72.0 bpm
+- Respiratory Rate: 16.0 breaths/min
+- Temperature: 98.6 F
+
+ASSESSMENT & PLAN:
+Assessment:
+- Hypothyroidism
+- Gastroesophageal reflux disease
+
+Plan:
+1. Continue current medication regimen as tolerated.
+2. Maintain lifestyle and dietary modifications.
+3. Follow-up clinic appointment in 3 to 6 months.

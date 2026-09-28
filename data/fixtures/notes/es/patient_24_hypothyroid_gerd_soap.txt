@@ -1,0 +1,45 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Lawrence J Parker
+Fecha de Nacimiento: 1973-09-12 | Género: Masculino
+Tipo de Consulta: Consulta Ambulatoria Programada
+
+SUBJETIVO:
+Motivo de consulta: Control evolutivo y seguimiento de patologías crónicas.
+Enfermedad Actual:
+Paciente nacido el 1973-09-12, acude a consulta programada para control. Refiere encontrarse estable, niega dolor torácico, disnea ni palpitaciones. Manifiesta buena adherencia a los tratamientos prescritos.
+
+Antecedentes Médicos Personales:
+- Hipotiroidismo
+- Enfermedad por reflujo gastroesofágico (ERGE)
+
+Antecedentes Familiares:
+- Madre con diabetes mellitus.
+- Padre con hipertensión arterial.
+
+Medicación Actual:
+- Levotiroxina 50 mcg
+- Omeprazol 20 mg cápsulas
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+OBJETIVO:
+Examen Físico:
+Paciente orientado en tiempo, espacio y persona. Buen estado general, hidratado. Auscultación cardíaca: ruidos cardíacos rítmicos sin soplos. Auscultación pulmonar: murmullo vesicular conservado sin ruidos sobreagregados. Abdomen blando, no doloroso.
+
+Signos Vitales:
+- Presión Arterial: 126.0/80.0 mmHg
+- Frecuencia Cardíaca: 72.0 lpm
+- Frecuencia Respiratoria: 16.0 respiraciones/minuto
+- Temperatura: 98.6 °F (37.0 °C)
+
+EVALUACIÓN Y PLAN:
+Diagnósticos / Impresión Clínica:
+- Hipotiroidismo
+- Enfermedad por reflujo gastroesofágico (ERGE)
+
+Plan Terapéutico:
+1. Continuar con el esquema farmacológico indicado.
+2. Mantener hábitos dietéticos cardiosaludables y actividad física regular.
+3. Próxima revisión en consulta externa en 3 a 6 meses.

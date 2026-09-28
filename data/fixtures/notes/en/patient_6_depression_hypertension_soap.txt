@@ -1,0 +1,43 @@
+CLINICAL ENCOUNTER NOTE (SOAP)
+Date: 2024-03-15
+Patient Name: Thomas E Brown
+DOB: 1980-03-12 | Gender: Male
+Encounter Type: Outpatient Ambulatory Visit
+
+SUBJECTIVE:
+Chief Complaint: Follow-up of mood and blood pressure.
+History of Present Illness (HPI):
+The patient is a 1980-03-12-born male presenting for follow-up. Reports improved mood over the last month. Adherence to pharmacotherapy is regular. Patient denies chest pain, denies acute dyspnea, denies suicidal ideation.
+
+Past Medical History (PMH):
+- Essential hypertension
+- Major depressive disorder
+
+Family History:
+- Mother had clinical depression.
+- Father died of myocardial infarction at age 70.
+
+Current Medications:
+- Lisinopril 10 MG Oral Tablet
+
+Allergies:
+- Allergy to penicillin
+
+OBJECTIVE:
+Physical Examination:
+Alert, oriented x4, pleasant. Heart sounds regular rate and rhythm, no murmurs. Lungs clear to auscultation.
+
+Vital Signs:
+- Blood Pressure: 130.0/84.0 mmHg
+- Heart Rate: 70.0 bpm
+- Respiratory Rate: 15.0 breaths/min
+- Temperature: 98.6 F
+
+ASSESSMENT & PLAN:
+Assessment:
+- Essential hypertension
+- Major depressive disorder
+
+Plan:
+1. Continue Lisinopril 10 mg daily.
+2. Follow up in clinic in 3 months.

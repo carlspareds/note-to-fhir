@@ -1,0 +1,31 @@
+DAILY CLINICAL PROGRESS NOTE
+Date: 2024-03-15
+Patient Name: Andres G Silva | DOB: 1957-02-23 | Gender: Male
+
+Daily Progress: Patient remains clinically stable over the last 24 hours. Denies acute complaints.
+Vital Signs:
+- Blood Pressure: 128.0/82.0 mmHg
+- Heart Rate: 74.0 bpm
+- Respiratory Rate: 16.0 breaths/min
+- Temperature: 98.6 F
+
+Past Medical History:
+- Coronary artery disease
+- Gastroesophageal reflux disease
+
+Family History:
+- Mother diagnosed with breast cancer at age 62.
+- Father died of myocardial infarction at age 68.
+- Strong family history of colon cancer and stroke.
+
+Current Medications:
+- Aspirin 81 MG Oral Tablet
+- Omeprazole 20 MG Delayed Release Oral Capsule
+
+Allergies:
+- Allergy to aspirin
+
+Assessment & Plan:
+- Coronary artery disease
+- Gastroesophageal reflux disease
+Plan: Continue current clinical management and monitoring.

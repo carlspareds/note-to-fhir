@@ -1,0 +1,36 @@
+INFORME DE ATENCIÓN DE URGENCIA / TRIAJE
+Fecha: 2024-03-15
+Nombre del Paciente: Adriana S Rios | Fecha de Nacimiento: 1991-09-03 | Género: Femenino
+Nivel de Triaje: Prioridad 3 (Urgente Estable)
+
+MOTIVO DE ATENCIÓN:
+Consulta por cuadro agudo de malestar general. Niega dolor torácico irradiado, sin disnea paroxística, niega síncope.
+
+Signos Vitales al Ingreso:
+- Presión Arterial: 128.0/82.0 mmHg
+- Frecuencia Cardíaca: 74.0 lpm
+- Frecuencia Respiratoria: 16.0 respiraciones/minuto
+- Temperatura: 98.6 °F (37.0 °C)
+
+Antecedentes Médicos Personales:
+- Asma bronquial
+- Infección por COVID-19
+
+Antecedentes Familiares:
+- Madre diagnosticada de cáncer de mama a los 62 años.
+- Padre fallecido por infarto agudo de miocardio a los 68 años.
+- Antecedentes familiares de cáncer colorrectal y accidente cerebrovascular.
+
+Medicación Habitual:
+- Albuterol / Salbutamol inhalador 90 mcg
+
+Alergias:
+- Alergia a la penicilina
+
+EVALUACIÓN MÉDICA DE URGENCIA:
+Impresión Diagnóstica:
+- Asma bronquial
+- Infección por COVID-19
+
+Plan y Disposición:
+Tratamiento sintomático instaurado. Se indica alta a domicilio con reposo y seguimiento por su médico de atención primaria.

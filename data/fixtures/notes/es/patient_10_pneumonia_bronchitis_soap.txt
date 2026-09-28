@@ -1,0 +1,36 @@
+INFORME DE ATENCIÓN DE URGENCIA / TRIAJE
+Fecha: 2024-03-15
+Nombre del Paciente: George F Martin | Fecha de Nacimiento: 1977-08-19 | Género: Masculino
+Nivel de Triaje: Prioridad 3
+
+MOTIVO DE ATENCIÓN:
+Fiebre de 38.9 °C y tos productiva de 3 días de evolución. Niega dolor pleurítico, niega hemoptisis ni síncope.
+
+Signos Vitales al Ingreso:
+- Presión Arterial: 122.0/80.0 mmHg
+- Frecuencia Cardíaca: 94.0 lpm
+- Frecuencia Respiratoria: 24.0 respiraciones/minuto
+- Temperatura: 38.9 °C
+- Saturación de Oxígeno (SpO2): 92.0% aire ambiente
+
+Antecedentes Médicos Personales:
+- Neumonía
+- Bronquitis aguda
+
+Antecedentes Familiares:
+- Padre con asma crónica.
+
+Medicación Habitual:
+- Azitromicina 250 mg comprimidos
+- Amoxicilina 500 mg
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+EVALUACIÓN MÉDICA DE URGENCIA:
+Impresión Diagnóstica:
+- Neumonía
+- Bronquitis aguda
+
+Plan y Disposición:
+Pauta antibiótica ambulatoria. Control en 48 horas por su médico de familia.

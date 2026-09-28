@@ -1,0 +1,40 @@
+SPECIALTY CONSULTATION NOTE
+Date: 2024-03-15
+Patient Name: Silvia E Guerrero
+DOB: 1959-08-27 | Gender: Female
+Specialty: Medical Subspecialty Consultation
+
+REASON FOR CONSULTATION:
+Specialized appraisal of chronic disease trajectory and therapeutic optimization.
+Patient denies acute symptoms, denies orthopnea, denies lower extremity edema.
+
+Vital Signs:
+- Blood Pressure: 128.0/82.0 mmHg
+- Heart Rate: 74.0 bpm
+- Respiratory Rate: 16.0 breaths/min
+- Temperature: 98.6 F
+
+Past Medical History:
+- Coronary artery disease
+- Chronic kidney disease
+
+Family History:
+- Mother diagnosed with breast cancer at age 62.
+- Father died of myocardial infarction at age 68.
+- Strong family history of colon cancer and stroke.
+
+Current Medications:
+- Aspirin 81 MG Oral Tablet
+- Amlodipine 5 MG Oral Tablet
+
+Allergies:
+- Latex allergy
+
+IMPRESSION & RECOMMENDATIONS:
+Assessment:
+- Coronary artery disease
+- Chronic kidney disease
+
+Recommendations:
+1. Continue optimized pharmacotherapy as outlined above.
+2. Routine follow-up interval as scheduled.

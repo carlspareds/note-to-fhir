@@ -1,0 +1,45 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Barbara J King
+Fecha de Nacimiento: 1983-04-11 | Género: Femenino
+Tipo de Consulta: Consulta Ambulatoria Programada
+
+SUBJETIVO:
+Motivo de consulta: Control evolutivo y seguimiento de patologías crónicas.
+Enfermedad Actual:
+Paciente nacido el 1983-04-11, acude a consulta programada para control. Refiere encontrarse estable, niega dolor torácico, disnea ni palpitaciones. Manifiesta buena adherencia a los tratamientos prescritos.
+
+Antecedentes Médicos Personales:
+- Asma bronquial
+- Enfermedad por reflujo gastroesofágico (ERGE)
+
+Antecedentes Familiares:
+- Madre con diabetes mellitus.
+- Padre con hipertensión arterial.
+
+Medicación Actual:
+- Albuterol / Salbutamol inhalador 90 mcg
+- Omeprazol 20 mg cápsulas
+
+Alergias:
+- Alergia a la penicilina
+
+OBJETIVO:
+Examen Físico:
+Paciente orientado en tiempo, espacio y persona. Buen estado general, hidratado. Auscultación cardíaca: ruidos cardíacos rítmicos sin soplos. Auscultación pulmonar: murmullo vesicular conservado sin ruidos sobreagregados. Abdomen blando, no doloroso.
+
+Signos Vitales:
+- Presión Arterial: 126.0/80.0 mmHg
+- Frecuencia Cardíaca: 72.0 lpm
+- Frecuencia Respiratoria: 16.0 respiraciones/minuto
+- Temperatura: 98.6 °F (37.0 °C)
+
+EVALUACIÓN Y PLAN:
+Diagnósticos / Impresión Clínica:
+- Asma bronquial
+- Enfermedad por reflujo gastroesofágico (ERGE)
+
+Plan Terapéutico:
+1. Continuar con el esquema farmacológico indicado.
+2. Mantener hábitos dietéticos cardiosaludables y actividad física regular.
+3. Próxima revisión en consulta externa en 3 a 6 meses.

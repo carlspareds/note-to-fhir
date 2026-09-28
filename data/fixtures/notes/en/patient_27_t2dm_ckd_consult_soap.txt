@@ -1,0 +1,38 @@
+SPECIALTY CONSULTATION NOTE
+Date: 2024-03-15
+Patient Name: Beatriz M Sanchez
+DOB: 1966-07-21 | Gender: Female
+Specialty: Nephrology Consultation
+
+REASON FOR CONSULTATION:
+Appraisal of chronic renal insufficiency secondary to long-standing diabetes mellitus.
+Patient reports stable baseline without acute changes. Denies orthopnea, denies bilateral leg edema, denies nausea or vomiting.
+
+Vital Signs:
+- Blood Pressure: 136.0/84.0 mmHg
+- Heart Rate: 78.0 bpm
+- Respiratory Rate: 16.0 breaths/min
+- Temperature: 98.4 F
+
+Past Medical History:
+- Type 2 diabetes mellitus
+- Chronic kidney disease
+
+Family History:
+- Mother had diabetic nephropathy.
+- Brother had end-stage renal disease.
+
+Current Medications:
+- Metformin hydrochloride 500 MG Oral Tablet
+
+Allergies:
+- No known drug allergies (NKDA).
+
+IMPRESSION & RECOMMENDATIONS:
+Assessment:
+- Type 2 diabetes mellitus
+- Chronic kidney disease
+
+Recommendations:
+1. Continue metformin 500 mg daily with renal dose adjustment.
+2. Monitor eGFR and urine albumin-to-creatinine ratio every 3 months.

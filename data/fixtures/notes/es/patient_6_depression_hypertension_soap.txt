@@ -1,0 +1,43 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Thomas E Brown
+Fecha de Nacimiento: 1980-03-12 | Género: Masculino
+Tipo de Consulta: Consulta Ambulatoria Programada
+
+SUBJETIVO:
+Motivo de consulta: Control de presión arterial y estado anímico.
+Enfermedad Actual:
+Paciente nacido el 1980-03-12, acude para control programado. Manifiesta mejoría en su estado de ánimo. Niega dolor torácico, sin disnea aguda, niega ideación autolítica.
+
+Antecedentes Médicos Personales:
+- Hipertensión arterial esencial
+- Trastorno depresivo mayor
+
+Antecedentes Familiares:
+- Madre con depresión clínica.
+- Padre fallecido por infarto de miocardio a los 70 años.
+
+Medicación Actual:
+- Lisinopril 10 mg comprimidos vía oral
+
+Alergias:
+- Alergia a la penicilina
+
+OBJETIVO:
+Examen Físico:
+Orientado en tiempo y espacio. Auscultación cardíaca rítmica sin soplos. Auscultación pulmonar limpia.
+
+Signos Vitales:
+- Presión Arterial: 130.0/84.0 mmHg
+- Frecuencia Cardíaca: 70.0 lpm
+- Frecuencia Respiratoria: 15.0 respiraciones/minuto
+- Temperatura: 37.0 °C
+
+EVALUACIÓN Y PLAN:
+Diagnósticos / Impresión Clínica:
+- Hipertensión arterial esencial
+- Trastorno depresivo mayor
+
+Plan:
+1. Continuar Lisinopril 10 mg al día.
+2. Control en 3 meses.

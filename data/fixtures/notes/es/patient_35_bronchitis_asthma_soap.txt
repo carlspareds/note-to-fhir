@@ -1,0 +1,44 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Raul F Torres
+Fecha de Nacimiento: 1989-05-19 | Género: Masculino
+Tipo de Consulta: Consulta Ambulatoria Programada
+
+SUBJETIVO:
+Motivo de consulta: Tos y sibilancias leves tras cuadro catarral.
+Enfermedad Actual:
+Paciente nacido el 1989-05-19, acude por tos de 5 días de evolución con ruidos de pecho. Antecedente de asma leve. Niega dolor torácico, hemoptisis ni fiebre alta.
+
+Antecedentes Médicos Personales:
+- Bronquitis aguda
+- Asma bronquial
+
+Antecedentes Familiares:
+- Hermano con asma bronquial.
+- Madre con cáncer de mama.
+
+Medicación Actual:
+- Salbutamol inhalador 90 mcg
+- Fluticasona spray nasal
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+OBJETIVO:
+Examen Físico:
+Sibilancias espiratorias bilaterales aisladas. Tonos cardíacos rítmicos.
+
+Signos Vitales:
+- Presión Arterial: 120.0/76.0 mmHg
+- Frecuencia Cardíaca: 80.0 lpm
+- Frecuencia Respiratoria: 18.0 respiraciones/minuto
+- Temperatura: 36.9 °C
+
+EVALUACIÓN Y PLAN:
+Diagnósticos / Impresión Clínica:
+- Bronquitis aguda
+- Asma bronquial
+
+Plan:
+1. Salbutamol inhalado a demanda y fluticasona nasal diaria.
+2. Hidratación y reposo. Revisión en 10 días si no cede.

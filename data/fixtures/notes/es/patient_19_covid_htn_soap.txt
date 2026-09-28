@@ -1,0 +1,36 @@
+INFORME DE ATENCIÓN DE URGENCIA / TRIAJE
+Fecha: 2024-03-15
+Nombre del Paciente: Margaret B Perez | Fecha de Nacimiento: 1967-10-14 | Género: Femenino
+Nivel de Triaje: Prioridad 3 (Urgente Estable)
+
+MOTIVO DE ATENCIÓN:
+Consulta por cuadro agudo de malestar general. Niega dolor torácico irradiado, sin disnea paroxística, niega síncope.
+
+Signos Vitales al Ingreso:
+- Presión Arterial: 126.0/80.0 mmHg
+- Frecuencia Cardíaca: 72.0 lpm
+- Frecuencia Respiratoria: 16.0 respiraciones/minuto
+- Temperatura: 98.6 °F (37.0 °C)
+
+Antecedentes Médicos Personales:
+- Infección por COVID-19
+- Hipertensión arterial esencial
+
+Antecedentes Familiares:
+- Madre con diabetes mellitus.
+- Padre con hipertensión arterial.
+
+Medicación Habitual:
+- Azitromicina 250 mg comprimidos
+- Lisinopril 10 mg comprimidos vía oral
+
+Alergias:
+- Alergia a la penicilina
+
+EVALUACIÓN MÉDICA DE URGENCIA:
+Impresión Diagnóstica:
+- Infección por COVID-19
+- Hipertensión arterial esencial
+
+Plan y Disposición:
+Tratamiento sintomático instaurado. Se indica alta a domicilio con reposo y seguimiento por su médico de atención primaria.

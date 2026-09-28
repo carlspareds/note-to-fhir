@@ -1,0 +1,39 @@
+SPECIALTY CONSULTATION NOTE
+Date: 2024-03-15
+Patient Name: Edward P Adams
+DOB: 1956-06-15 | Gender: Male
+Specialty: Medical Subspecialty Consultation
+
+REASON FOR CONSULTATION:
+Specialized appraisal of chronic disease trajectory and therapeutic optimization.
+Patient denies acute symptoms, denies orthopnea, denies lower extremity edema.
+
+Vital Signs:
+- Blood Pressure: 126.0/80.0 mmHg
+- Heart Rate: 72.0 bpm
+- Respiratory Rate: 16.0 breaths/min
+- Temperature: 98.6 F
+
+Past Medical History:
+- Chronic obstructive pulmonary disease
+- Essential hypertension
+
+Family History:
+- Mother had diabetes.
+- Father had hypertension.
+
+Current Medications:
+- Albuterol 90 MCG/ACTUAT Inhaler
+- Lisinopril 10 MG Oral Tablet
+
+Allergies:
+- Latex allergy
+
+IMPRESSION & RECOMMENDATIONS:
+Assessment:
+- Chronic obstructive pulmonary disease
+- Essential hypertension
+
+Recommendations:
+1. Continue optimized pharmacotherapy as outlined above.
+2. Routine follow-up interval as scheduled.

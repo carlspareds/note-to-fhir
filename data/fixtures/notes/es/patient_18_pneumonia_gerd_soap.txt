@@ -1,0 +1,36 @@
+INFORME DE ATENCIÓN DE URGENCIA / TRIAJE
+Fecha: 2024-03-15
+Nombre del Paciente: Henry D Mitchell | Fecha de Nacimiento: 1971-07-22 | Género: Masculino
+Nivel de Triaje: Prioridad 3 (Urgente Estable)
+
+MOTIVO DE ATENCIÓN:
+Consulta por cuadro agudo de malestar general. Niega dolor torácico irradiado, sin disnea paroxística, niega síncope.
+
+Signos Vitales al Ingreso:
+- Presión Arterial: 126.0/80.0 mmHg
+- Frecuencia Cardíaca: 72.0 lpm
+- Frecuencia Respiratoria: 16.0 respiraciones/minuto
+- Temperatura: 98.6 °F (37.0 °C)
+
+Antecedentes Médicos Personales:
+- Neumonía
+- Enfermedad por reflujo gastroesofágico (ERGE)
+
+Antecedentes Familiares:
+- Madre con diabetes mellitus.
+- Padre con hipertensión arterial.
+
+Medicación Habitual:
+- Amoxicilina 500 mg
+- Omeprazol 20 mg cápsulas
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+EVALUACIÓN MÉDICA DE URGENCIA:
+Impresión Diagnóstica:
+- Neumonía
+- Enfermedad por reflujo gastroesofágico (ERGE)
+
+Plan y Disposición:
+Tratamiento sintomático instaurado. Se indica alta a domicilio con reposo y seguimiento por su médico de atención primaria.

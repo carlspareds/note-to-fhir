@@ -1,0 +1,44 @@
+CLINICAL ENCOUNTER NOTE (SOAP)
+Date: 2024-03-15
+Patient Name: Raul F Torres
+DOB: 1989-05-19 | Gender: Male
+Encounter Type: Outpatient Ambulatory Visit
+
+SUBJECTIVE:
+Chief Complaint: Cough and mild wheezing after cold symptoms.
+History of Present Illness (HPI):
+The patient is a 1989-05-19-born male presenting with cough and chest tightness for 5 days. History of mild asthma. Patient denies chest pain, denies hemoptysis, denies high fever.
+
+Past Medical History (PMH):
+- Acute bronchitis
+- Asthma
+
+Family History:
+- Brother has allergic asthma.
+- Mother had breast cancer.
+
+Current Medications:
+- Albuterol 90 MCG/ACTUAT Inhaler
+- Fluticasone propionate
+
+Allergies:
+- No known drug allergies (NKDA).
+
+OBJECTIVE:
+Physical Examination:
+Bilateral expiratory wheezes, no stridor. Normal S1/S2 heart sounds.
+
+Vital Signs:
+- Blood Pressure: 120.0/76.0 mmHg
+- Heart Rate: 80.0 bpm
+- Respiratory Rate: 18.0 breaths/min
+- Temperature: 98.4 F
+
+ASSESSMENT & PLAN:
+Assessment:
+- Acute bronchitis
+- Asthma
+
+Plan:
+1. Continue inhaled albuterol as needed and fluticasone daily.
+2. Rest and hydration. Clinic follow-up if symptoms persist past 10 days.

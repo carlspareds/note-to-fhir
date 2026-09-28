@@ -1,0 +1,38 @@
+NOTA DE INTERCONSULTA ESPECIALIZADA
+Fecha: 2024-03-15
+Nombre del Paciente: Francisco J Vargas
+Fecha de Nacimiento: 1978-07-07 | Género: Masculino
+Especialidad: Consulta Externa de Especialidades Médicas
+
+MOTIVO DE INTERCONSULTA:
+Evaluación de patología crónica y valoración de respuesta al tratamiento farmacológico.
+Exploración física sin hallazgos agudos. Paciente niega dolor precordial o disnea de esfuerzo.
+
+Signos Vitales:
+- Presión Arterial: 128.0/82.0 mmHg
+- Frecuencia Cardíaca: 74.0 lpm
+- Frecuencia Respiratoria: 16.0 respiraciones/minuto
+- Temperatura: 98.6 °F (37.0 °C)
+
+Antecedentes Médicos Personales:
+- Hipotiroidismo
+- Trastorno depresivo mayor
+
+Antecedentes Familiares:
+- Madre diagnosticada de cáncer de mama a los 62 años.
+- Padre fallecido por infarto agudo de miocardio a los 68 años.
+- Antecedentes familiares de cáncer colorrectal y accidente cerebrovascular.
+
+Medicación Actual:
+- Levotiroxina 50 mcg
+
+Alergias:
+- Alergia a los mariscos
+
+IMPRESIÓN CLÍNICA Y RECOMENDACIONES:
+- Hipotiroidismo
+- Trastorno depresivo mayor
+
+Recomendaciones:
+1. Mantener pauta farmacológica sin modificaciones.
+2. Control evolutivo por su servicio de referencia.

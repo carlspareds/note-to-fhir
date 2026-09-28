@@ -1,0 +1,37 @@
+NOTA DE INTERCONSULTA ESPECIALIZADA
+Fecha: 2024-03-15
+Nombre del Paciente: Frances W Campbell
+Fecha de Nacimiento: 1979-05-04 | Género: Femenino
+Especialidad: Consulta Externa de Especialidades Médicas
+
+MOTIVO DE INTERCONSULTA:
+Evaluación de patología crónica y valoración de respuesta al tratamiento farmacológico.
+Exploración física sin hallazgos agudos. Paciente niega dolor precordial o disnea de esfuerzo.
+
+Signos Vitales:
+- Presión Arterial: 126.0/80.0 mmHg
+- Frecuencia Cardíaca: 72.0 lpm
+- Frecuencia Respiratoria: 16.0 respiraciones/minuto
+- Temperatura: 98.6 °F (37.0 °C)
+
+Antecedentes Médicos Personales:
+- Hiperlipidemia mixta
+- Trastorno depresivo mayor
+
+Antecedentes Familiares:
+- Madre con diabetes mellitus.
+- Padre con hipertensión arterial.
+
+Medicación Actual:
+- Atorvastatina 20 mg vía oral
+
+Alergias:
+- Alergia a los mariscos
+
+IMPRESIÓN CLÍNICA Y RECOMENDACIONES:
+- Hiperlipidemia mixta
+- Trastorno depresivo mayor
+
+Recomendaciones:
+1. Mantener pauta farmacológica sin modificaciones.
+2. Control evolutivo por su servicio de referencia.

@@ -1,0 +1,46 @@
+CLINICAL ENCOUNTER NOTE (SOAP)
+Date: 2024-03-15
+Patient Name: Emilio F Herrera
+DOB: 1976-11-05 | Gender: Male
+Encounter Type: Outpatient Ambulatory Visit
+
+SUBJECTIVE:
+Chief Complaint: Follow-up and routine chronic disease management.
+History of Present Illness (HPI):
+The patient is a 1976-11-05-born male presenting for a scheduled outpatient evaluation. Patient reports general stability over recent weeks. Adherence to prescribed pharmacotherapy is reported as regular without severe side effects. Patient denies chest pain, shortness of breath, or fever.
+
+Past Medical History (PMH):
+- Type 2 diabetis mellitus
+- Hypothyroidism
+
+Family History:
+- Mother diagnosed with breast cancer at age 62.
+- Father died of myocardial infarction at age 68.
+- Strong family history of colon cancer and stroke.
+
+Current Medications:
+- Metformin hydrochloride 500 MG Oral Tablet
+- Levothyroxine sodium 50 MCG Oral Tablet
+
+Allergies:
+- No known drug allergies (NKDA).
+
+OBJECTIVE:
+Physical Examination:
+Well-developed, alert and oriented x4. No acute respiratory distress. Heart sounds regular rate and rhythm, normal S1/S2, no murmurs. Lungs clear to auscultation bilaterally.
+
+Vital Signs:
+- Blood Pressure: 128.0/82.0 mmHg
+- Heart Rate: 74.0 bpm
+- Respiratory Rate: 16.0 breaths/min
+- Temperature: 98.6 F
+
+ASSESSMENT & PLAN:
+Assessment:
+- Type 2 diabetis mellitus
+- Hypothyroidism
+
+Plan:
+1. Continue current medication regimen as tolerated.
+2. Maintain lifestyle and dietary modifications.
+3. Follow-up clinic appointment in 3 to 6 months.

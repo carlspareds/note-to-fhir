@@ -1,0 +1,37 @@
+NOTA DE INTERCONSULTA ESPECIALIZADA
+Fecha: 2024-03-15
+Nombre del Paciente: Miguel A Flores
+Fecha de Nacimiento: 1953-01-30 | Género: Masculino
+Especialidad: Gastroenterología
+
+MOTIVO DE INTERCONSULTA:
+Evaluación de síntomas de reflujo ácido y comorbilidad articular.
+Paciente sin disfagia ni pérdida involuntaria de peso. Niega hematemesis, melenas o signos de hemorragia digestiva. Sin derrame articular agudo.
+
+Signos Vitales:
+- Presión Arterial: 128.0/80.0 mmHg
+- Frecuencia Cardíaca: 72.0 lpm
+- Frecuencia Respiratoria: 16.0 respiraciones/minuto
+- Temperatura: 36.8 °C
+
+Antecedentes Médicos Personales:
+- Osteoartritis
+- Enfermedad por reflujo gastroesofágico (ERGE)
+
+Antecedentes Familiares:
+- Padre fallecido por adenocarcinoma gástrico a los 74 años.
+- Madre con osteoporosis severa.
+
+Medicación Actual:
+- Omeprazol 20 mg cápsulas
+
+Alergias:
+- Alergia a la codeína
+
+IMPRESIÓN CLÍNICA Y RECOMENDACIONES:
+- Osteoartritis
+- Enfermedad por reflujo gastroesofágico (ERGE)
+
+Recomendaciones:
+1. Omeprazol 20 mg 30 minutos antes del desayuno.
+2. Medidas higiénico-dietéticas antirreflujo.

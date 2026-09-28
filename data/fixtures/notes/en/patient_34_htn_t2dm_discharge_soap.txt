@@ -1,0 +1,33 @@
+INPATIENT HOSPITAL DISCHARGE SUMMARY
+Date: 2024-03-15
+Patient Name: Isabel C Ramos
+DOB: 1969-06-14 | Gender: Female
+Service: Internal Medicine
+
+HOSPITAL COURSE:
+Patient admitted for blood pressure stabilization and oral hypoglycemic adjustment. Reached target vitals and glycemic parameters without hypoglycemic episodes. Discharged in stable condition.
+
+Discharge Vital Signs:
+- Blood Pressure: 134.0/84.0 mmHg
+- Heart Rate: 74.0 bpm
+- Respiratory Rate: 16.0 breaths/min
+- Temperature: 98.5 F
+
+Discharge Diagnoses (Past Medical History):
+- Essential hypertension
+- Type 2 diabetes mellitus
+
+Family History:
+- Mother had stroke at age 71.
+- Father had diabetic retinopathy.
+
+Discharge Current Medications:
+- Lisinopril 10 MG Oral Tablet
+- Metformin hydrochloride 500 MG Oral Tablet
+
+Allergies:
+- Allergy to penicillin
+
+DISCHARGE INSTRUCTIONS:
+1. Continue lisinopril 10 mg daily and metformin 500 mg BID.
+2. Home blood glucose monitoring and outpatient PCP follow-up in 2 weeks.

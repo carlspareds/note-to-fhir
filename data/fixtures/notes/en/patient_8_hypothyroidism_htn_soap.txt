@@ -1,0 +1,44 @@
+CLINICAL ENCOUNTER NOTE (SOAP)
+Date: 2024-03-15
+Patient Name: Susan L White
+DOB: 1968-05-25 | Gender: Female
+Encounter Type: Outpatient Ambulatory Visit
+
+SUBJECTIVE:
+Chief Complaint: Annual thyroid and blood pressure check.
+History of Present Illness (HPI):
+The patient is a 1968-05-25-born female presenting for annual follow-up. Energy levels are stable. No cold intolerance, no palpitations. Patient denies chest pain or shortness of breath.
+
+Past Medical History (PMH):
+- Hypothyroidism
+- Essential hypertension
+
+Family History:
+- Mother had Hashimoto thyroiditis.
+- Brother has hypertension.
+
+Current Medications:
+- Levothyroxine sodium 50 MCG Oral Tablet
+- Hydrochlorothiazide 25 MG Oral Tablet
+
+Allergies:
+- Allergy to aspirin
+
+OBJECTIVE:
+Physical Examination:
+Thyroid non-tender, no nodules palpated. Heart regular rate and rhythm. Lungs clear.
+
+Vital Signs:
+- Blood Pressure: 124.0/78.0 mmHg
+- Heart Rate: 66.0 bpm
+- Respiratory Rate: 14.0 breaths/min
+- Temperature: 97.9 F
+
+ASSESSMENT & PLAN:
+Assessment:
+- Hypothyroidism
+- Essential hypertension
+
+Plan:
+1. Continue levothyroxine 50 mcg and hydrochlorothiazide 25 mg.
+2. Routine TSH lab check in 6 months.

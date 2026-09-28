@@ -1,0 +1,44 @@
+NOTA DE EVOLUCIÓN CLÍNICA (SOAP)
+Fecha: 2024-03-15
+Nombre del Paciente: Susan L White
+Fecha de Nacimiento: 1968-05-25 | Género: Femenino
+Tipo de Consulta: Consulta Ambulatoria Programada
+
+SUBJETIVO:
+Motivo de consulta: Control anual de tiroides y tensión arterial.
+Enfermedad Actual:
+Paciente nacida el 1968-05-25, acude para control anual. Refiere buena tolerancia al tratamiento. Sin intolerancia al frío ni palpitaciones. Niega dolor torácico o disnea.
+
+Antecedentes Médicos Personales:
+- Hipotiroidismo
+- Hipertensión arterial esencial
+
+Antecedentes Familiares:
+- Madre con tiroiditis de Hashimoto.
+- Hermano con hipertensión arterial.
+
+Medicación Actual:
+- Levotiroxina 50 mcg
+- Hidroclorotiazida 25 mg
+
+Alergias:
+- Alergia a la aspirina
+
+OBJETIVO:
+Examen Físico:
+Tiroides sin nódulos palpables. Auscultación cardíaca rítmica. Auscultación pulmonar normal.
+
+Signos Vitales:
+- Presión Arterial: 124.0/78.0 mmHg
+- Frecuencia Cardíaca: 66.0 lpm
+- Frecuencia Respiratoria: 14.0 respiraciones/minuto
+- Temperatura: 36.6 °C
+
+EVALUACIÓN Y PLAN:
+Diagnósticos / Impresión Clínica:
+- Hipotiroidismo
+- Hipertensión arterial esencial
+
+Plan:
+1. Continuar levotiroxina 50 mcg e hidroclorotiazida 25 mg.
+2. Control analítico de TSH en 6 meses.

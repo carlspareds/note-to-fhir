@@ -1,0 +1,30 @@
+NOTA DE PROGRESO CLÍNICO DIARIO
+Fecha: 2024-03-15
+Nombre del Paciente: Charles R Scott | Fecha de Nacimiento: 1963-09-05 | Género: Masculino
+
+Evolución diaria: Paciente estable durante las últimas 24 horas. Niega molestias añadidas.
+Signos Vitales:
+- Presión Arterial: 126.0/80.0 mmHg
+- Frecuencia Cardíaca: 72.0 lpm
+- Frecuencia Respiratoria: 16.0 respiraciones/minuto
+- Temperatura: 98.6 °F (37.0 °C)
+
+Antecedentes Médicos Personales:
+- Hipertensión arterial esencial
+- Cardiopatía isquémica coronaria
+
+Antecedentes Familiares:
+- Madre con diabetes mellitus.
+- Padre con hipertensión arterial.
+
+Medicación Actual:
+- Amlodipino 5 mg comprimidos
+- Aspirina 81 mg vía oral
+
+Alergias:
+- Sin alergias medicamentosas conocidas (NKDA).
+
+Impresión Diagnóstica y Plan:
+- Hipertensión arterial esencial
+- Cardiopatía isquémica coronaria
+Plan: Mantener tratamiento actual y continuar monitorización clínica.

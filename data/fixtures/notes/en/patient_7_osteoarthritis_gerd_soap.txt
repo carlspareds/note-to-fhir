@@ -1,0 +1,31 @@
+DAILY CLINICAL PROGRESS NOTE
+Date: 2024-03-15
+Patient Name: Patricia M Clark | DOB: 1954-10-18 | Gender: Female
+
+Daily Progress: Patient reports stable knee discomfort, well controlled with conservative therapy. Denies active heartburn or acid regurgitation. Denies chest pain or shortness of breath.
+
+Vital Signs:
+- Blood Pressure: 128.0/80.0 mmHg
+- Heart Rate: 72.0 bpm
+- Respiratory Rate: 16.0 breaths/min
+- Temperature: 98.2 F
+
+Past Medical History:
+- Osteoarthritis
+- Gastroesophageal reflux disease
+
+Family History:
+- Maternal grandmother had rheumatoid arthritis.
+- Father had colon cancer.
+
+Current Medications:
+- Omeprazole 20 MG Delayed Release Oral Capsule
+- Aspirin 81 MG Oral Tablet
+
+Allergies:
+- Allergy to codeine
+
+Assessment & Plan:
+- Osteoarthritis
+- Gastroesophageal reflux disease
+Plan: Continue omeprazole 20 mg and aspirin 81 mg. Maintain physical therapy.
