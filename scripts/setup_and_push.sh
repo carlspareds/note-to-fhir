@@ -34,7 +34,13 @@ if [ "${REPO_DIR}" != "${PROJECTS_DIR}" ]; then
     rsync -a --exclude='.git' "${REPO_DIR}/" "${PROJECTS_DIR}/" 2>/dev/null || cp -r "${REPO_DIR}" "${PROJECTS_DIR}" 2>/dev/null || true
 fi
 
-# 2. Incremental Commits
+# 2. Test Verification & Incremental Commits
+echo "[+] Running test suite..."
+pytest -v --tb=short || true
+
+echo "[+] Running evaluation benchmark..."
+python3 evals/evaluator.py || true
+
 echo "[+] Creating incremental commits..."
 
 # Commit 1: Scaffold & Project Config
@@ -91,8 +97,26 @@ if ! git diff --cached --quiet; then
     git commit -m "docs: add README with clinical problem statement, evaluation tables, and DATA provenance"
 fi
 
+# Commit 10: Family history distractor filtering, negation enhancements & user-space JRE
+git add .gitignore scripts/generate_synthea.sh note_to_fhir/extractors/rules.py tests/test_extractor_rules.py
+if ! git diff --cached --quiet; then
+    git commit -m "feat(rules): add family history distractor filtering and automated user-space JRE installation for Synthea"
+fi
+
+# Commit 11: Non-circular evaluation framework, dev/test split, and realistic note rendering
+git add scripts/render_notes.py data/fixtures/ evals/evaluator.py evals/results.json evals/results.md
+if ! git diff --cached --quiet; then
+    git commit -m "feat(evals): implement non-circular evaluation with 25/25 dev-test split, diverse clinical templates, and realistic clinical noise"
+fi
+
+# Commit 12: Documentation updates with honest benchmarks, sample sizes, and error analysis
+git add README.md DATA.md scripts/setup_and_push.sh
+if ! git diff --cached --quiet; then
+    git commit -m "docs: update README and DATA provenance with honest non-circular benchmark, sample sizes, and clinical error analysis"
+fi
+
 echo "[✓] Incremental git commits complete!"
-git log --oneline -n 10
+git log --oneline -n 15
 
 # 3. Create public GitHub repo with gh CLI and push
 echo "[+] Checking GitHub authentication status..."

@@ -92,18 +92,23 @@ Vital Signs:
 
 ## Benchmark Results (Evaluated against Synthea Ground Truth)
 
-Full evaluation metrics computed across representative cohorts generated with Synthea:
+Non-circular benchmark evaluated on held-out test patients generated with Synthea (Seed `424242`), rendered across 5 varied clinical note templates (Outpatient SOAP, Emergency Department Acute Triage, Inpatient Discharge Summary, Medical Specialty Consultation, Daily Progress Note) with realistic noise (standard abbreviations like HTN/DM2/HLD/CAD/COPD/GERD/HTA/EPOC, narrative misspellings, explicit clinical negations, and family history distractors):
 
-| Resource Type | Standard Terminology | Precision (EN) | Recall (EN) | F1-Score (EN) | Precision (ES) | Recall (ES) | F1-Score (ES) | Code Accuracy |
+| Resource Type | Standard Coding System | Precision (EN) | Recall (EN) | F1 (EN) | Precision (ES) | Recall (ES) | F1 (ES) | Ground Truth N |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Patient Demographics** | Name, DOB, Gender | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 100.0% |
-| **Condition** | SNOMED CT / ICD-10 | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 100.0% |
-| **MedicationStatement** | RxNorm | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 100.0% |
-| **AllergyIntolerance** | SNOMED CT | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 100.0% |
-| **Observation (Vitals)** | LOINC + UCUM | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 100.0% |
-| **Overall Micro-Average** | **All Standards** | **100.0%** | **100.0%** | **100.0%** | **100.0%** | **100.0%** | **100.0%** | **100.0%** |
+| **Patient Demographics** | Name, DOB, Gender | 100.0% | 94.7% | **97.3%** | 100.0% | 100.0% | **100.0%** | 75 / lang |
+| **Condition** | SNOMED CT / ICD-10 | 100.0% | 93.9% | **96.8%** | 100.0% | 93.9% | **96.8%** | 49 / lang |
+| **MedicationStatement** | RxNorm | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 38 / lang |
+| **AllergyIntolerance** | SNOMED CT | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 14 / lang |
+| **Observation (Vitals)** | LOINC + UCUM | 98.4% | 100.0% | **99.2%** | 98.4% | 100.0% | **99.2%** | 125 / lang |
+| **Overall Micro-Average** | **All Standard Terminologies** | **99.3%** | **97.7%** | **98.5%** | **99.3%** | **99.0%** | **99.2%** | **301 / lang** |
 
-*Detailed breakdowns, per-patient confusion matrices, and metrics are documented in [`evals/results.md`](evals/results.md) and [`evals/results.json`](evals/results.json).*
+*Note on Non-Circular Evaluation & Clinical Error Analysis:*
+- **Dev / Test Split:** Evaluated on held-out test patients independent of the training/dev dictionary.
+- **Narrative Typos:** Realistic free-text misspellings (*hypertensn*, *artrial*) account for missed condition recall, avoiding circular 100% claims.
+- **Distractor Filtering:** Family history mentions (*"Mother diagnosed with breast cancer at age 62"*) are cleanly filtered by `_is_family_history`, maintaining 100% condition precision in English.
+- **Negations:** Pertinent clinical negatives (*"denies chest pain"*, *"sin disnea"*) are suppressed from extraction.
+- Detailed error breakdown and case studies are documented in [`evals/results.md`](evals/results.md) and [`evals/results.json`](evals/results.json).
 
 ---
 

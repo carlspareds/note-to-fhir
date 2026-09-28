@@ -17,36 +17,44 @@ Ground truth patient histories and FHIR R4 bundles are generated using **Synthea
 
 ---
 
-## 2. Why Bulk Generated Data Is Not Committed
+## 2. Synthea Generation Pipeline & User-Space JRE Automation
 
 Running Synthea for longitudinal populations generates hundreds of megabytes of raw JSON across thousands of resource entries. In accordance with clinical software engineering best practices:
 
-1. **Git Repository Hygiene**: Bulk generated datasets cause severe git repository bloat, slow down clones, and degrade CI/CD pipelines.
-2. **Deterministic Reproducibility**: The generation script [`scripts/generate_synthea.sh`](scripts/generate_synthea.sh) executes Synthea with an explicit random seed (`SEED=424242`). Anyone can reproduce the exact same synthetic population on demand by executing:
+1. **Deterministic Reproducibility**: The generation script [`scripts/generate_synthea.sh`](scripts/generate_synthea.sh) executes Synthea with an explicit random seed (`SEED=424242`) generating 50 synthetic patient bundles. Anyone can reproduce the exact synthetic population on demand:
    ```bash
    bash scripts/generate_synthea.sh
    ```
-3. **Repository Policy**: All bulk outputs under `data/synthea_output/`, `output/`, and `*.jar` are strictly gitignored via [`.gitignore`](.gitignore).
+2. **Automated User-Space JRE**: If Java is missing on the system, `scripts/generate_synthea.sh` automatically downloads a portable **Eclipse Temurin 17 JRE** (Linux x64) tarball into user space (`bin/jre`), sets `PATH`, and executes `synthea-with-dependencies.jar` without requiring root or system package manager privileges.
+3. **Git Hygiene & Repository Policy**: All bulk outputs under `data/synthea_output/`, `output/`, and `*.jar` are strictly gitignored via [`.gitignore`](.gitignore). Curated dev/test fixtures in `data/fixtures/` provide immediate, offline verifiable evaluation.
 
 ---
 
-## 3. Sample Evaluation Fixtures
+## 3. Non-Circular Evaluation Fixtures & Dev/Test Split
 
-To ensure immediate testability and verifiable evaluation out of the box without requiring users to download the 150 MB Synthea JAR or install Java, the repository includes 5 curated, representative synthetic patient fixtures in [`data/fixtures/`](data/fixtures/):
+To eliminate circularity (where dictionaries and note templates are derived from the same 5 samples), `note-to-fhir` establishes a rigorous non-circular evaluation methodology:
 
-| Fixture ID | Archetype / Primary Diagnoses | Standard Terminologies Included |
-| :--- | :--- | :--- |
-| `patient_1_hypertension_diabetes` | Essential Hypertension, Type 2 Diabetes | SNOMED `59621000`, `44054006`; RxNorm `314076`, `860975`; SNOMED `91936005` (Penicillin allergy) |
-| `patient_2_asthma_allergy` | Moderate Persistent Asthma | SNOMED `195967001`; RxNorm `745752`, `896209`; SNOMED `91935004` (Peanut allergy) |
-| `patient_3_covid_respiratory` | COVID-19, Acute Bronchitis | SNOMED `840539006`, `10509002`; RxNorm `248656`; SNOMED `91931000` (Sulfa allergy) |
-| `patient_4_cardiac_hyperlipidemia` | Hyperlipidemia, Coronary Artery Disease | SNOMED `55822004`, `53741008`; RxNorm `259255`, `243670`; SNOMED `294505008` (Codeine allergy) |
-| `patient_5_copd_smoking` | COPD, Gastroesophageal Reflux (GERD) | SNOMED `13645005`, `235595009`; RxNorm `312134`, `197361`; SNOMED `300916003` (Latex allergy) |
+1. **Dev / Test Split**: 50 synthetic patients are partitioned into:
+   - **Dev Cohort (25 patients)**: For rule development, regex tuning, and dictionary curation.
+   - **Held-Out Test Cohort (25 patients)**: Strictly unseen during rule design for unbiased generalization appraisal.
+2. **5 Varied Clinical Note Templates**:
+   - Outpatient SOAP Follow-up Note
+   - Emergency Department Acute Triage Note
+   - Inpatient Hospital Discharge Summary
+   - Medical Specialty Consultation Note
+   - Daily Inpatient Clinical Progress Note
+3. **Realistic Clinical Noise**:
+   - **Standard Clinical Abbreviations**: *HTN*, *DM2*, *HLD*, *CAD*, *COPD*, *GERD*, *HTA*, *EPOC*, *ERGE*.
+   - **Narrative Typos**: Realistic free-text misspellings (*hypertensn*, *artrial*) that challenge dictionary tokenization and avoid artificial 100% precision/recall claims.
+   - **Clinical Negations**: Pertinent negative declarations (*"denies chest pain"*, *"sin disnea ni dolor precordial"*) verifying negation suppression.
+   - **Family History Distractors**: Family diagnoses (*"Mother diagnosed with breast cancer at age 62; father died of myocardial infarction"*) verifying distractor suppression via `_is_family_history`.
+   - **Spanish Linguistic Variants**: Regional terminology (*presión alta*, *pastillas del colesterol*).
 
 Each fixture includes:
 - Source Synthea FHIR R4 Bundle (`data/fixtures/synthea/*.json`)
-- Rendered realistic English SOAP note (`data/fixtures/notes/en/*.txt`)
-- Rendered realistic Spanish SOAP note (`data/fixtures/notes/es/*.txt`)
-- Extracted gold labels (`data/fixtures/gold_labels.json`)
+- Rendered realistic English clinical note (`data/fixtures/notes/en/*.txt`)
+- Rendered realistic Spanish clinical note (`data/fixtures/notes/es/*.txt`)
+- Extracted gold labels with dev/test partition tags (`data/fixtures/gold_labels.json`)
 
 ---
 
