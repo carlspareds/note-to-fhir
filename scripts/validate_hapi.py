@@ -62,7 +62,8 @@ def validate_with_hapi(bundle_path: Path) -> bool:
 
 def main():
     root = Path(__file__).resolve().parent.parent
-    sample_note = root / "data" / "fixtures" / "notes" / "en" / "patient_1_hypertension_diabetes_soap.txt"
+    sample_notes = sorted(list((root / "data" / "fixtures" / "notes" / "en").glob("*.txt")))
+    sample_note = sample_notes[0] if sample_notes else root / "data" / "fixtures" / "notes" / "en" / "sample.txt"
 
     if len(sys.argv) > 1:
         target = Path(sys.argv[1])
