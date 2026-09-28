@@ -334,6 +334,7 @@ class RuleBasedExtractor(BaseExtractor):
             "vitals": "",
             "assessment": "",
             "plan": "",
+            "family_history": "",
             "other": "",
         }
 
@@ -345,29 +346,36 @@ class RuleBasedExtractor(BaseExtractor):
             line_str = line.strip()
             l_low = line_str.lower()
 
-            if any(h in l_low for h in ["past medical history", "antecedentes médicos", "pmh:"]):
+            if any(h in l_low for h in ["past medical history", "antecedentes médicos", "antecedentes personales", "antecedentes patológicos", "discharge diagnoses", "diagnósticos al alta", "emergency clinical impression", "impresión diagnóstica", "pmh:"]):
                 current_section = "pmh"
                 continue
-            elif any(h in l_low for h in ["current medications", "medicación actual", "medications:", "fármacos"]):
+            elif any(h in l_low for h in ["family history", "antecedentes familiares", "antecedentes heredofamiliares", "fhx:"]):
+                current_section = "family_history"
+                continue
+            elif any(h in l_low for h in ["current medications", "medicación actual", "medicación habitual", "discharge current medications", "medicación al alta", "medications:", "fármacos"]):
                 current_section = "medications"
                 continue
-            elif any(h in l_low for h in ["allergies:", "alergias:", "known allergies"]):
+            elif any(h in l_low for h in ["allergies", "alergias", "known allergies"]):
                 current_section = "allergies"
                 continue
-            elif any(h in l_low for h in ["vital signs:", "signos vitales:", "constantes vitales"]):
+            elif any(h in l_low for h in ["vital signs", "signos vitales", "constantes vitales", "discharge vital signs", "triage vital signs"]):
                 current_section = "vitals"
                 continue
-            elif any(h in l_low for h in ["assessment:", "impresión clínica:", "diagnósticos:"]):
+            elif any(h in l_low for h in ["assessment:", "assessment", "impresión clínica", "diagnósticos", "assessment & plan", "evaluación y plan"]):
                 current_section = "assessment"
                 continue
-            elif any(h in l_low for h in ["plan:", "plan terapéutico:"]):
+            elif any(h in l_low for h in ["plan:", "plan terapéutico", "disposition & plan", "plan y disposición", "discharge instructions"]):
                 current_section = "plan"
                 continue
             elif any(h in l_low for h in [
                 "subjective:", "subjetivo:", "objective:", "objetivo:",
                 "history of present illness", "enfermedad actual", "hpi:",
                 "physical examination:", "examen físico:", "exploración física:",
-                "chief complaint:", "motivo de consulta:"
+                "chief complaint", "motivo de consulta", "motivo de atención",
+                "hospital course", "curso hospitalario", "reason for consultation",
+                "motivo de interconsulta", "daily progress", "evolución diaria",
+                "clinical encounter note", "informe de atención", "informe de alta",
+                "specialty consultation", "daily clinical progress"
             ]):
                 current_section = "other"
                 continue
@@ -386,16 +394,24 @@ class RuleBasedExtractor(BaseExtractor):
 
         neg_patterns = [
             r"\bno\s+history\s+of\b",
+            r"\bno\s+(?:known\s+)?prior\s+history\s+of\b",
             r"\bno\s+evidence\s+of\b",
+            r"\bno\s+report\s+of\b",
             r"\bdenies\b",
             r"\bdenied\b",
             r"\bnegative\s+for\b",
             r"\bruled\s+out\b",
             r"\bwithout\b",
+            r"\bfree\s+of\b",
+            r"\bdoes\s+not\s+have\b",
             r"\bno\b",
             r"\bsin\s+antecedentes\s+de\b",
             r"\bsin\s+historia\s+de\b",
+            r"\bsin\s+evidencia\s+de\b",
             r"\bniega\b",
+            r"\bno\s+refiere\b",
+            r"\bno\s+presenta\b",
+            r"\bno\s+consta\b",
             r"\bnegativo\s+para\b",
             r"\bdescartado\b",
             r"\bsin\b",
@@ -405,11 +421,43 @@ class RuleBasedExtractor(BaseExtractor):
                 return True
         return False
 
+    def _is_family_history(self, text_segment: str, match_start: int) -> bool:
+        """Check if a clinical mention is attributed to a family member on the same line."""
+        line_start = text_segment.rfind("\n", 0, match_start)
+        if line_start == -1:
+            line_start = 0
+        line_end = text_segment.find("\n", match_start)
+        if line_end == -1:
+            line_end = len(text_segment)
+        line = text_segment[line_start:line_end].lower()
+
+        family_keywords = [
+            r"\bmother\b", r"\bfather\b", r"\bparent\b", r"\bparents\b",
+            r"\bbrother\b", r"\bsister\b", r"\bsibling\b", r"\bsiblings\b",
+            r"\bmaternal\b", r"\bpaternal\b", r"\baunt\b", r"\buncle\b",
+            r"\bgrandmother\b", r"\bgrandfather\b", r"\bgrandparents\b",
+            r"\bfamily\s+history\b", r"\bfhx\b",
+            r"\bmadre\b", r"\bpadre\b", r"\bpadres\b",
+            r"\bhermano\b", r"\bhermana\b", r"\bhermanos\b",
+            r"\btío\b", r"\btio\b", r"\btía\b", r"\btia\b",
+            r"\babuelo\b", r"\babuela\b", r"\babuelos\b",
+            r"\bantecedentes\s+familiares\b", r"\bheredofamiliares\b",
+            r"\bfamiliar\b", r"\bfamiliares\b",
+        ]
+        for pat in family_keywords:
+            if re.search(pat, line):
+                return True
+        return False
+
     def _extract_conditions(self, text: str, sections: Dict[str, str]) -> List[ConditionEntity]:
-        """Match conditions against PMH/Assessment sections and full text with negation filtering."""
+        """Match conditions against PMH/Assessment sections and full text with negation and family history filtering."""
         candidates = sections.get("pmh", "") + "\n" + sections.get("assessment", "")
         if not candidates.strip():
+            # If falling back to full text, exclude family history section to prevent distractor false positives
+            fh_text = sections.get("family_history", "")
             candidates = text
+            if fh_text:
+                candidates = candidates.replace(fh_text, "")
 
         found: List[ConditionEntity] = []
         seen_snomed: Set[str] = set()
@@ -420,7 +468,7 @@ class RuleBasedExtractor(BaseExtractor):
             for term in terms:
                 pattern = r"(?<!\w)" + re.escape(term) + r"(?!\w)"
                 for m in re.finditer(pattern, candidates, re.IGNORECASE):
-                    if not self._is_negated(candidates, m.start()):
+                    if not self._is_negated(candidates, m.start()) and not self._is_family_history(candidates, m.start()):
                         matched = True
                         break
                 if matched:
