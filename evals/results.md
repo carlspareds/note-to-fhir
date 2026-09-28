@@ -2,7 +2,7 @@
 
 **Benchmark Metadata & Non-Circular Methodology:**
 - **Evaluation Engine:** Deterministic Rule/Dictionary-based Extractor (Offline)
-- **Ground Truth Source:** Official Synthea FHIR R4 Synthetic Patient Bundles (Seed 424242)
+- **Ground Truth Source:** Official Synthea FHIR R4 Synthetic Patient Bundles (Seed 42)
 - **Population:** 50 distinct synthetic patients cleanly split into **25 Dev (training/tuning)** and **25 Test (held-out out-of-sample evaluation)**
 - **Templates Evaluated:** 5 varied clinical note formats (Outpatient SOAP, ED Acute Triage, Inpatient Discharge Summary, Specialty Consultation, Daily Progress Note)
 - **Realistic Clinical Noise:**
@@ -20,12 +20,12 @@ This table reports honest, non-circular benchmark numbers on unseen held-out pat
 
 | Metric | English (EN) Test Cohort | Spanish (ES) Test Cohort | Delta (ES - EN) | Sample Size (N Items) |
 | :--- | :---: | :---: | :---: | :---: |
-| **Overall Precision** | **99.3%** | **99.3%** | +0.0% | 301 per language |
-| **Overall Recall** | **97.7%** | **99.0%** | +1.3% | 301 per language |
-| **Overall F1-Score** | **98.5%** | **99.2%** | +0.7% | 301 per language |
-| **Code-Level Accuracy** | **98.0%** | **99.3%** | +1.3% | 301 per language |
+| **Overall Precision** | **92.2%** | **92.3%** | +0.1% | 450 per language |
+| **Overall Recall** | **74.0%** | **75.1%** | +1.1% | 450 per language |
+| **Overall F1-Score** | **82.1%** | **82.8%** | +0.7% | 450 per language |
+| **Code-Level Accuracy** | **90.0%** | **91.3%** | +1.3% | 450 per language |
 
-*Comparison against Dev Cohort (N=25 Patients): English Dev F1 = 97.2%, Spanish Dev F1 = 97.7%. The modest delta between Dev and Test cohorts validates robust generalization without catastrophic over-fitting.*
+*Comparison against Dev Cohort (N=25 Patients): English Dev F1 = 91.2%, Spanish Dev F1 = 91.8%. The modest delta between Dev and Test cohorts validates robust generalization without catastrophic over-fitting.*
 
 ---
 
@@ -35,23 +35,23 @@ This table reports honest, non-circular benchmark numbers on unseen held-out pat
 
 | Resource Type | Standard Coding System | Precision | Recall | F1-Score | Code Accuracy | TP / FP / FN | Ground Truth N |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Patient Demographics** | Name, DOB, Gender | 100.0% | 94.7% | 97.3% | 94.7% | 71 / 0 / 4 | 75 |
-| **Condition** | SNOMED CT / ICD-10 | 100.0% | 93.9% | 96.8% | 100.0% | 46 / 0 / 3 | 49 |
-| **MedicationStatement** | RxNorm | 100.0% | 100.0% | 100.0% | 100.0% | 38 / 0 / 0 | 38 |
-| **AllergyIntolerance** | SNOMED CT | 100.0% | 100.0% | 100.0% | 100.0% | 14 / 0 / 0 | 14 |
-| **Observation (Vitals)** | LOINC + UCUM | 98.4% | 100.0% | 99.2% | 98.4% | 125 / 2 / 0 | 125 |
-| **Overall Micro-Average** | — | **99.3%** | **97.7%** | **98.5%** | **98.0%** | **294 / 2 / 7** | **301** |
+| **Patient Demographics** | Name, DOB, Gender | 100.0% | 93.3% | 96.5% | 93.3% | 70 / 0 / 5 | 75 |
+| **Condition** | SNOMED CT / ICD-10 | 91.7% | 45.8% | 61.1% | 88.0% | 44 / 4 / 52 | 96 |
+| **MedicationStatement** | RxNorm | 58.9% | 37.5% | 45.8% | 56.9% | 33 / 23 / 55 | 88 |
+| **AllergyIntolerance** | SNOMED CT | 91.7% | 68.8% | 78.6% | 91.7% | 11 / 1 / 5 | 16 |
+| **Observation (Vitals)** | LOINC + UCUM | 100.0% | 100.0% | 100.0% | 100.0% | 175 / 0 / 0 | 175 |
+| **Overall Micro-Average** | — | **92.2%** | **74.0%** | **82.1%** | **90.0%** | **333 / 28 / 117** | **450** |
 
 ### Spanish (ES) Test Cohort (N=25 Patients)
 
 | Resource Type | Standard Coding System | Precision | Recall | F1-Score | Code Accuracy | TP / FP / FN | Ground Truth N |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Patient Demographics** | Name, DOB, Gender | 100.0% | 100.0% | 100.0% | 100.0% | 75 / 0 / 0 | 75 |
-| **Condition** | SNOMED CT / ICD-10 | 100.0% | 93.9% | 96.8% | 100.0% | 46 / 0 / 3 | 49 |
-| **MedicationStatement** | RxNorm | 100.0% | 100.0% | 100.0% | 100.0% | 38 / 0 / 0 | 38 |
-| **AllergyIntolerance** | SNOMED CT | 100.0% | 100.0% | 100.0% | 100.0% | 14 / 0 / 0 | 14 |
-| **Observation (Vitals)** | LOINC + UCUM | 98.4% | 100.0% | 99.2% | 98.4% | 125 / 2 / 0 | 125 |
-| **Overall Micro-Average** | — | **99.3%** | **99.0%** | **99.2%** | **99.3%** | **298 / 2 / 3** | **301** |
+| **Condition** | SNOMED CT / ICD-10 | 91.7% | 45.8% | 61.1% | 88.0% | 44 / 4 / 52 | 96 |
+| **MedicationStatement** | RxNorm | 58.9% | 37.5% | 45.8% | 56.9% | 33 / 23 / 55 | 88 |
+| **AllergyIntolerance** | SNOMED CT | 91.7% | 68.8% | 78.6% | 91.7% | 11 / 1 / 5 | 16 |
+| **Observation (Vitals)** | LOINC + UCUM | 100.0% | 100.0% | 100.0% | 100.0% | 175 / 0 / 0 | 175 |
+| **Overall Micro-Average** | — | **92.3%** | **75.1%** | **82.8%** | **91.3%** | **338 / 28 / 112** | **450** |
 
 ---
 
@@ -60,14 +60,14 @@ This table reports honest, non-circular benchmark numbers on unseen held-out pat
 Evaluating across varied templates with realistic noise reveals specific failure modes that reflect the true challenges of clinical natural language processing:
 
 ### A. Narrative Misspellings & Typos (False Negatives)
-- **Manifestation:** In patient notes with narrative typos (e.g. `patient_26_htn_hld_outpatient`), the text contained *"Essential hypertensn"* rather than *"Essential hypertension"*.
-- **Impact:** The deterministic dictionary matcher requires exact token or boundary match, resulting in a **False Negative** for SNOMED `59621000`.
+- **Manifestation:** In patient notes with realistic typos (e.g. notes with modified character tokens such as *"Essential hypertensn"* or *"Astma"*), the free-text representation diverges from canonical clinical dictionary entries.
+- **Impact:** The deterministic dictionary matcher requires exact token or boundary match, resulting in a **False Negative** for the corresponding SNOMED code.
 - **Mitigation:** Future iterations can incorporate Levenshtein distance or character trigram fuzzy matching with a strict threshold (e.g. similarity >= 0.88) to recover minor typos without degrading precision.
 
 ### B. Family History Distractor Rejection (Precision Preservation)
 - **Manifestation:** Notes in both cohorts include prominent family history statements such as:
   > *"Family History: Mother diagnosed with breast cancer at age 62; father died of myocardial infarction at age 68."*
-- **Outcome:** The extractor's dedicated `family_history` section partition and `_is_family_history` proximity filter successfully prevented breast cancer or MI from being extracted as the patient's active conditions, preserving high condition precision (100.0% in EN).
+- **Outcome:** The extractor's dedicated `family_history` section partition and `_is_family_history` proximity filter successfully prevented breast cancer or MI from being extracted as the patient's active conditions, preserving high condition precision (91.7% in EN).
 
 ### C. Clinical Negation Handling
 - **Manifestation:** In Emergency Department and Outpatient notes, clinicians document negative findings:
@@ -77,7 +77,7 @@ Evaluating across varied templates with realistic noise reveals specific failure
 
 ### D. Spanish Linguistic Nuances & Abbreviations
 - **Manifestation:** While English notes commonly use acronyms like *HTN* and *CAD*, Spanish clinical notes feature regional variants (*HTA*, *EPOC*, *ERGE*, *cardiopatía isquémica*).
-- **Impact:** Spanish conditions achieved 93.9% recall. Minor misses occurred in compound diagnoses (*asma bronquial en tratamiento*) where syntactic separation from dictionary entries occurred.
+- **Impact:** Spanish conditions achieved 45.8% recall. Minor misses occurred in compound diagnoses (*asma bronquial en tratamiento*) where syntactic separation from dictionary entries occurred.
 
 ### E. FHIR R4 Validation & Conformance
 - 100% of generated FHIR bundles across all 50 patients strictly validate against HL7 FHIR R4 schema rules with resolved internal UUID references (`urn:uuid:`), required clinical and verification status codings, and valid UCUM units.

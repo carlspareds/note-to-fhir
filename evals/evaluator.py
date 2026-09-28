@@ -326,7 +326,7 @@ def generate_markdown_report(results: Dict[str, Any]) -> str:
 
 **Benchmark Metadata & Non-Circular Methodology:**
 - **Evaluation Engine:** Deterministic Rule/Dictionary-based Extractor (Offline)
-- **Ground Truth Source:** Official Synthea FHIR R4 Synthetic Patient Bundles (Seed 424242)
+- **Ground Truth Source:** Official Synthea FHIR R4 Synthetic Patient Bundles (Seed 42)
 - **Population:** 50 distinct synthetic patients cleanly split into **25 Dev (training/tuning)** and **25 Test (held-out out-of-sample evaluation)**
 - **Templates Evaluated:** 5 varied clinical note formats (Outpatient SOAP, ED Acute Triage, Inpatient Discharge Summary, Specialty Consultation, Daily Progress Note)
 - **Realistic Clinical Noise:**
@@ -384,8 +384,8 @@ This table reports honest, non-circular benchmark numbers on unseen held-out pat
 Evaluating across varied templates with realistic noise reveals specific failure modes that reflect the true challenges of clinical natural language processing:
 
 ### A. Narrative Misspellings & Typos (False Negatives)
-- **Manifestation:** In patient notes with narrative typos (e.g. `patient_26_htn_hld_outpatient`), the text contained *"Essential hypertensn"* rather than *"Essential hypertension"*.
-- **Impact:** The deterministic dictionary matcher requires exact token or boundary match, resulting in a **False Negative** for SNOMED `59621000`.
+- **Manifestation:** In patient notes with realistic typos (e.g. notes with modified character tokens such as *"Essential hypertensn"* or *"Astma"*), the free-text representation diverges from canonical clinical dictionary entries.
+- **Impact:** The deterministic dictionary matcher requires exact token or boundary match, resulting in a **False Negative** for the corresponding SNOMED code.
 - **Mitigation:** Future iterations can incorporate Levenshtein distance or character trigram fuzzy matching with a strict threshold (e.g. similarity >= 0.88) to recover minor typos without degrading precision.
 
 ### B. Family History Distractor Rejection (Precision Preservation)
@@ -409,6 +409,33 @@ Evaluating across varied templates with realistic noise reveals specific failure
     return md
 
 
+def update_readme_metrics(readme_path: Path, results: Dict[str, Any]):
+    if not readme_path.exists():
+        return
+    content = readme_path.read_text(encoding="utf-8")
+
+    t_en_ov = results["test_cohort"]["english"]["overall"]
+    t_es_ov = results["test_cohort"]["spanish"]["overall"]
+    t_en_cat = results["test_cohort"]["english"]["categories"]
+    t_es_cat = results["test_cohort"]["spanish"]["categories"]
+
+    new_table = f"""| Resource Type | Standard Coding System | Precision (EN) | Recall (EN) | F1 (EN) | Precision (ES) | Recall (ES) | F1 (ES) | Ground Truth N |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Patient Demographics** | Name, DOB, Gender | {t_en_cat['demographics']['precision'] * 100:.1f}% | {t_en_cat['demographics']['recall'] * 100:.1f}% | **{t_en_cat['demographics']['f1'] * 100:.1f}%** | {t_es_cat['demographics']['precision'] * 100:.1f}% | {t_es_cat['demographics']['recall'] * 100:.1f}% | **{t_es_cat['demographics']['f1'] * 100:.1f}%** | {t_en_cat['demographics']['n_items']} / lang |
+| **Condition** | SNOMED CT / ICD-10 | {t_en_cat['conditions']['precision'] * 100:.1f}% | {t_en_cat['conditions']['recall'] * 100:.1f}% | **{t_en_cat['conditions']['f1'] * 100:.1f}%** | {t_es_cat['conditions']['precision'] * 100:.1f}% | {t_es_cat['conditions']['recall'] * 100:.1f}% | **{t_es_cat['conditions']['f1'] * 100:.1f}%** | {t_en_cat['conditions']['n_items']} / lang |
+| **MedicationStatement** | RxNorm | {t_en_cat['medications']['precision'] * 100:.1f}% | {t_en_cat['medications']['recall'] * 100:.1f}% | **{t_en_cat['medications']['f1'] * 100:.1f}%** | {t_es_cat['medications']['precision'] * 100:.1f}% | {t_es_cat['medications']['recall'] * 100:.1f}% | **{t_es_cat['medications']['f1'] * 100:.1f}%** | {t_en_cat['medications']['n_items']} / lang |
+| **AllergyIntolerance** | SNOMED CT | {t_en_cat['allergies']['precision'] * 100:.1f}% | {t_en_cat['allergies']['recall'] * 100:.1f}% | **{t_en_cat['allergies']['f1'] * 100:.1f}%** | {t_es_cat['allergies']['precision'] * 100:.1f}% | {t_es_cat['allergies']['recall'] * 100:.1f}% | **{t_es_cat['allergies']['f1'] * 100:.1f}%** | {t_en_cat['allergies']['n_items']} / lang |
+| **Observation (Vitals)** | LOINC + UCUM | {t_en_cat['observations']['precision'] * 100:.1f}% | {t_en_cat['observations']['recall'] * 100:.1f}% | **{t_en_cat['observations']['f1'] * 100:.1f}%** | {t_es_cat['observations']['precision'] * 100:.1f}% | {t_es_cat['observations']['recall'] * 100:.1f}% | **{t_es_cat['observations']['f1'] * 100:.1f}%** | {t_en_cat['observations']['n_items']} / lang |
+| **Overall Micro-Average** | **All Standard Terminologies** | **{t_en_ov['precision'] * 100:.1f}%** | **{t_en_ov['recall'] * 100:.1f}%** | **{t_en_ov['f1'] * 100:.1f}%** | **{t_es_ov['precision'] * 100:.1f}%** | **{t_es_ov['recall'] * 100:.1f}%** | **{t_es_ov['f1'] * 100:.1f}%** | **{t_en_ov['n_items']} / lang** |"""
+
+    import re
+    table_pattern = re.compile(r"\| Resource Type \| Standard Coding System \|.*?\n\n", re.DOTALL)
+    if table_pattern.search(content):
+        content = table_pattern.sub(new_table + "\n\n", content)
+        readme_path.write_text(content, encoding="utf-8")
+        print(f"[✓] Updated benchmark table in {readme_path}")
+
+
 def main():
     root = Path(__file__).resolve().parent.parent
     fixtures_dir = root / "data" / "fixtures"
@@ -429,6 +456,10 @@ def main():
     with open(results_md_path, "w", encoding="utf-8") as fp:
         fp.write(report_md)
     print(f"[✓] Saved evaluation report to {results_md_path}")
+
+    # Synchronize README.md benchmark table
+    readme_path = root / "README.md"
+    update_readme_metrics(readme_path, results)
 
 
 if __name__ == "__main__":
