@@ -34,6 +34,10 @@ jobs:
         run: |
           ruff check .
 
+      - name: Check zero vocabulary leakage
+        run: |
+          python scripts/check_leakage.py
+
       - name: Run test suite
         run: |
           pytest -v --tb=short

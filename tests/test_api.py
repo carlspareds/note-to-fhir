@@ -22,7 +22,7 @@ def test_api_convert_endpoint_english():
         "text": (
             "Patient Name: Alice Smith\n"
             "DOB: 1975-08-20\n"
-            "Past Medical History:\n- Essential hypertension\n"
+            "Past Medical History:\n- Type 2 diabetes mellitus\n"
             "Current Medications:\n- Lisinopril 10 MG\n"
             "Allergies:\n- Allergy to penicillin\n"
             "Vital Signs:\n- Blood Pressure: 130/80 mmHg\n"

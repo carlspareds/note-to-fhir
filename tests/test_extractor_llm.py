@@ -16,13 +16,13 @@ def test_llm_extractor_fallback_when_no_keys():
         assert not extractor.is_available
 
         note = ClinicalNote(
-            text="Patient Name: Alex Brown\nPast Medical History: Essential hypertension\nCurrent Medications: Lisinopril 10 mg\nVital Signs:\n- Heart Rate: 72 bpm"
+            text="Patient Name: Alex Brown\nPast Medical History: Type 2 diabetes mellitus\nCurrent Medications: Lisinopril 10 mg\nVital Signs:\n- Heart Rate: 72 bpm"
         )
         entities = extractor.extract(note)
 
         assert entities.patient.name == "Alex Brown"
         assert len(entities.conditions) >= 1
-        assert entities.conditions[0].snomed_code == "59621000"
+        assert entities.conditions[0].snomed_code == "44054006"
 
 
 def test_llm_json_parsing_clean_markdown():

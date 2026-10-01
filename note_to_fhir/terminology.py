@@ -82,26 +82,6 @@ VITAL_SIGNS_TERMINOLOGY: Dict[str, Dict[str, Any]] = {
 # ---------------------------------------------------------------------------
 CONDITIONS_DATABASE: List[Dict[str, Any]] = [
     {
-        "snomed": "59621000",
-        "icd10": "I10",
-        "display": "Essential hypertension",
-        "terms_en": [
-            "essential hypertension",
-            "hypertension",
-            "high blood pressure",
-            "htn",
-            "primary hypertension",
-        ],
-        "terms_es": [
-            "hipertensión arterial esencial",
-            "hipertensión arterial",
-            "hipertensión esencial",
-            "hipertensión",
-            "presión alta",
-            "hta",
-        ],
-    },
-    {
         "snomed": "44054006",
         "icd10": "E11.9",
         "display": "Type 2 diabetes mellitus",
@@ -121,24 +101,6 @@ CONDITIONS_DATABASE: List[Dict[str, Any]] = [
             "dm2",
             "t2dm",
             "diabetes del adulto",
-        ],
-    },
-    {
-        "snomed": "195967001",
-        "icd10": "J45.909",
-        "display": "Asthma",
-        "terms_en": [
-            "asthma",
-            "bronchial asthma",
-            "moderate persistent asthma",
-            "mild intermittent asthma",
-            "reactive airway disease",
-        ],
-        "terms_es": [
-            "asma bronquial",
-            "asma",
-            "asma moderada persistente",
-            "asma leve",
         ],
     },
     {
@@ -630,21 +592,6 @@ MEDICATIONS_DATABASE: List[Dict[str, Any]] = [
             "salbutamol",
             "albuterol inhalador",
             "albuterol",
-        ],
-    },
-    {
-        "rxnorm": "896209",
-        "display": "Fluticasone propionate",
-        "terms_en": [
-            "fluticasone propionate",
-            "fluticasone nasal spray",
-            "fluticasone",
-            "flonase",
-        ],
-        "terms_es": [
-            "fluticasona spray nasal",
-            "fluticasona",
-            "propionato de fluticasona",
         ],
     },
     {

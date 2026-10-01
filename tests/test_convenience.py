@@ -11,7 +11,7 @@ def test_top_level_convert_function_english():
         "Patient Name: Sarah Connor\n"
         "DOB: 1985-05-12 | Gender: Female\n"
         "Date: 2024-03-15\n"
-        "Past Medical History:\n- Essential hypertension\n"
+        "Past Medical History:\n- Type 2 diabetes mellitus\n"
         "Current Medications:\n- Lisinopril 10 MG\n"
         "Allergies:\n- Penicillin allergy\n"
         "Vital Signs:\n- Blood Pressure: 125/80 mmHg\n- Heart Rate: 72 bpm\n"

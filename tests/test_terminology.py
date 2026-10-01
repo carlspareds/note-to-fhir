@@ -56,15 +56,15 @@ def test_vital_signs_definitions():
 def test_match_condition_en_and_es():
     """Verify condition lookup in English and Spanish."""
     # English
-    c_en = match_condition("Essential hypertension")
+    c_en = match_condition("Hyperlipidemia")
     assert c_en is not None
-    assert c_en["snomed"] == "59621000"
-    assert c_en["icd10"] == "I10"
+    assert c_en["snomed"] == "55822004"
+    assert c_en["icd10"] == "E78.00"
 
     # Spanish
-    c_es = match_condition("hipertensión arterial esencial")
+    c_es = match_condition("hiperlipidemia mixta")
     assert c_es is not None
-    assert c_es["snomed"] == "59621000"
+    assert c_es["snomed"] == "55822004"
 
     # Acronym / synonym
     c_dm = match_condition("t2dm")
@@ -112,14 +112,14 @@ def test_match_allergy_en_and_es():
 def test_clinical_acronyms_word_boundary():
     """Verify that short medical acronyms match accurately with word boundaries."""
     # Condition acronyms
-    assert match_condition("htn")["snomed"] == "59621000"
-    assert match_condition("history of htn")["snomed"] == "59621000"
+    assert match_condition("t2dm")["snomed"] == "44054006"
+    assert match_condition("history of t2dm")["snomed"] == "44054006"
     assert match_condition("patient has cad")["snomed"] == "53741008"
     assert match_condition("copd exacerbation")["snomed"] == "13645005"
     assert match_condition("ckd stage 3")["snomed"] == "709044004"
     assert match_condition("gerd symptoms")["snomed"] == "235595009"
     assert match_condition("erge")["snomed"] == "235595009"
-    assert match_condition("hta")["snomed"] == "59621000"
+    assert match_condition("dm2")["snomed"] == "44054006"
 
     # Medication acronyms
     assert match_medication("hctz 25 mg")["rxnorm"] == "310798"

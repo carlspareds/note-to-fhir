@@ -90,7 +90,7 @@ def test_extract_conditions_and_medications_english():
     extractor = RuleBasedExtractor()
     note_text = """
     Past Medical History:
-    - Essential hypertension
+    - Coronary artery disease
     - Type 2 diabetes mellitus
 
     Current Medications:
@@ -104,7 +104,7 @@ def test_extract_conditions_and_medications_english():
     entities = extractor.extract(note)
 
     cond_codes = {c.snomed_code for c in entities.conditions}
-    assert "59621000" in cond_codes  # Hypertension
+    assert "53741008" in cond_codes  # CAD
     assert "44054006" in cond_codes  # T2DM
 
     med_codes = {m.rxnorm_code for m in entities.medications}
@@ -119,7 +119,7 @@ def test_extract_conditions_and_medications_spanish():
     extractor = RuleBasedExtractor()
     note_text = """
     Antecedentes Médicos Personales:
-    - Asma bronquial
+    - Bronquitis aguda
     - Hiperlipidemia mixta
 
     Medicación Actual:
@@ -133,7 +133,7 @@ def test_extract_conditions_and_medications_spanish():
     entities = extractor.extract(note)
 
     cond_codes = {c.snomed_code for c in entities.conditions}
-    assert "195967001" in cond_codes  # Asthma
+    assert "10509002" in cond_codes  # Acute bronchitis
     assert "55822004" in cond_codes   # Hyperlipidemia
 
     med_codes = {m.rxnorm_code for m in entities.medications}
@@ -203,29 +203,29 @@ def test_condition_negation_en_and_es():
     note_en = ClinicalNote(
         text="""
         Past Medical History:
-        - Essential hypertension
-        - No history of asthma
+        - Hyperlipidemia
+        - No history of acute bronchitis
         - Patient denies diabetes mellitus
         """
     )
     ent_en = extractor.extract(note_en)
     codes_en = {c.snomed_code for c in ent_en.conditions}
-    assert "59621000" in codes_en  # Hypertension active
-    assert "195967001" not in codes_en  # Asthma negated
+    assert "55822004" in codes_en  # Hyperlipidemia active
+    assert "10509002" not in codes_en  # Bronchitis negated
     assert "44054006" not in codes_en   # Diabetes negated
 
     note_es = ClinicalNote(
         text="""
         Antecedentes Médicos Personales:
-        - Hipertensión arterial
-        - Sin antecedentes de asma
+        - Hiperlipidemia mixta
+        - Sin antecedentes de bronquitis aguda
         - Niega diabetes
         """
     )
     ent_es = extractor.extract(note_es)
     codes_es = {c.snomed_code for c in ent_es.conditions}
-    assert "59621000" in codes_es  # Hypertension active
-    assert "195967001" not in codes_es  # Asthma negated
+    assert "55822004" in codes_es  # Hyperlipidemia active
+    assert "10509002" not in codes_es  # Bronchitis negated
     assert "44054006" not in codes_es   # Diabetes negated
 
 
@@ -289,9 +289,9 @@ def test_family_history_distractor_filtering():
         text="""
         Patient Name: Robert Miller | DOB: 1968-04-12 | Gender: Male
         Past Medical History:
-        - Essential hypertension
+        - Hyperlipidemia
         Family History:
-        - Mother diagnosed with asthma at 45.
+        - Mother diagnosed with acute bronchitis at 45.
         - Father had coronary artery disease and heart failure.
         - Brother has type 2 diabetes mellitus.
         Current Medications:
@@ -300,8 +300,8 @@ def test_family_history_distractor_filtering():
     )
     ent_en = extractor.extract(note_en)
     cond_codes_en = {c.snomed_code for c in ent_en.conditions}
-    assert "59621000" in cond_codes_en   # Patient's hypertension
-    assert "195967001" not in cond_codes_en  # Mother's asthma must be ignored
+    assert "55822004" in cond_codes_en   # Patient's hyperlipidemia
+    assert "10509002" not in cond_codes_en  # Mother's bronchitis must be ignored
     assert "53741008" not in cond_codes_en   # Father's CAD must be ignored
     assert "44054006" not in cond_codes_en   # Brother's T2DM must be ignored
 
@@ -309,9 +309,9 @@ def test_family_history_distractor_filtering():
         text="""
         Nombre del Paciente: Carlos Ruiz | Fecha de Nacimiento: 1970-02-18 | Género: Masculino
         Antecedentes Médicos Personales:
-        - Hipertensión arterial
+        - Hiperlipidemia mixta
         Antecedentes Familiares:
-        - Madre con asma bronquial.
+        - Madre con bronquitis aguda.
         - Padre con antecedentes de cardiopatía isquémica.
         Medicación Actual:
         - Lisinopril 10 mg
@@ -320,7 +320,7 @@ def test_family_history_distractor_filtering():
     )
     ent_es = extractor.extract(note_es)
     cond_codes_es = {c.snomed_code for c in ent_es.conditions}
-    assert "59621000" in cond_codes_es
-    assert "195967001" not in cond_codes_es
+    assert "55822004" in cond_codes_es
+    assert "10509002" not in cond_codes_es
     assert "53741008" not in cond_codes_es
 
