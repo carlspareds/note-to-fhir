@@ -81,3 +81,19 @@ Evaluating across varied templates with realistic noise reveals specific failure
 
 ### E. FHIR R4 Validation & Conformance
 - 100% of generated FHIR bundles across all 50 patients strictly validate against HL7 FHIR R4 schema rules with resolved internal UUID references (`urn:uuid:`), required clinical and verification status codings, and valid UCUM units.
+
+---
+
+## 4. Rule-Based vs. LLM Extractor Benchmark Comparison
+
+| Extractor Engine | Implementation / Provider | Conditions F1 | Meds F1 | Allergies F1 | Vitals F1 | Overall F1 (EN) | Overall F1 (ES) | Ground Truth N |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Deterministic Rule-Based** | Curated Local Terminology (Offline) | 59.6% | 44.3% | 78.6% | 100.0% | **82.6%** | **82.6%** | 450 / lang |
+| **LLM Extractor** | Google Gemini (`gemini-1.5-pro`) / Claude / GPT | *Skipped* | *Skipped* | *Skipped* | *Skipped* | *Skipped* | *Skipped* | 450 / lang |
+
+> [!NOTE]
+> **LLM Extractor Evaluation Environment & Key Handling:**
+> The `LLMExtractor` integrates Google Gemini (`GEMINI_API_KEY`), Anthropic Claude (`ANTHROPIC_API_KEY`), and OpenAI (`OPENAI_API_KEY`) with structured JSON schema output and automated offline fallback. In this execution environment, no `GEMINI_API_KEY` was detected in `os.environ` or local configuration. In adherence to strict clinical data integrity and reproducibility standards, synthetic or fabricated evaluation numbers are never generated. Users with an active API key can run this benchmark directly via:
+> ```bash
+> python evals/evaluator.py --extractor llm
+> ```

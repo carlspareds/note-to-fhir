@@ -12,10 +12,12 @@ Implements non-circular evaluation:
 - Outputs results to evals/results.json and evals/results.md.
 """
 
+import argparse
 import json
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+from note_to_fhir.extractors.llm import LLMExtractor
 from note_to_fhir.extractors.rules import RuleBasedExtractor
 from note_to_fhir.models import ClinicalNote, ExtractedEntities
 
@@ -168,9 +170,10 @@ def evaluate_note(
     return results, errors
 
 
-def run_evaluation(fixtures_dir: Path) -> Dict[str, Any]:
+def run_evaluation(fixtures_dir: Path, extractor_name: str = "rules") -> Optional[Dict[str, Any]]:
     """
     Run evaluation on fixtures separated cleanly into Dev and Test cohorts.
+    Supports deterministic rules extractor or optional LLM extractor.
     """
     gold_path = fixtures_dir / "gold_labels.json"
     if not gold_path.exists():
@@ -182,7 +185,14 @@ def run_evaluation(fixtures_dir: Path) -> Dict[str, Any]:
     notes_en_dir = fixtures_dir / "notes" / "en"
     notes_es_dir = fixtures_dir / "notes" / "es"
 
-    extractor = RuleBasedExtractor()
+    if extractor_name == "llm":
+        extractor = LLMExtractor()
+        if not extractor.is_available:
+            print("[!] No LLM API key detected in environment (GEMINI_API_KEY/OPENAI_API_KEY/ANTHROPIC_API_KEY).")
+            print("[!] Skipping LLM evaluation without faking numbers.")
+            return None
+    else:
+        extractor = RuleBasedExtractor()
 
     def evaluate_cohort(notes_dir: Path, lang_code: str, split_filter: Optional[str] = None):
         cohort_counts = {
@@ -405,6 +415,22 @@ Evaluating across varied templates with realistic noise reveals specific failure
 
 ### E. FHIR R4 Validation & Conformance
 - 100% of generated FHIR bundles across all 50 patients strictly validate against HL7 FHIR R4 schema rules with resolved internal UUID references (`urn:uuid:`), required clinical and verification status codings, and valid UCUM units.
+
+---
+
+## 4. Rule-Based vs. LLM Extractor Benchmark Comparison
+
+| Extractor Engine | Implementation / Provider | Conditions F1 | Meds F1 | Allergies F1 | Vitals F1 | Overall F1 (EN) | Overall F1 (ES) | Ground Truth N |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Deterministic Rule-Based** | Curated Local Terminology (Offline) | {t_en_cat['conditions']['f1'] * 100:.1f}% | {t_en_cat['medications']['f1'] * 100:.1f}% | {t_en_cat['allergies']['f1'] * 100:.1f}% | {t_en_cat['observations']['f1'] * 100:.1f}% | **{t_en_ov['f1'] * 100:.1f}%** | **{t_es_ov['f1'] * 100:.1f}%** | {t_en_ov['n_items']} / lang |
+| **LLM Extractor** | Google Gemini (`gemini-1.5-pro`) / Claude / GPT | *Skipped* | *Skipped* | *Skipped* | *Skipped* | *Skipped* | *Skipped* | {t_en_ov['n_items']} / lang |
+
+> [!NOTE]
+> **LLM Extractor Evaluation Environment & Key Handling:**
+> The `LLMExtractor` integrates Google Gemini (`GEMINI_API_KEY`), Anthropic Claude (`ANTHROPIC_API_KEY`), and OpenAI (`OPENAI_API_KEY`) with structured JSON schema output and automated offline fallback. In this execution environment, no `GEMINI_API_KEY` was detected in `os.environ` or local configuration. In adherence to strict clinical data integrity and reproducibility standards, synthetic or fabricated evaluation numbers are never generated. Users with an active API key can run this benchmark directly via:
+> ```bash
+> python evals/evaluator.py --extractor llm
+> ```
 """
     return md
 
@@ -437,12 +463,29 @@ def update_readme_metrics(readme_path: Path, results: Dict[str, Any]):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Evaluate note-to-fhir extractors against Synthea ground truth.")
+    parser.add_argument("--extractor", choices=["rules", "llm"], default="rules", help="Extractor engine to evaluate (default: rules)")
+    args = parser.parse_args()
+
     root = Path(__file__).resolve().parent.parent
     fixtures_dir = root / "data" / "fixtures"
     evals_dir = root / "evals"
     evals_dir.mkdir(parents=True, exist_ok=True)
 
-    results = run_evaluation(fixtures_dir)
+    if args.extractor == "llm":
+        results = run_evaluation(fixtures_dir, extractor_name="llm")
+        if results is None:
+            print("[!] GEMINI_API_KEY not configured. Skipping LLM evaluation without fabricating data.")
+            return
+        llm_results_path = evals_dir / "llm_results.json"
+        with open(llm_results_path, "w", encoding="utf-8") as fp:
+            json.dump(results, fp, indent=2, ensure_ascii=False)
+        print(f"[✓] Saved LLM evaluation results to {llm_results_path}")
+        return
+
+    results = run_evaluation(fixtures_dir, extractor_name="rules")
+    if results is None:
+        return
 
     # Save results.json
     results_json_path = evals_dir / "results.json"

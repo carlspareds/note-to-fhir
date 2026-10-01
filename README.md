@@ -109,6 +109,16 @@ Non-circular benchmark evaluated on held-out test patients generated with Synthe
 - **Negations:** Pertinent clinical negatives (*"denies chest pain"*, *"sin disnea"*) are suppressed from extraction.
 - Detailed error breakdown and case studies are documented in [`evals/results.md`](evals/results.md) and [`evals/results.json`](evals/results.json).
 
+### Rule-based vs. LLM Extractor Benchmark Comparison
+
+| Extractor Engine | Implementation / Provider | Conditions F1 | Meds F1 | Allergies F1 | Vitals F1 | Overall F1 (EN) | Overall F1 (ES) | Ground Truth N |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Deterministic Rule-Based** | Curated Local Terminology (Offline) | 59.6% | 44.3% | 78.6% | 100.0% | **82.6%** | **82.6%** | 450 / lang |
+| **LLM Extractor** | Google Gemini (`gemini-1.5-pro`) / Claude / GPT | *Skipped* | *Skipped* | *Skipped* | *Skipped* | *Skipped* | *Skipped* | 450 / lang |
+
+> [!NOTE]
+> **LLM Extractor Evaluation Environment:** `LLMExtractor` supports Google Gemini (`GEMINI_API_KEY`), Anthropic Claude (`ANTHROPIC_API_KEY`), and OpenAI (`OPENAI_API_KEY`). On this execution environment, no `GEMINI_API_KEY` was detected in the environment. Numbers are never fabricated; LLM evaluation can be invoked at any time with `python evals/evaluator.py --extractor llm`.
+
 ---
 
 ## Quickstart: Run in One Command

@@ -70,15 +70,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Lack of access to transportation",
-          "code": "713458007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -86,11 +77,11 @@
           "language": "en"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "albuterol 5 MG/ML Inhalation Solution",
-          "code": "245314",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Lack of access to transportation",
+          "code": "713458007",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
           "language": "en"
         },
@@ -99,6 +90,15 @@
           "type": "False Negative",
           "concept": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
           "code": "896209",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "albuterol 5 MG/ML Inhalation Solution",
+          "code": "245314",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
           "language": "en"
@@ -124,8 +124,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
+          "concept": "piperacillin 2000 MG / tazobactam 250 MG Injection",
+          "code": "1659131",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Kyle55_Jerde200_3647f1af-7f88-43f0-ca40-b74c4c84c70e",
           "language": "en"
@@ -142,8 +142,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "piperacillin 2000 MG / tazobactam 250 MG Injection",
-          "code": "1659131",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Kyle55_Jerde200_3647f1af-7f88-43f0-ca40-b74c4c84c70e",
           "language": "en"
@@ -160,26 +160,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Seizure disorder",
-          "code": "128613002",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Epilepsy",
-          "code": "84757009",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "en"
@@ -194,10 +176,28 @@
           "language": "en"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Seizure disorder",
+          "code": "128613002",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Epilepsy",
+          "code": "84757009",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
+          "language": "en"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
-          "code": "751905",
+          "concept": "Diazepam 5 MG Oral Tablet",
+          "code": "197591",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "en"
@@ -214,8 +214,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Diazepam 5 MG Oral Tablet",
-          "code": "197591",
+          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+          "code": "751905",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "en"
@@ -268,8 +268,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Alteplase 100 MG Injection",
-          "code": "1804799",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lucas404_Fritsch593_bb4efdf8-f83e-153c-906f-9a64f38a4fad",
           "language": "en"
@@ -277,8 +277,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Alteplase 100 MG Injection",
+          "code": "1804799",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lucas404_Fritsch593_bb4efdf8-f83e-153c-906f-9a64f38a4fad",
           "language": "en"
@@ -295,15 +295,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Recurrent urinary tract infection",
-          "code": "197927001",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -311,20 +302,11 @@
           "language": "en"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "valsartan 160 MG Oral Tablet",
-          "code": "349201",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Recurrent urinary tract infection",
+          "code": "197927001",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
           "language": "en"
         },
@@ -340,6 +322,15 @@
         {
           "resource": "Medication",
           "type": "False Negative",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
           "concept": "prasugrel 10 MG Oral Tablet",
           "code": "855812",
           "reason": "Variant formulation or misspelling",
@@ -347,12 +338,12 @@
           "language": "en"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Lack of access to transportation",
-          "code": "713458007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
+          "concept": "valsartan 160 MG Oral Tablet",
+          "code": "349201",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
           "language": "en"
         },
         {
@@ -365,11 +356,11 @@
           "language": "en"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Lack of access to transportation",
+          "code": "713458007",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
           "language": "en"
         },
@@ -387,6 +378,15 @@
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
           "language": "en"
@@ -421,8 +421,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Maria750_Swift555_34220d44-6b74-1b7e-0a3d-3f2305571df2",
           "language": "en"
@@ -430,8 +430,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Maria750_Swift555_34220d44-6b74-1b7e-0a3d-3f2305571df2",
           "language": "en"
@@ -493,15 +493,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{5 (dienogest 2 MG / estradiol valerate 2 MG Oral Tablet) / 17 (dienogest 3 MG / estradiol valerate 2 MG Oral Tablet) / 2 (estradiol valerate 1 MG Oral Tablet) / 2 (estradiol valerate 3 MG Oral Tablet) / 2 (inert ingredients 1 MG Oral Tablet) } Pack [Natazia 28 Day]",
-          "code": "978950",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Mitsuko474_Hyatt152_4f76f10e-e7bc-799a-736e-d2f7dcac0a52",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
           "reason": "Variant formulation or misspelling",
@@ -509,12 +500,12 @@
           "language": "en"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Only received primary school education",
-          "code": "224295006",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Moises22_Williamson769_80aaa95a-27dc-5774-e773-d40dc0460191",
+          "concept": "{5 (dienogest 2 MG / estradiol valerate 2 MG Oral Tablet) / 17 (dienogest 3 MG / estradiol valerate 2 MG Oral Tablet) / 2 (estradiol valerate 1 MG Oral Tablet) / 2 (estradiol valerate 3 MG Oral Tablet) / 2 (inert ingredients 1 MG Oral Tablet) } Pack [Natazia 28 Day]",
+          "code": "978950",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Mitsuko474_Hyatt152_4f76f10e-e7bc-799a-736e-d2f7dcac0a52",
           "language": "en"
         },
         {
@@ -527,6 +518,15 @@
           "language": "en"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Only received primary school education",
+          "code": "224295006",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Moises22_Williamson769_80aaa95a-27dc-5774-e773-d40dc0460191",
+          "language": "en"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
@@ -547,8 +547,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "10 ML Fentanyl 0.05 MG/ML Injection",
-          "code": "1735006",
+          "concept": "desflurane 1000 MG/ML Inhalation Solution",
+          "code": "562366",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Moshe758_Stamm704_5c2102a9-1e48-bc42-f711-e40c57b7f4e6",
           "language": "en"
@@ -556,8 +556,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "desflurane 1000 MG/ML Inhalation Solution",
-          "code": "562366",
+          "concept": "10 ML Fentanyl 0.05 MG/ML Injection",
+          "code": "1735006",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Moshe758_Stamm704_5c2102a9-1e48-bc42-f711-e40c57b7f4e6",
           "language": "en"
@@ -583,15 +583,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Chronic sinusitis",
-          "code": "40055000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -609,10 +600,28 @@
         },
         {
           "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Chronic sinusitis",
+          "code": "40055000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
           "type": "False Positive",
           "concept": "Viral sinusitis",
           "code": "444814009",
           "reason": "Distractor or historic mention",
+          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
           "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
           "language": "en"
         },
@@ -635,19 +644,10 @@
           "language": "en"
         },
         {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
-          "language": "en"
-        },
-        {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Asthma",
-          "code": "195967001",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Odessa199_Glynis780_Senger904_5f032f83-5e70-2cab-11e5-f6258b5d37f6",
           "language": "en"
@@ -664,8 +664,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
+          "concept": "Asthma",
+          "code": "195967001",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Odessa199_Glynis780_Senger904_5f032f83-5e70-2cab-11e5-f6258b5d37f6",
           "language": "en"
@@ -691,15 +691,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Osteoarthritis of knee",
-          "code": "239873007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -711,6 +702,15 @@
           "type": "False Negative",
           "concept": "Risk activity involvement",
           "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Osteoarthritis of knee",
+          "code": "239873007",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
           "language": "en"
@@ -745,8 +745,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Perennial allergic rhinitis with seasonal variation",
-          "code": "232353008",
+          "concept": "Concussion with no loss of consciousness",
+          "code": "62106007",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "en"
@@ -754,8 +754,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Concussion with no loss of consciousness",
-          "code": "62106007",
+          "concept": "Perennial allergic rhinitis with seasonal variation",
+          "code": "232353008",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "en"
@@ -765,15 +765,6 @@
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
-          "code": "895996",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "en"
@@ -790,19 +781,19 @@
         {
           "resource": "Medication",
           "type": "False Negative",
+          "concept": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
+          "code": "895996",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Polly738_Homenick806_8d435564-1621-7b10-4229-45ddb447d48b",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Chronic neck pain",
-          "code": "1121000119107",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "en"
         },
         {
@@ -815,11 +806,11 @@
           "language": "en"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Chronic neck pain",
+          "code": "1121000119107",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "en"
         },
@@ -842,12 +833,12 @@
           "language": "en"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Lack of access to transportation",
-          "code": "713458007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Robbin22_Victorina579_Brekke496_745a9f74-211c-75d1-d4c8-7535f9167017",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "en"
         },
         {
@@ -878,6 +869,15 @@
           "language": "en"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Lack of access to transportation",
+          "code": "713458007",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Robbin22_Victorina579_Brekke496_745a9f74-211c-75d1-d4c8-7535f9167017",
+          "language": "en"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
@@ -889,8 +889,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "History of tubal ligation",
-          "code": "267020005",
+          "concept": "Educated to high school level",
+          "code": "473461003",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "en"
@@ -898,8 +898,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
+          "concept": "History of tubal ligation",
+          "code": "267020005",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "en"
@@ -934,8 +934,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "exemestane 25 MG Oral Tablet",
-          "code": "310261",
+          "concept": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+          "code": "896209",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "en"
@@ -952,8 +952,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "albuterol 5 MG/ML Inhalation Solution",
-          "code": "245314",
+          "concept": "exemestane 25 MG Oral Tablet",
+          "code": "310261",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "en"
@@ -961,8 +961,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
-          "code": "896209",
+          "concept": "albuterol 5 MG/ML Inhalation Solution",
+          "code": "245314",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "en"
@@ -970,8 +970,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Rory188_Greenfelder433_6e074740-b2fd-3aa8-620c-b83832271fc6",
           "language": "en"
@@ -979,8 +979,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
+          "concept": "Educated to high school level",
+          "code": "473461003",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Rory188_Greenfelder433_6e074740-b2fd-3aa8-620c-b83832271fc6",
           "language": "en"
@@ -1033,15 +1033,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",
-          "code": "205923",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Rossie247_Allison818_Zemlak964_391155bc-d9aa-6225-26ad-956b3b5fe99c",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "remifentanil 2 MG Injection",
           "code": "1729584",
           "reason": "Variant formulation or misspelling",
@@ -1058,12 +1049,12 @@
           "language": "en"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Limited social contact",
-          "code": "423315002",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
+          "concept": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",
+          "code": "205923",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Rossie247_Allison818_Zemlak964_391155bc-d9aa-6225-26ad-956b3b5fe99c",
           "language": "en"
         },
         {
@@ -1080,6 +1071,15 @@
           "type": "False Negative",
           "concept": "Full-time employment",
           "code": "160903007",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Limited social contact",
+          "code": "423315002",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
           "language": "en"
@@ -1163,15 +1163,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Lack of access to transportation",
-          "code": "713458007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -1179,11 +1170,11 @@
           "language": "es"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "albuterol 5 MG/ML Inhalation Solution",
-          "code": "245314",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Lack of access to transportation",
+          "code": "713458007",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
           "language": "es"
         },
@@ -1192,6 +1183,15 @@
           "type": "False Negative",
           "concept": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
           "code": "896209",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "albuterol 5 MG/ML Inhalation Solution",
+          "code": "245314",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
           "language": "es"
@@ -1217,8 +1217,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
+          "concept": "piperacillin 2000 MG / tazobactam 250 MG Injection",
+          "code": "1659131",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Kyle55_Jerde200_3647f1af-7f88-43f0-ca40-b74c4c84c70e",
           "language": "es"
@@ -1235,8 +1235,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "piperacillin 2000 MG / tazobactam 250 MG Injection",
-          "code": "1659131",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Kyle55_Jerde200_3647f1af-7f88-43f0-ca40-b74c4c84c70e",
           "language": "es"
@@ -1253,26 +1253,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Seizure disorder",
-          "code": "128613002",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Epilepsy",
-          "code": "84757009",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "es"
@@ -1287,10 +1269,28 @@
           "language": "es"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Seizure disorder",
+          "code": "128613002",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Epilepsy",
+          "code": "84757009",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
+          "language": "es"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
-          "code": "751905",
+          "concept": "Diazepam 5 MG Oral Tablet",
+          "code": "197591",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "es"
@@ -1307,8 +1307,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Diazepam 5 MG Oral Tablet",
-          "code": "197591",
+          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+          "code": "751905",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "es"
@@ -1361,8 +1361,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Alteplase 100 MG Injection",
-          "code": "1804799",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lucas404_Fritsch593_bb4efdf8-f83e-153c-906f-9a64f38a4fad",
           "language": "es"
@@ -1370,8 +1370,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Alteplase 100 MG Injection",
+          "code": "1804799",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lucas404_Fritsch593_bb4efdf8-f83e-153c-906f-9a64f38a4fad",
           "language": "es"
@@ -1388,15 +1388,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Recurrent urinary tract infection",
-          "code": "197927001",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -1404,20 +1395,11 @@
           "language": "es"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "valsartan 160 MG Oral Tablet",
-          "code": "349201",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Recurrent urinary tract infection",
+          "code": "197927001",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
           "language": "es"
         },
@@ -1433,6 +1415,15 @@
         {
           "resource": "Medication",
           "type": "False Negative",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
           "concept": "prasugrel 10 MG Oral Tablet",
           "code": "855812",
           "reason": "Variant formulation or misspelling",
@@ -1440,12 +1431,12 @@
           "language": "es"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Lack of access to transportation",
-          "code": "713458007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
+          "concept": "valsartan 160 MG Oral Tablet",
+          "code": "349201",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
           "language": "es"
         },
         {
@@ -1458,11 +1449,11 @@
           "language": "es"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Lack of access to transportation",
+          "code": "713458007",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
           "language": "es"
         },
@@ -1480,6 +1471,15 @@
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
           "language": "es"
@@ -1514,8 +1514,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Maria750_Swift555_34220d44-6b74-1b7e-0a3d-3f2305571df2",
           "language": "es"
@@ -1523,8 +1523,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Maria750_Swift555_34220d44-6b74-1b7e-0a3d-3f2305571df2",
           "language": "es"
@@ -1586,15 +1586,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{5 (dienogest 2 MG / estradiol valerate 2 MG Oral Tablet) / 17 (dienogest 3 MG / estradiol valerate 2 MG Oral Tablet) / 2 (estradiol valerate 1 MG Oral Tablet) / 2 (estradiol valerate 3 MG Oral Tablet) / 2 (inert ingredients 1 MG Oral Tablet) } Pack [Natazia 28 Day]",
-          "code": "978950",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Mitsuko474_Hyatt152_4f76f10e-e7bc-799a-736e-d2f7dcac0a52",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
           "reason": "Variant formulation or misspelling",
@@ -1602,12 +1593,12 @@
           "language": "es"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Only received primary school education",
-          "code": "224295006",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Moises22_Williamson769_80aaa95a-27dc-5774-e773-d40dc0460191",
+          "concept": "{5 (dienogest 2 MG / estradiol valerate 2 MG Oral Tablet) / 17 (dienogest 3 MG / estradiol valerate 2 MG Oral Tablet) / 2 (estradiol valerate 1 MG Oral Tablet) / 2 (estradiol valerate 3 MG Oral Tablet) / 2 (inert ingredients 1 MG Oral Tablet) } Pack [Natazia 28 Day]",
+          "code": "978950",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Mitsuko474_Hyatt152_4f76f10e-e7bc-799a-736e-d2f7dcac0a52",
           "language": "es"
         },
         {
@@ -1620,6 +1611,15 @@
           "language": "es"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Only received primary school education",
+          "code": "224295006",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Moises22_Williamson769_80aaa95a-27dc-5774-e773-d40dc0460191",
+          "language": "es"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
@@ -1640,8 +1640,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "10 ML Fentanyl 0.05 MG/ML Injection",
-          "code": "1735006",
+          "concept": "desflurane 1000 MG/ML Inhalation Solution",
+          "code": "562366",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Moshe758_Stamm704_5c2102a9-1e48-bc42-f711-e40c57b7f4e6",
           "language": "es"
@@ -1649,8 +1649,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "desflurane 1000 MG/ML Inhalation Solution",
-          "code": "562366",
+          "concept": "10 ML Fentanyl 0.05 MG/ML Injection",
+          "code": "1735006",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Moshe758_Stamm704_5c2102a9-1e48-bc42-f711-e40c57b7f4e6",
           "language": "es"
@@ -1676,15 +1676,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Chronic sinusitis",
-          "code": "40055000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -1702,10 +1693,28 @@
         },
         {
           "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Chronic sinusitis",
+          "code": "40055000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
           "type": "False Positive",
           "concept": "Viral sinusitis",
           "code": "444814009",
           "reason": "Distractor or historic mention",
+          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
           "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
           "language": "es"
         },
@@ -1728,19 +1737,10 @@
           "language": "es"
         },
         {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
-          "language": "es"
-        },
-        {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Asthma",
-          "code": "195967001",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Odessa199_Glynis780_Senger904_5f032f83-5e70-2cab-11e5-f6258b5d37f6",
           "language": "es"
@@ -1757,8 +1757,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
+          "concept": "Asthma",
+          "code": "195967001",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Odessa199_Glynis780_Senger904_5f032f83-5e70-2cab-11e5-f6258b5d37f6",
           "language": "es"
@@ -1784,15 +1784,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Osteoarthritis of knee",
-          "code": "239873007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -1804,6 +1795,15 @@
           "type": "False Negative",
           "concept": "Risk activity involvement",
           "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Osteoarthritis of knee",
+          "code": "239873007",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
           "language": "es"
@@ -1838,8 +1838,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Perennial allergic rhinitis with seasonal variation",
-          "code": "232353008",
+          "concept": "Concussion with no loss of consciousness",
+          "code": "62106007",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "es"
@@ -1847,8 +1847,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Concussion with no loss of consciousness",
-          "code": "62106007",
+          "concept": "Perennial allergic rhinitis with seasonal variation",
+          "code": "232353008",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "es"
@@ -1858,15 +1858,6 @@
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
-          "code": "895996",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "es"
@@ -1883,19 +1874,19 @@
         {
           "resource": "Medication",
           "type": "False Negative",
+          "concept": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
+          "code": "895996",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Polly738_Homenick806_8d435564-1621-7b10-4229-45ddb447d48b",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Chronic neck pain",
-          "code": "1121000119107",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "es"
         },
         {
@@ -1908,11 +1899,11 @@
           "language": "es"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Chronic neck pain",
+          "code": "1121000119107",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "es"
         },
@@ -1935,12 +1926,12 @@
           "language": "es"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Lack of access to transportation",
-          "code": "713458007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Robbin22_Victorina579_Brekke496_745a9f74-211c-75d1-d4c8-7535f9167017",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "es"
         },
         {
@@ -1971,6 +1962,15 @@
           "language": "es"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Lack of access to transportation",
+          "code": "713458007",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Robbin22_Victorina579_Brekke496_745a9f74-211c-75d1-d4c8-7535f9167017",
+          "language": "es"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
@@ -1982,8 +1982,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "History of tubal ligation",
-          "code": "267020005",
+          "concept": "Educated to high school level",
+          "code": "473461003",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "es"
@@ -1991,8 +1991,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
+          "concept": "History of tubal ligation",
+          "code": "267020005",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "es"
@@ -2027,8 +2027,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "exemestane 25 MG Oral Tablet",
-          "code": "310261",
+          "concept": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+          "code": "896209",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "es"
@@ -2045,8 +2045,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "albuterol 5 MG/ML Inhalation Solution",
-          "code": "245314",
+          "concept": "exemestane 25 MG Oral Tablet",
+          "code": "310261",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "es"
@@ -2054,8 +2054,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
-          "code": "896209",
+          "concept": "albuterol 5 MG/ML Inhalation Solution",
+          "code": "245314",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "es"
@@ -2063,8 +2063,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Rory188_Greenfelder433_6e074740-b2fd-3aa8-620c-b83832271fc6",
           "language": "es"
@@ -2072,8 +2072,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
+          "concept": "Educated to high school level",
+          "code": "473461003",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Rory188_Greenfelder433_6e074740-b2fd-3aa8-620c-b83832271fc6",
           "language": "es"
@@ -2126,15 +2126,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",
-          "code": "205923",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Rossie247_Allison818_Zemlak964_391155bc-d9aa-6225-26ad-956b3b5fe99c",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "remifentanil 2 MG Injection",
           "code": "1729584",
           "reason": "Variant formulation or misspelling",
@@ -2151,12 +2142,12 @@
           "language": "es"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Limited social contact",
-          "code": "423315002",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
+          "concept": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",
+          "code": "205923",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Rossie247_Allison818_Zemlak964_391155bc-d9aa-6225-26ad-956b3b5fe99c",
           "language": "es"
         },
         {
@@ -2173,6 +2164,15 @@
           "type": "False Negative",
           "concept": "Full-time employment",
           "code": "160903007",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Limited social contact",
+          "code": "423315002",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
           "language": "es"
@@ -2276,15 +2276,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
-          "code": "749785",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Ayana300_Sabra779_Runte676_548b2ed8-3745-44ee-42de-611e269f4c0d",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "{7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]",
           "code": "749762",
           "reason": "Variant formulation or misspelling",
@@ -2301,91 +2292,100 @@
           "language": "en"
         },
         {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "en"
-        },
-        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
           "code": "749785",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Ayana300_Sabra779_Runte676_548b2ed8-3745-44ee-42de-611e269f4c0d",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Educated to high school level",
+          "code": "473461003",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Educated to high school level",
+          "code": "473461003",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Clair921_Prohaska837_ea0d6390-aa61-f034-3d64-c60afe19d684",
           "language": "en"
@@ -2402,8 +2402,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
+          "code": "749785",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Clair921_Prohaska837_ea0d6390-aa61-f034-3d64-c60afe19d684",
           "language": "en"
@@ -2447,8 +2447,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+          "code": "209387",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Edmundo94_Green467_eb916696-e8fc-9fbf-6c5f-53933f22dbf4",
           "language": "en"
@@ -2456,8 +2456,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
-          "code": "209387",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Edmundo94_Green467_eb916696-e8fc-9fbf-6c5f-53933f22dbf4",
           "language": "en"
@@ -2474,8 +2474,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Childhood asthma",
-          "code": "233678006",
+          "concept": "Received higher education",
+          "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Frank378_Reinger292_e1b14f23-ba5d-1c1c-bc36-a3f4c88cec27",
           "language": "en"
@@ -2483,8 +2483,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Received higher education",
-          "code": "224299000",
+          "concept": "Childhood asthma",
+          "code": "233678006",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Frank378_Reinger292_e1b14f23-ba5d-1c1c-bc36-a3f4c88cec27",
           "language": "en"
@@ -2546,8 +2546,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Gordon377_Mayert710_61881389-a751-276d-d508-7c3975573c04",
           "language": "en"
@@ -2555,8 +2555,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Gordon377_Mayert710_61881389-a751-276d-d508-7c3975573c04",
           "language": "en"
@@ -2618,8 +2618,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Full-time employment",
-          "code": "160903007",
+          "concept": "Part-time employment",
+          "code": "160904001",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Johnna810_Hilll811_016ec39f-515c-170a-56cb-9870276c256c",
           "language": "en"
@@ -2627,8 +2627,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Part-time employment",
-          "code": "160904001",
+          "concept": "Full-time employment",
+          "code": "160903007",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Johnna810_Hilll811_016ec39f-515c-170a-56cb-9870276c256c",
           "language": "en"
@@ -2766,15 +2766,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
-          "code": "749785",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Ayana300_Sabra779_Runte676_548b2ed8-3745-44ee-42de-611e269f4c0d",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "{7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]",
           "code": "749762",
           "reason": "Variant formulation or misspelling",
@@ -2791,91 +2782,100 @@
           "language": "es"
         },
         {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "es"
-        },
-        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
           "code": "749785",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Ayana300_Sabra779_Runte676_548b2ed8-3745-44ee-42de-611e269f4c0d",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Educated to high school level",
+          "code": "473461003",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Educated to high school level",
+          "code": "473461003",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Clair921_Prohaska837_ea0d6390-aa61-f034-3d64-c60afe19d684",
           "language": "es"
@@ -2892,8 +2892,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
+          "code": "749785",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Clair921_Prohaska837_ea0d6390-aa61-f034-3d64-c60afe19d684",
           "language": "es"
@@ -2937,8 +2937,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+          "code": "209387",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Edmundo94_Green467_eb916696-e8fc-9fbf-6c5f-53933f22dbf4",
           "language": "es"
@@ -2946,8 +2946,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
-          "code": "209387",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Edmundo94_Green467_eb916696-e8fc-9fbf-6c5f-53933f22dbf4",
           "language": "es"
@@ -2964,8 +2964,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Childhood asthma",
-          "code": "233678006",
+          "concept": "Received higher education",
+          "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Frank378_Reinger292_e1b14f23-ba5d-1c1c-bc36-a3f4c88cec27",
           "language": "es"
@@ -2973,8 +2973,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Received higher education",
-          "code": "224299000",
+          "concept": "Childhood asthma",
+          "code": "233678006",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Frank378_Reinger292_e1b14f23-ba5d-1c1c-bc36-a3f4c88cec27",
           "language": "es"
@@ -3036,8 +3036,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Gordon377_Mayert710_61881389-a751-276d-d508-7c3975573c04",
           "language": "es"
@@ -3045,8 +3045,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Gordon377_Mayert710_61881389-a751-276d-d508-7c3975573c04",
           "language": "es"
@@ -3108,8 +3108,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Full-time employment",
-          "code": "160903007",
+          "concept": "Part-time employment",
+          "code": "160904001",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Johnna810_Hilll811_016ec39f-515c-170a-56cb-9870276c256c",
           "language": "es"
@@ -3117,8 +3117,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Part-time employment",
-          "code": "160904001",
+          "concept": "Full-time employment",
+          "code": "160903007",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Johnna810_Hilll811_016ec39f-515c-170a-56cb-9870276c256c",
           "language": "es"
@@ -3258,15 +3258,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
-          "code": "749785",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Ayana300_Sabra779_Runte676_548b2ed8-3745-44ee-42de-611e269f4c0d",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "{7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]",
           "code": "749762",
           "reason": "Variant formulation or misspelling",
@@ -3283,91 +3274,100 @@
           "language": "en"
         },
         {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "en"
-        },
-        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
           "code": "749785",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Ayana300_Sabra779_Runte676_548b2ed8-3745-44ee-42de-611e269f4c0d",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Educated to high school level",
+          "code": "473461003",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Educated to high school level",
+          "code": "473461003",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Clair921_Prohaska837_ea0d6390-aa61-f034-3d64-c60afe19d684",
           "language": "en"
@@ -3384,8 +3384,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
+          "code": "749785",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Clair921_Prohaska837_ea0d6390-aa61-f034-3d64-c60afe19d684",
           "language": "en"
@@ -3429,8 +3429,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+          "code": "209387",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Edmundo94_Green467_eb916696-e8fc-9fbf-6c5f-53933f22dbf4",
           "language": "en"
@@ -3438,8 +3438,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
-          "code": "209387",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Edmundo94_Green467_eb916696-e8fc-9fbf-6c5f-53933f22dbf4",
           "language": "en"
@@ -3456,8 +3456,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Childhood asthma",
-          "code": "233678006",
+          "concept": "Received higher education",
+          "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Frank378_Reinger292_e1b14f23-ba5d-1c1c-bc36-a3f4c88cec27",
           "language": "en"
@@ -3465,8 +3465,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Received higher education",
-          "code": "224299000",
+          "concept": "Childhood asthma",
+          "code": "233678006",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Frank378_Reinger292_e1b14f23-ba5d-1c1c-bc36-a3f4c88cec27",
           "language": "en"
@@ -3528,8 +3528,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Gordon377_Mayert710_61881389-a751-276d-d508-7c3975573c04",
           "language": "en"
@@ -3537,8 +3537,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Gordon377_Mayert710_61881389-a751-276d-d508-7c3975573c04",
           "language": "en"
@@ -3600,15 +3600,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Full-time employment",
-          "code": "160903007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Johnna810_Hilll811_016ec39f-515c-170a-56cb-9870276c256c",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Part-time employment",
           "code": "160904001",
           "reason": "Narrative typo or unmapped synonym",
@@ -3616,6 +3607,15 @@
           "language": "en"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Full-time employment",
+          "code": "160903007",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Johnna810_Hilll811_016ec39f-515c-170a-56cb-9870276c256c",
+          "language": "en"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
@@ -3658,6 +3658,15 @@
           "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "José_Luis472_Amador986_d47be549-1913-82d3-89df-5f38aab0ed2f",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Received higher education",
+          "code": "224299000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
           "language": "en"
         },
         {
@@ -3666,24 +3675,6 @@
           "concept": "Lack of access to transportation",
           "code": "713458007",
           "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Received higher education",
-          "code": "224299000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "albuterol 5 MG/ML Inhalation Solution",
-          "code": "245314",
-          "reason": "Variant formulation or misspelling",
           "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
           "language": "en"
         },
@@ -3697,6 +3688,15 @@
           "language": "en"
         },
         {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "albuterol 5 MG/ML Inhalation Solution",
+          "code": "245314",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
+          "language": "en"
+        },
+        {
           "resource": "Condition",
           "type": "False Negative",
           "concept": "Received higher education",
@@ -3717,8 +3717,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
+          "concept": "piperacillin 2000 MG / tazobactam 250 MG Injection",
+          "code": "1659131",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Kyle55_Jerde200_3647f1af-7f88-43f0-ca40-b74c4c84c70e",
           "language": "en"
@@ -3735,8 +3735,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "piperacillin 2000 MG / tazobactam 250 MG Injection",
-          "code": "1659131",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Kyle55_Jerde200_3647f1af-7f88-43f0-ca40-b74c4c84c70e",
           "language": "en"
@@ -3753,26 +3753,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Seizure disorder",
-          "code": "128613002",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Epilepsy",
-          "code": "84757009",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "en"
@@ -3787,10 +3769,28 @@
           "language": "en"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Seizure disorder",
+          "code": "128613002",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Epilepsy",
+          "code": "84757009",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
+          "language": "en"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
-          "code": "751905",
+          "concept": "Diazepam 5 MG Oral Tablet",
+          "code": "197591",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "en"
@@ -3807,8 +3807,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Diazepam 5 MG Oral Tablet",
-          "code": "197591",
+          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+          "code": "751905",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "en"
@@ -3861,8 +3861,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Alteplase 100 MG Injection",
-          "code": "1804799",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lucas404_Fritsch593_bb4efdf8-f83e-153c-906f-9a64f38a4fad",
           "language": "en"
@@ -3870,8 +3870,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Alteplase 100 MG Injection",
+          "code": "1804799",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lucas404_Fritsch593_bb4efdf8-f83e-153c-906f-9a64f38a4fad",
           "language": "en"
@@ -3888,15 +3888,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Recurrent urinary tract infection",
-          "code": "197927001",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -3904,20 +3895,11 @@
           "language": "en"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "valsartan 160 MG Oral Tablet",
-          "code": "349201",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Recurrent urinary tract infection",
+          "code": "197927001",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
           "language": "en"
         },
@@ -3933,6 +3915,15 @@
         {
           "resource": "Medication",
           "type": "False Negative",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
           "concept": "prasugrel 10 MG Oral Tablet",
           "code": "855812",
           "reason": "Variant formulation or misspelling",
@@ -3940,12 +3931,12 @@
           "language": "en"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Lack of access to transportation",
-          "code": "713458007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
+          "concept": "valsartan 160 MG Oral Tablet",
+          "code": "349201",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
           "language": "en"
         },
         {
@@ -3958,11 +3949,11 @@
           "language": "en"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Lack of access to transportation",
+          "code": "713458007",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
           "language": "en"
         },
@@ -3980,6 +3971,15 @@
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
           "language": "en"
@@ -4014,8 +4014,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Maria750_Swift555_34220d44-6b74-1b7e-0a3d-3f2305571df2",
           "language": "en"
@@ -4023,8 +4023,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Maria750_Swift555_34220d44-6b74-1b7e-0a3d-3f2305571df2",
           "language": "en"
@@ -4086,15 +4086,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{5 (dienogest 2 MG / estradiol valerate 2 MG Oral Tablet) / 17 (dienogest 3 MG / estradiol valerate 2 MG Oral Tablet) / 2 (estradiol valerate 1 MG Oral Tablet) / 2 (estradiol valerate 3 MG Oral Tablet) / 2 (inert ingredients 1 MG Oral Tablet) } Pack [Natazia 28 Day]",
-          "code": "978950",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Mitsuko474_Hyatt152_4f76f10e-e7bc-799a-736e-d2f7dcac0a52",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
           "reason": "Variant formulation or misspelling",
@@ -4102,12 +4093,12 @@
           "language": "en"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Only received primary school education",
-          "code": "224295006",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Moises22_Williamson769_80aaa95a-27dc-5774-e773-d40dc0460191",
+          "concept": "{5 (dienogest 2 MG / estradiol valerate 2 MG Oral Tablet) / 17 (dienogest 3 MG / estradiol valerate 2 MG Oral Tablet) / 2 (estradiol valerate 1 MG Oral Tablet) / 2 (estradiol valerate 3 MG Oral Tablet) / 2 (inert ingredients 1 MG Oral Tablet) } Pack [Natazia 28 Day]",
+          "code": "978950",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Mitsuko474_Hyatt152_4f76f10e-e7bc-799a-736e-d2f7dcac0a52",
           "language": "en"
         },
         {
@@ -4120,6 +4111,15 @@
           "language": "en"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Only received primary school education",
+          "code": "224295006",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Moises22_Williamson769_80aaa95a-27dc-5774-e773-d40dc0460191",
+          "language": "en"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
@@ -4140,8 +4140,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "10 ML Fentanyl 0.05 MG/ML Injection",
-          "code": "1735006",
+          "concept": "desflurane 1000 MG/ML Inhalation Solution",
+          "code": "562366",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Moshe758_Stamm704_5c2102a9-1e48-bc42-f711-e40c57b7f4e6",
           "language": "en"
@@ -4149,8 +4149,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "desflurane 1000 MG/ML Inhalation Solution",
-          "code": "562366",
+          "concept": "10 ML Fentanyl 0.05 MG/ML Injection",
+          "code": "1735006",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Moshe758_Stamm704_5c2102a9-1e48-bc42-f711-e40c57b7f4e6",
           "language": "en"
@@ -4176,15 +4176,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Chronic sinusitis",
-          "code": "40055000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -4202,10 +4193,28 @@
         },
         {
           "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Chronic sinusitis",
+          "code": "40055000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
           "type": "False Positive",
           "concept": "Viral sinusitis",
           "code": "444814009",
           "reason": "Distractor or historic mention",
+          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
           "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
           "language": "en"
         },
@@ -4228,19 +4237,10 @@
           "language": "en"
         },
         {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
-          "language": "en"
-        },
-        {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Asthma",
-          "code": "195967001",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Odessa199_Glynis780_Senger904_5f032f83-5e70-2cab-11e5-f6258b5d37f6",
           "language": "en"
@@ -4257,8 +4257,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
+          "concept": "Asthma",
+          "code": "195967001",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Odessa199_Glynis780_Senger904_5f032f83-5e70-2cab-11e5-f6258b5d37f6",
           "language": "en"
@@ -4284,15 +4284,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Osteoarthritis of knee",
-          "code": "239873007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -4304,6 +4295,15 @@
           "type": "False Negative",
           "concept": "Risk activity involvement",
           "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Osteoarthritis of knee",
+          "code": "239873007",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
           "language": "en"
@@ -4338,8 +4338,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Perennial allergic rhinitis with seasonal variation",
-          "code": "232353008",
+          "concept": "Concussion with no loss of consciousness",
+          "code": "62106007",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "en"
@@ -4347,8 +4347,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Concussion with no loss of consciousness",
-          "code": "62106007",
+          "concept": "Perennial allergic rhinitis with seasonal variation",
+          "code": "232353008",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "en"
@@ -4358,15 +4358,6 @@
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
-          "code": "895996",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "en"
@@ -4383,19 +4374,19 @@
         {
           "resource": "Medication",
           "type": "False Negative",
+          "concept": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
+          "code": "895996",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
+          "language": "en"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Polly738_Homenick806_8d435564-1621-7b10-4229-45ddb447d48b",
-          "language": "en"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Chronic neck pain",
-          "code": "1121000119107",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "en"
         },
         {
@@ -4408,11 +4399,11 @@
           "language": "en"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Chronic neck pain",
+          "code": "1121000119107",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "en"
         },
@@ -4435,12 +4426,12 @@
           "language": "en"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Lack of access to transportation",
-          "code": "713458007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Robbin22_Victorina579_Brekke496_745a9f74-211c-75d1-d4c8-7535f9167017",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "en"
         },
         {
@@ -4471,6 +4462,15 @@
           "language": "en"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Lack of access to transportation",
+          "code": "713458007",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Robbin22_Victorina579_Brekke496_745a9f74-211c-75d1-d4c8-7535f9167017",
+          "language": "en"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
@@ -4482,8 +4482,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "History of tubal ligation",
-          "code": "267020005",
+          "concept": "Educated to high school level",
+          "code": "473461003",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "en"
@@ -4491,8 +4491,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
+          "concept": "History of tubal ligation",
+          "code": "267020005",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "en"
@@ -4527,8 +4527,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "exemestane 25 MG Oral Tablet",
-          "code": "310261",
+          "concept": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+          "code": "896209",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "en"
@@ -4545,8 +4545,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "albuterol 5 MG/ML Inhalation Solution",
-          "code": "245314",
+          "concept": "exemestane 25 MG Oral Tablet",
+          "code": "310261",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "en"
@@ -4554,8 +4554,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
-          "code": "896209",
+          "concept": "albuterol 5 MG/ML Inhalation Solution",
+          "code": "245314",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "en"
@@ -4563,8 +4563,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Rory188_Greenfelder433_6e074740-b2fd-3aa8-620c-b83832271fc6",
           "language": "en"
@@ -4572,8 +4572,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
+          "concept": "Educated to high school level",
+          "code": "473461003",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Rory188_Greenfelder433_6e074740-b2fd-3aa8-620c-b83832271fc6",
           "language": "en"
@@ -4626,15 +4626,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",
-          "code": "205923",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Rossie247_Allison818_Zemlak964_391155bc-d9aa-6225-26ad-956b3b5fe99c",
-          "language": "en"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "remifentanil 2 MG Injection",
           "code": "1729584",
           "reason": "Variant formulation or misspelling",
@@ -4651,12 +4642,12 @@
           "language": "en"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Limited social contact",
-          "code": "423315002",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
+          "concept": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",
+          "code": "205923",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Rossie247_Allison818_Zemlak964_391155bc-d9aa-6225-26ad-956b3b5fe99c",
           "language": "en"
         },
         {
@@ -4673,6 +4664,15 @@
           "type": "False Negative",
           "concept": "Full-time employment",
           "code": "160903007",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
+          "language": "en"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Limited social contact",
+          "code": "423315002",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
           "language": "en"
@@ -4774,15 +4774,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
-          "code": "749785",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Ayana300_Sabra779_Runte676_548b2ed8-3745-44ee-42de-611e269f4c0d",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "{7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]",
           "code": "749762",
           "reason": "Variant formulation or misspelling",
@@ -4799,91 +4790,100 @@
           "language": "es"
         },
         {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
-          "language": "es"
-        },
-        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
           "code": "749785",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Ayana300_Sabra779_Runte676_548b2ed8-3745-44ee-42de-611e269f4c0d",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Educated to high school level",
+          "code": "473461003",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Azucena377_Lory442_Satterfield305_77d42a81-a392-5f0a-ebc4-7672d42d9c4f",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Bryon392_Gleason633_0c12ca81-b6f8-0ff4-b755-4587cea10527",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Chet188_Feeney44_082706f3-a9e7-d5b7-9988-c074cb5874d8",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Educated to high school level",
+          "code": "473461003",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Christoper325_Jerde200_8ba1ce7a-1271-9d2c-6686-9047db8ad664",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Clair921_Prohaska837_ea0d6390-aa61-f034-3d64-c60afe19d684",
           "language": "es"
@@ -4900,8 +4900,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
+          "code": "749785",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Clair921_Prohaska837_ea0d6390-aa61-f034-3d64-c60afe19d684",
           "language": "es"
@@ -4945,8 +4945,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+          "code": "209387",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Edmundo94_Green467_eb916696-e8fc-9fbf-6c5f-53933f22dbf4",
           "language": "es"
@@ -4954,8 +4954,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
-          "code": "209387",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Edmundo94_Green467_eb916696-e8fc-9fbf-6c5f-53933f22dbf4",
           "language": "es"
@@ -4972,8 +4972,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Childhood asthma",
-          "code": "233678006",
+          "concept": "Received higher education",
+          "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Frank378_Reinger292_e1b14f23-ba5d-1c1c-bc36-a3f4c88cec27",
           "language": "es"
@@ -4981,8 +4981,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Received higher education",
-          "code": "224299000",
+          "concept": "Childhood asthma",
+          "code": "233678006",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Frank378_Reinger292_e1b14f23-ba5d-1c1c-bc36-a3f4c88cec27",
           "language": "es"
@@ -5044,8 +5044,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Gordon377_Mayert710_61881389-a751-276d-d508-7c3975573c04",
           "language": "es"
@@ -5053,8 +5053,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Gordon377_Mayert710_61881389-a751-276d-d508-7c3975573c04",
           "language": "es"
@@ -5116,15 +5116,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Full-time employment",
-          "code": "160903007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Johnna810_Hilll811_016ec39f-515c-170a-56cb-9870276c256c",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Part-time employment",
           "code": "160904001",
           "reason": "Narrative typo or unmapped synonym",
@@ -5132,6 +5123,15 @@
           "language": "es"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Full-time employment",
+          "code": "160903007",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Johnna810_Hilll811_016ec39f-515c-170a-56cb-9870276c256c",
+          "language": "es"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
@@ -5174,6 +5174,15 @@
           "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "José_Luis472_Amador986_d47be549-1913-82d3-89df-5f38aab0ed2f",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Received higher education",
+          "code": "224299000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
           "language": "es"
         },
         {
@@ -5182,24 +5191,6 @@
           "concept": "Lack of access to transportation",
           "code": "713458007",
           "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Received higher education",
-          "code": "224299000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "albuterol 5 MG/ML Inhalation Solution",
-          "code": "245314",
-          "reason": "Variant formulation or misspelling",
           "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
           "language": "es"
         },
@@ -5213,6 +5204,15 @@
           "language": "es"
         },
         {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "albuterol 5 MG/ML Inhalation Solution",
+          "code": "245314",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Karl184_Bayer639_9c950711-ddcd-33a3-a549-589aefe37624",
+          "language": "es"
+        },
+        {
           "resource": "Condition",
           "type": "False Negative",
           "concept": "Received higher education",
@@ -5233,8 +5233,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
+          "concept": "piperacillin 2000 MG / tazobactam 250 MG Injection",
+          "code": "1659131",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Kyle55_Jerde200_3647f1af-7f88-43f0-ca40-b74c4c84c70e",
           "language": "es"
@@ -5251,8 +5251,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "piperacillin 2000 MG / tazobactam 250 MG Injection",
-          "code": "1659131",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Kyle55_Jerde200_3647f1af-7f88-43f0-ca40-b74c4c84c70e",
           "language": "es"
@@ -5269,26 +5269,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Seizure disorder",
-          "code": "128613002",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Epilepsy",
-          "code": "84757009",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "es"
@@ -5303,10 +5285,28 @@
           "language": "es"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Seizure disorder",
+          "code": "128613002",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Epilepsy",
+          "code": "84757009",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
+          "language": "es"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
-          "code": "751905",
+          "concept": "Diazepam 5 MG Oral Tablet",
+          "code": "197591",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "es"
@@ -5323,8 +5323,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Diazepam 5 MG Oral Tablet",
-          "code": "197591",
+          "concept": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+          "code": "751905",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lai148_Hettinger594_ef4e544a-9bf9-fc62-3b24-1ae37291e360",
           "language": "es"
@@ -5377,8 +5377,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Alteplase 100 MG Injection",
-          "code": "1804799",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lucas404_Fritsch593_bb4efdf8-f83e-153c-906f-9a64f38a4fad",
           "language": "es"
@@ -5386,8 +5386,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Alteplase 100 MG Injection",
+          "code": "1804799",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Lucas404_Fritsch593_bb4efdf8-f83e-153c-906f-9a64f38a4fad",
           "language": "es"
@@ -5404,15 +5404,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Recurrent urinary tract infection",
-          "code": "197927001",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -5420,20 +5411,11 @@
           "language": "es"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "valsartan 160 MG Oral Tablet",
-          "code": "349201",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Recurrent urinary tract infection",
+          "code": "197927001",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
           "language": "es"
         },
@@ -5449,6 +5431,15 @@
         {
           "resource": "Medication",
           "type": "False Negative",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
           "concept": "prasugrel 10 MG Oral Tablet",
           "code": "855812",
           "reason": "Variant formulation or misspelling",
@@ -5456,12 +5447,12 @@
           "language": "es"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Lack of access to transportation",
-          "code": "713458007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
+          "concept": "valsartan 160 MG Oral Tablet",
+          "code": "349201",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Luke971_Boehm581_9494ebb8-3b08-0c69-542f-c5d29aa699b6",
           "language": "es"
         },
         {
@@ -5474,11 +5465,11 @@
           "language": "es"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Lack of access to transportation",
+          "code": "713458007",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
           "language": "es"
         },
@@ -5496,6 +5487,15 @@
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Marhta321_Reiko946_Dooley940_1c0ad116-a704-ade8-873a-041429f839cd",
           "language": "es"
@@ -5530,8 +5530,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "Ibuprofen 200 MG Oral Tablet",
-          "code": "310965",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Maria750_Swift555_34220d44-6b74-1b7e-0a3d-3f2305571df2",
           "language": "es"
@@ -5539,8 +5539,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
+          "concept": "Ibuprofen 200 MG Oral Tablet",
+          "code": "310965",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Maria750_Swift555_34220d44-6b74-1b7e-0a3d-3f2305571df2",
           "language": "es"
@@ -5602,15 +5602,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "{5 (dienogest 2 MG / estradiol valerate 2 MG Oral Tablet) / 17 (dienogest 3 MG / estradiol valerate 2 MG Oral Tablet) / 2 (estradiol valerate 1 MG Oral Tablet) / 2 (estradiol valerate 3 MG Oral Tablet) / 2 (inert ingredients 1 MG Oral Tablet) } Pack [Natazia 28 Day]",
-          "code": "978950",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Mitsuko474_Hyatt152_4f76f10e-e7bc-799a-736e-d2f7dcac0a52",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
           "reason": "Variant formulation or misspelling",
@@ -5618,12 +5609,12 @@
           "language": "es"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Only received primary school education",
-          "code": "224295006",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Moises22_Williamson769_80aaa95a-27dc-5774-e773-d40dc0460191",
+          "concept": "{5 (dienogest 2 MG / estradiol valerate 2 MG Oral Tablet) / 17 (dienogest 3 MG / estradiol valerate 2 MG Oral Tablet) / 2 (estradiol valerate 1 MG Oral Tablet) / 2 (estradiol valerate 3 MG Oral Tablet) / 2 (inert ingredients 1 MG Oral Tablet) } Pack [Natazia 28 Day]",
+          "code": "978950",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Mitsuko474_Hyatt152_4f76f10e-e7bc-799a-736e-d2f7dcac0a52",
           "language": "es"
         },
         {
@@ -5636,6 +5627,15 @@
           "language": "es"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Only received primary school education",
+          "code": "224295006",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Moises22_Williamson769_80aaa95a-27dc-5774-e773-d40dc0460191",
+          "language": "es"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
@@ -5656,8 +5656,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "10 ML Fentanyl 0.05 MG/ML Injection",
-          "code": "1735006",
+          "concept": "desflurane 1000 MG/ML Inhalation Solution",
+          "code": "562366",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Moshe758_Stamm704_5c2102a9-1e48-bc42-f711-e40c57b7f4e6",
           "language": "es"
@@ -5665,8 +5665,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "desflurane 1000 MG/ML Inhalation Solution",
-          "code": "562366",
+          "concept": "10 ML Fentanyl 0.05 MG/ML Injection",
+          "code": "1735006",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Moshe758_Stamm704_5c2102a9-1e48-bc42-f711-e40c57b7f4e6",
           "language": "es"
@@ -5692,15 +5692,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Chronic sinusitis",
-          "code": "40055000",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -5718,10 +5709,28 @@
         },
         {
           "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Chronic sinusitis",
+          "code": "40055000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
           "type": "False Positive",
           "concept": "Viral sinusitis",
           "code": "444814009",
           "reason": "Distractor or historic mention",
+          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
+          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "code": "1535362",
+          "reason": "Variant formulation or misspelling",
           "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
           "language": "es"
         },
@@ -5744,19 +5753,10 @@
           "language": "es"
         },
         {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
-          "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Nicolle442_Schuppe920_24e566d0-59bc-ad9b-c829-302b7bb61bc9",
-          "language": "es"
-        },
-        {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Asthma",
-          "code": "195967001",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Odessa199_Glynis780_Senger904_5f032f83-5e70-2cab-11e5-f6258b5d37f6",
           "language": "es"
@@ -5773,8 +5773,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
+          "concept": "Asthma",
+          "code": "195967001",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Odessa199_Glynis780_Senger904_5f032f83-5e70-2cab-11e5-f6258b5d37f6",
           "language": "es"
@@ -5800,15 +5800,6 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Osteoarthritis of knee",
-          "code": "239873007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
           "concept": "Received higher education",
           "code": "224299000",
           "reason": "Narrative typo or unmapped synonym",
@@ -5820,6 +5811,15 @@
           "type": "False Negative",
           "concept": "Risk activity involvement",
           "code": "160968000",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Osteoarthritis of knee",
+          "code": "239873007",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Otis335_Abbott774_88513d9d-fda1-fc33-23c0-b580118745a1",
           "language": "es"
@@ -5854,8 +5854,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Perennial allergic rhinitis with seasonal variation",
-          "code": "232353008",
+          "concept": "Concussion with no loss of consciousness",
+          "code": "62106007",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "es"
@@ -5863,8 +5863,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Concussion with no loss of consciousness",
-          "code": "62106007",
+          "concept": "Perennial allergic rhinitis with seasonal variation",
+          "code": "232353008",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "es"
@@ -5874,15 +5874,6 @@
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
-          "concept": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
-          "code": "895996",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
           "language": "es"
@@ -5899,19 +5890,19 @@
         {
           "resource": "Medication",
           "type": "False Negative",
+          "concept": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
+          "code": "895996",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Pat3_O'Kon634_c1735287-5150-97de-7eb5-4c1c22c2307e",
+          "language": "es"
+        },
+        {
+          "resource": "Medication",
+          "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
           "code": "1535362",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Polly738_Homenick806_8d435564-1621-7b10-4229-45ddb447d48b",
-          "language": "es"
-        },
-        {
-          "resource": "Condition",
-          "type": "False Negative",
-          "concept": "Chronic neck pain",
-          "code": "1121000119107",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "es"
         },
         {
@@ -5924,11 +5915,11 @@
           "language": "es"
         },
         {
-          "resource": "Medication",
+          "resource": "Condition",
           "type": "False Negative",
-          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
-          "code": "1043400",
-          "reason": "Variant formulation or misspelling",
+          "concept": "Chronic neck pain",
+          "code": "1121000119107",
+          "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "es"
         },
@@ -5951,12 +5942,12 @@
           "language": "es"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Lack of access to transportation",
-          "code": "713458007",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Robbin22_Victorina579_Brekke496_745a9f74-211c-75d1-d4c8-7535f9167017",
+          "concept": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "code": "1043400",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Randall756_Mitchell808_c8c9cb4b-9c0b-8d1c-b6b0-f91a19229832",
           "language": "es"
         },
         {
@@ -5987,6 +5978,15 @@
           "language": "es"
         },
         {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Lack of access to transportation",
+          "code": "713458007",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Robbin22_Victorina579_Brekke496_745a9f74-211c-75d1-d4c8-7535f9167017",
+          "language": "es"
+        },
+        {
           "resource": "Medication",
           "type": "False Negative",
           "concept": "sodium fluoride 0.0272 MG/MG Oral Gel",
@@ -5998,8 +5998,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "History of tubal ligation",
-          "code": "267020005",
+          "concept": "Educated to high school level",
+          "code": "473461003",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "es"
@@ -6007,8 +6007,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
+          "concept": "History of tubal ligation",
+          "code": "267020005",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "es"
@@ -6043,8 +6043,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "exemestane 25 MG Oral Tablet",
-          "code": "310261",
+          "concept": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+          "code": "896209",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "es"
@@ -6061,8 +6061,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "albuterol 5 MG/ML Inhalation Solution",
-          "code": "245314",
+          "concept": "exemestane 25 MG Oral Tablet",
+          "code": "310261",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "es"
@@ -6070,8 +6070,8 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
-          "code": "896209",
+          "concept": "albuterol 5 MG/ML Inhalation Solution",
+          "code": "245314",
           "reason": "Variant formulation or misspelling",
           "patient_id": "Robyn562_Parker433_b29a6d28-aad7-f070-2366-ef835161f981",
           "language": "es"
@@ -6079,8 +6079,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Educated to high school level",
-          "code": "473461003",
+          "concept": "Risk activity involvement",
+          "code": "160968000",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Rory188_Greenfelder433_6e074740-b2fd-3aa8-620c-b83832271fc6",
           "language": "es"
@@ -6088,8 +6088,8 @@
         {
           "resource": "Condition",
           "type": "False Negative",
-          "concept": "Risk activity involvement",
-          "code": "160968000",
+          "concept": "Educated to high school level",
+          "code": "473461003",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Rory188_Greenfelder433_6e074740-b2fd-3aa8-620c-b83832271fc6",
           "language": "es"
@@ -6142,15 +6142,6 @@
         {
           "resource": "Medication",
           "type": "False Negative",
-          "concept": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",
-          "code": "205923",
-          "reason": "Variant formulation or misspelling",
-          "patient_id": "Rossie247_Allison818_Zemlak964_391155bc-d9aa-6225-26ad-956b3b5fe99c",
-          "language": "es"
-        },
-        {
-          "resource": "Medication",
-          "type": "False Negative",
           "concept": "remifentanil 2 MG Injection",
           "code": "1729584",
           "reason": "Variant formulation or misspelling",
@@ -6167,12 +6158,12 @@
           "language": "es"
         },
         {
-          "resource": "Condition",
+          "resource": "Medication",
           "type": "False Negative",
-          "concept": "Limited social contact",
-          "code": "423315002",
-          "reason": "Narrative typo or unmapped synonym",
-          "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
+          "concept": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",
+          "code": "205923",
+          "reason": "Variant formulation or misspelling",
+          "patient_id": "Rossie247_Allison818_Zemlak964_391155bc-d9aa-6225-26ad-956b3b5fe99c",
           "language": "es"
         },
         {
@@ -6189,6 +6180,15 @@
           "type": "False Negative",
           "concept": "Full-time employment",
           "code": "160903007",
+          "reason": "Narrative typo or unmapped synonym",
+          "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
+          "language": "es"
+        },
+        {
+          "resource": "Condition",
+          "type": "False Negative",
+          "concept": "Limited social contact",
+          "code": "423315002",
           "reason": "Narrative typo or unmapped synonym",
           "patient_id": "Russel238_Doyle959_8573cd47-f260-2564-bfe4-8c00269d1143",
           "language": "es"
