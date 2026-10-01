@@ -108,6 +108,7 @@ Non-circular benchmark evaluated on held-out test patients generated with Synthe
 - **Distractor Filtering:** Family history mentions (*"Mother diagnosed with breast cancer at age 62"*) are cleanly filtered by `_is_family_history`, maintaining 100% condition precision in English.
 - **Negations:** Pertinent clinical negatives (*"denies chest pain"*, *"sin disnea"*) are suppressed from extraction.
 - Detailed error breakdown and case studies are documented in [`evals/results.md`](evals/results.md) and [`evals/results.json`](evals/results.json).
+- Public HL7 HAPI FHIR R4 server validation results across all 25 held-out test cohort bundles (100.0% conformance rate, 0 schema errors) are documented in [`evals/hapi_validation.md`](evals/hapi_validation.md).
 
 ### Rule-based vs. LLM Extractor Benchmark Comparison
 
