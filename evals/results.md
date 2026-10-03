@@ -20,12 +20,12 @@ This table reports honest, non-circular benchmark numbers on unseen held-out pat
 
 | Metric | English (EN) Test Cohort | Spanish (ES) Test Cohort | Delta (ES - EN) | Sample Size (N Items) |
 | :--- | :---: | :---: | :---: | :---: |
-| **Overall Precision** | **93.0%** | **93.0%** | +0.0% | 450 per language |
-| **Overall Recall** | **74.2%** | **74.2%** | +0.0% | 450 per language |
-| **Overall F1-Score** | **82.6%** | **82.6%** | +0.0% | 450 per language |
-| **Code-Level Accuracy** | **92.0%** | **92.0%** | +0.0% | 450 per language |
+| **Overall Precision** | **92.9%** | **93.0%** | +0.1% | 450 per language |
+| **Overall Recall** | **73.1%** | **74.2%** | +1.1% | 450 per language |
+| **Overall F1-Score** | **81.8%** | **82.6%** | +0.7% | 450 per language |
+| **Code-Level Accuracy** | **90.6%** | **92.0%** | +1.4% | 450 per language |
 
-*Comparison against Dev Cohort (N=25 Patients): English Dev F1 = 91.9%, Spanish Dev F1 = 91.9%. The modest delta between Dev and Test cohorts validates robust generalization without catastrophic over-fitting.*
+*Comparison against Dev Cohort (N=25 Patients): English Dev F1 = 91.3%, Spanish Dev F1 = 91.9%. The modest delta between Dev and Test cohorts validates robust generalization without catastrophic over-fitting.*
 
 ---
 
@@ -35,12 +35,12 @@ This table reports honest, non-circular benchmark numbers on unseen held-out pat
 
 | Resource Type | Standard Coding System | Precision | Recall | F1-Score | Code Accuracy | TP / FP / FN | Ground Truth N |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Patient Demographics** | Name, DOB, Gender | 100.0% | 100.0% | 100.0% | 100.0% | 75 / 0 / 0 | 75 |
+| **Patient Demographics** | Name, DOB, Gender | 100.0% | 93.3% | 96.5% | 93.3% | 70 / 0 / 5 | 75 |
 | **Condition** | SNOMED CT / ICD-10 | 93.3% | 43.8% | 59.6% | 89.4% | 42 / 3 / 54 | 96 |
 | **MedicationStatement** | RxNorm | 59.6% | 35.2% | 44.3% | 57.4% | 31 / 21 / 57 | 88 |
 | **AllergyIntolerance** | SNOMED CT | 91.7% | 68.8% | 78.6% | 91.7% | 11 / 1 / 5 | 16 |
 | **Observation (Vitals)** | LOINC + UCUM | 100.0% | 100.0% | 100.0% | 100.0% | 175 / 0 / 0 | 175 |
-| **Overall Micro-Average** | — | **93.0%** | **74.2%** | **82.6%** | **92.0%** | **334 / 25 / 116** | **450** |
+| **Overall Micro-Average** | — | **92.9%** | **73.1%** | **81.8%** | **90.6%** | **329 / 25 / 121** | **450** |
 
 ### Spanish (ES) Test Cohort (N=25 Patients)
 
@@ -88,7 +88,7 @@ Evaluating across varied templates with realistic noise reveals specific failure
 
 | Extractor Engine | Implementation / Provider | Conditions F1 | Meds F1 | Allergies F1 | Vitals F1 | Overall F1 (EN) | Overall F1 (ES) | Ground Truth N |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Deterministic Rule-Based** | Curated Local Terminology (Offline) | 59.6% | 44.3% | 78.6% | 100.0% | **82.6%** | **82.6%** | 450 / lang |
+| **Deterministic Rule-Based** | Curated Local Terminology (Offline) | 59.6% | 44.3% | 78.6% | 100.0% | **81.8%** | **82.6%** | 450 / lang |
 | **LLM Extractor** | Google Gemini (`gemini-1.5-pro`) / Claude / GPT | *Skipped* | *Skipped* | *Skipped* | *Skipped* | *Skipped* | *Skipped* | 450 / lang |
 
 > [!NOTE]

@@ -95,12 +95,12 @@ Non-circular benchmark evaluated on held-out test patients generated with Synthe
 
 | Resource Type | Standard Coding System | Precision (EN) | Recall (EN) | F1 (EN) | Precision (ES) | Recall (ES) | F1 (ES) | Ground Truth N |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Patient Demographics** | Name, DOB, Gender | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 75 / lang |
+| **Patient Demographics** | Name, DOB, Gender | 100.0% | 93.3% | **96.5%** | 100.0% | 100.0% | **100.0%** | 75 / lang |
 | **Condition** | SNOMED CT / ICD-10 | 93.3% | 43.8% | **59.6%** | 93.3% | 43.8% | **59.6%** | 96 / lang |
 | **MedicationStatement** | RxNorm | 59.6% | 35.2% | **44.3%** | 59.6% | 35.2% | **44.3%** | 88 / lang |
 | **AllergyIntolerance** | SNOMED CT | 91.7% | 68.8% | **78.6%** | 91.7% | 68.8% | **78.6%** | 16 / lang |
 | **Observation (Vitals)** | LOINC + UCUM | 100.0% | 100.0% | **100.0%** | 100.0% | 100.0% | **100.0%** | 175 / lang |
-| **Overall Micro-Average** | **All Standard Terminologies** | **93.0%** | **74.2%** | **82.6%** | **93.0%** | **74.2%** | **82.6%** | **450 / lang** |
+| **Overall Micro-Average** | **All Standard Terminologies** | **92.9%** | **73.1%** | **81.8%** | **93.0%** | **74.2%** | **82.6%** | **450 / lang** |
 
 *Note on Non-Circular Evaluation & Clinical Error Analysis:*
 - **Dev / Test Split:** Evaluated on held-out test patients independent of the training/dev dictionary.
